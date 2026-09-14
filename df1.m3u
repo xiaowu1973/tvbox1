@@ -1323,7 +1323,7 @@ http://127.0.0.1:8081/mytv.php?url=https://cdn6.cc.cd/163189/as
 http://127.0.0.1:8081/mytv.php?url=https://cdn6.cc.cd/163189/amty
 #EXTINF:-1 tvg-name="澳視綜藝" group-title="mytv",澳門綜藝
 http://127.0.0.1:8081/mytv.php?url=https://cdn6.cc.cd/163189/amzy
-#EXTINF:-1 tvg-name="澳門蓮花" group-title="mytv",澳門蓮花
+#EXTINF:-1 tvg-name="蓮花衛視" group-title="mytv",澳門蓮花衛視
 http://127.0.0.1:8081/mytv.php?url=https://cdn6.cc.cd/163189/amlh
 #EXTINF:-1 tvg-name="重溫經典頻道" group-title="mytv",重溫經典
 http://127.0.0.1:8081/mytv.php?url=https://cdn6.cc.cd/163189/cwjd
