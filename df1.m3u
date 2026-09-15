@@ -2795,6 +2795,8 @@ http://127.0.0.1:8081/4gtvapp.php?id=4gtv-4gtv082
 http://127.0.0.1:8081/4gtvapp.php?id=4gtv-4gtv083
 #EXTINF:-1 tvg-id="CLASSICA 古典樂" tvg-name="CLASSICA 古典樂" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv059_mobile.png" group-title="4gtv",CLASSICA 古典樂
 http://127.0.0.1:8081/4gtvapp.php?id=4gtv-4gtv059
+#EXTINF:-1 tvg-id="灣聲線上音樂廳" tvg-name="灣聲線上音樂廳" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/4gtv-live088.png" group-title="4gtv",灣聲線上音樂廳
+http://127.0.0.1:8081/4gtvapp.php?id=4gtv-live088
 #EXTINF:-1 tvg-id="東森購物三台" tvg-name="東森購物三台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live047_mobile.png" group-title="4gtv",東森購物三台
 http://127.0.0.1:8081/4gtvapp.php?id=4gtv-live048
 #EXTINF:-1 tvg-id="getwin sport運動台" tvg-name="getwin sport運動台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/getwin頻道LOGO.png" group-title="4gtv",getwin sport運動台
