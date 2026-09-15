@@ -2763,6 +2763,8 @@ http://127.0.0.1:8081/4gtvapp.php?id=litv-longturn14
 http://127.0.0.1:8081/4gtvapp.php?id=4gtv-4gtv156
 #EXTINF:-1 tvg-id="SBN全球財經台" tvg-name="SBN全球財經台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live060_mobile.png" group-title="4gtv",SBN全球財經台
 http://127.0.0.1:8081/4gtvapp.php?id=4gtv-live060
+#EXTINF:-1 tvg-id="寰宇財經台" tvg-name="寰宇財經台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv158.png" group-title="4gtv",寰宇財經台
+http://127.0.0.1:8081/4gtvapp.php?id=4gtv-4gtv158
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_media-live073_mobile.png" group-title="4gtv",TVBS
 http://127.0.0.1:8081/4gtvapp.php?id=media-live073
 #EXTINF:-1 tvg-id="東森購物四台" tvg-name="東森購物四台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live047_mobile.webp" group-title="4gtv",東森購物四台
