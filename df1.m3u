@@ -900,6 +900,159 @@ http://127.0.0.1:8081/france24arabic.php
 http://127.0.0.1:8081/cnbcarabic.php
 
 
+#EXTINF:-1 tvg-name="cctv1" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-1.png" group-title="央視頻",cctv-1
+http://127.0.0.1:8081/yspios.php?id=cctv1
+#EXTINF:-1 tvg-name="cctv2" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-2.png" group-title="央視頻",cctv-2
+http://127.0.0.1:8081/yspios.php?id=cctv2
+#EXTINF:-1 tvg-name="cctv3" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-3.png" group-title="央視頻",cctv-3
+http://127.0.0.1:8081/yspios.php?id=cctv3
+#EXTINF:-1 tvg-name="cctv4亞洲" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-4.png" group-title="央視頻",cctv-4亞洲
+http://127.0.0.1:8081/yspios.php?id=cctv4
+#EXTINF:-1 tvg-name="cctv5" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-5.png" group-title="央視頻",cctv-5
+http://zzqwe.giize.com:8000/cctv5.m3u8
+
+#EXTINF:-1 tvg-name="cctv5+" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-5+.png" group-title="央視頻",cctv-5+
+http://zzqwe.giize.com:8000/cctv5p.m3u8
+#EXTINF:-1 tvg-name="cctv6" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-6.png" group-title="央視頻",cctv-6
+http://127.0.0.1:8081/yspios.php?id=cctv6
+#EXTINF:-1 tvg-name="cctv7" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-7.png" group-title="央視頻",cctv-7
+http://127.0.0.1:8081/yspios.php?id=cctv7
+#EXTINF:-1 tvg-name="cctv8" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-8.png" group-title="央視頻",cctv-8
+http://127.0.0.1:8081/yspios.php?id=cctv8
+#EXTINF:-1 tvg-name="cctv9" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-9.png" group-title="央視頻",cctv-9
+http://127.0.0.1:8081/yspios.php?id=cctv9
+#EXTINF:-1 tvg-name="cctv10" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-10.png" group-title="央視頻",cctv-10
+http://127.0.0.1:8081/yspios.php?id=cctv10
+#EXTINF:-1 tvg-name="cctv11" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-11.png" group-title="央視頻",cctv-11
+http://127.0.0.1:8081/yspios.php?id=cctv11
+#EXTINF:-1 tvg-name="cctv12" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-12.png" group-title="央視頻",cctv-12
+http://127.0.0.1:8081/yspios.php?id=cctv12
+#EXTINF:-1 tvg-name="cctv13" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-13.png" group-title="央視頻",cctv-13
+http://127.0.0.1:8081/yspios.php?id=cctv13
+#EXTINF:-1 tvg-name="cctv14" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-14.png" group-title="央視頻",cctv-14
+http://127.0.0.1:8081/yspios.php?id=cctv14
+#EXTINF:-1 tvg-name="cctv15" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-15.png" group-title="央視頻",cctv-15
+http://127.0.0.1:8081/yspios.php?id=cctv15
+#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-16.png" group-title="央視頻",cctv-16
+http://127.0.0.1:8081/yspios.php?id=cctv16
+#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv164K.png" group-title="央視頻",cctv-16 4K
+http://127.0.0.1:8081/yspios.php?id=cctv164k
+#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-16.png" group-title="央視頻",cctv-16
+http://zzqwe.giize.com:8000/cctv16.m3u8
+#EXTINF:-1 tvg-name="cctv16" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv164K.png" group-title="央視頻",cctv-16 4K
+http://zzqwe.giize.com:8000/cctv164k.m3u8
+#EXTINF:-1 tvg-name="cctv17" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-17.png" group-title="央視頻",cctv-17
+http://127.0.0.1:8081/yspios.php?id=cctv17
+#EXTINF:-1 tvg-name="cctv4k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-4K.png" group-title="央視頻",cctv-4K
+http://127.0.0.1:8081/yspios.php?id=cctv4k
+#EXTINF:-1 tvg-name="cctv8k" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/cctv-8K.png" group-title="央視頻",cctv-8K
+http://127.0.0.1:8081/yspios.php?id=cctv8k
+#EXTINF:-1 tvg-name="cgtn" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/CGTN.png" group-title="央視頻",CGTN 英语
+http://127.0.0.1:8081/yspios.php?id=cgtn
+#EXTINF:-1 tvg-name="cgtn法語" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/CGTNfr.png" group-title="央視頻",CGTN 法语
+http://127.0.0.1:8081/yspios.php?id=cgtnfayu
+#EXTINF:-1 tvg-name="cgtn俄語" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/CGTNru.png" group-title="央視頻",CGTN 俄语
+http://127.0.0.1:8081/yspios.php?id=cgtneyu
+#EXTINF:-1 tvg-name="cgtn阿拉伯語" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/CGTNar.png" group-title="央視頻",CGTN 阿拉伯语
+http://127.0.0.1:8081/yspios.php?id=cgtnalaboyu
+#EXTINF:-1 tvg-name="cgtn西班牙語" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/CGTNsp.png" group-title="央視頻",CGTN 西班牙语
+http://127.0.0.1:8081/yspios.php?id=cgtnxibanyayu
+#EXTINF:-1 tvg-name="cgtn英文記錄片" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/CGTNdoc.png" group-title="央視頻",CGTN紀錄片
+http://127.0.0.1:8081/yspios.php?id=cgtnwaiyujilu
+#EXTINF:-1 tvg-name="cctv風雲劇場" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/风云剧场.png" group-title="央視頻",cctv 风云剧场
+http://127.0.0.1:8081/yspios.php?id=cctvfengyunjuchang
+#EXTINF:-1 tvg-name="cctv第一劇場" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/第一剧场.png" group-title="央視頻",cctv 第一剧场
+http://127.0.0.1:8081/yspios.php?id=cctvdiyijuchang
+#EXTINF:-1 tvg-name="cctv懷舊劇場" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/怀旧剧场.png" group-title="央視頻",cctv 怀旧剧场
+http://127.0.0.1:8081/yspios.php?id=cctvhuaijiujuchang
+#EXTINF:-1 tvg-name="北京衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/北京卫视.png" group-title="央視頻",北京衛視
+http://127.0.0.1:8081/yspios.php?id=beijingws
+#EXTINF:-1 tvg-name="江蘇衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/江蘇卫视.png" group-title="央視頻",江蘇衛視
+http://127.0.0.1:8081/yspios.php?id=jiangsuws
+#EXTINF:-1 tvg-name="東方衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/东方卫视.png" group-title="央視頻",东方衛視
+http://127.0.0.1:8081/yspios.php?id=dongfangws
+#EXTINF:-1 tvg-name="浙江衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/浙江卫视.png" group-title="央視頻",浙江衛視
+http://127.0.0.1:8081/yspios.php?id=zhejiangws
+#EXTINF:-1 tvg-name="湖南衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/湖南卫视.png" group-title="央視頻",湖南衛視
+http://127.0.0.1:8081/yspios.php?id=hunanws
+#EXTINF:-1 tvg-name="湖北衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/湖北卫视.png" group-title="央視頻",湖北衛視
+http://127.0.0.1:8081/yspios.php?id=hubeiws
+#EXTINF:-1 tvg-name="廣東衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/广东卫视.png" group-title="央視頻",广东衛視
+http://127.0.0.1:8081/yspios.php?id=guangdongws
+#EXTINF:-1 tvg-name="廣西衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/广西卫视.png" group-title="央視頻",广西衛視
+http://127.0.0.1:8081/yspios.php?id=guangxiws
+#EXTINF:-1 tvg-name="黑龍江衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/黑龙江卫视.png" group-title="央視頻",黑龙江衛視
+http://127.0.0.1:8081/yspios.php?id=heilongjiangws
+#EXTINF:-1 tvg-name="海南衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/海南卫视.png" group-title="央視頻",海南衛視
+http://127.0.0.1:8081/yspios.php?id=hainanws
+#EXTINF:-1 tvg-name="重慶衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/重庆卫视.png" group-title="央視頻",重庆衛視
+http://127.0.0.1:8081/yspios.php?id=chongqingws
+#EXTINF:-1 tvg-name="深圳衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/深圳卫视.png" group-title="央視頻",深圳衛視
+http://127.0.0.1:8081/yspios.php?id=shenzhenws
+#EXTINF:-1 tvg-name="四川衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/四川卫视.png" group-title="央視頻",四川衛視
+http://127.0.0.1:8081/yspios.php?id=sichuanws
+#EXTINF:-1 tvg-name="河南衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/河南卫视.png" group-title="央視頻",河南衛視
+http://127.0.0.1:8081/yspios.php?id=henanws
+#EXTINF:-1 tvg-name="東南衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/东南卫视.png" group-title="央視頻",东南衛視
+http://127.0.0.1:8081/yspios.php?id=fujiandongnanws
+#EXTINF:-1 tvg-name="貴州衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/贵州卫视.png" group-title="央視頻",贵州衛視
+http://127.0.0.1:8081/yspios.php?id=guizhouws
+#EXTINF:-1 tvg-name="江西衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/江西卫视.png" group-title="央視頻",江西衛視
+http://127.0.0.1:8081/yspios.php?id=jiangxiws
+#EXTINF:-1 tvg-name="遼寧衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/辽宁卫视.png" group-title="央視頻",辽宁衛視
+http://127.0.0.1:8081/yspios.php?id=liaoningws
+#EXTINF:-1 tvg-name="安徽衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/安徽卫视.png" group-title="央視頻",安徽衛視
+http://127.0.0.1:8081/yspios.php?id=anhuiws
+#EXTINF:-1 tvg-name="河北衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/河北卫视.png" group-title="央視頻",河北衛視
+http://127.0.0.1:8081/yspios.php?id=hebeiws
+#EXTINF:-1 tvg-name="山東衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/山东卫视.png" group-title="央視頻",山东衛視
+http://127.0.0.1:8081/yspios.php?id=shandongws
+#EXTINF:-1 tvg-name="天津衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/天津卫视.png" group-title="央視頻",天津衛視
+http://127.0.0.1:8081/yspios.php?id=tianjinws
+#EXTINF:-1 tvg-name="吉林衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/吉林卫视.png" group-title="央視頻",吉林衛視
+http://127.0.0.1:8081/yspios.php?id=jilinws
+#EXTINF:-1 tvg-name="陝西衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/陕西卫视.png" group-title="央視頻",陕西衛視
+http://127.0.0.1:8081/yspios.php?id=shannxiws
+#EXTINF:-1 tvg-name="寧夏衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/宁夏卫视.png" group-title="央視頻",宁夏衛視
+http://127.0.0.1:8081/yspios.php?id=ningxiaws
+#EXTINF:-1 tvg-name="內蒙古衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/内蒙古卫视.png" group-title="央視頻",内蒙古衛視
+http://127.0.0.1:8081/yspios.php?id=neimengguws
+#EXTINF:-1 tvg-name="雲南衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/云南卫视.png" group-title="央視頻",云南衛視
+http://127.0.0.1:8081/yspios.php?id=yunnanws
+#EXTINF:-1 tvg-name="山西衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/山西卫视.png" group-title="央視頻",山西衛視
+http://127.0.0.1:8081/yspios.php?id=shanxiws
+#EXTINF:-1 tvg-name="青海衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/青海卫视.png" group-title="央視頻",青海衛視
+http://127.0.0.1:8081/yspios.php?id=qinghaiws
+#EXTINF:-1 tvg-name="西藏衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/西藏卫视.png" group-title="央視頻",西藏衛視
+http://127.0.0.1:8081/yspios.php?id=xizangws
+#EXTINF:-1 tvg-name="中國教育電視台-1" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/中国教育电视台一套.png" group-title="央視頻",中国教育电视台一套
+http://127.0.0.1:8081/yspios.php?id=cetv1
+#EXTINF:-1 tvg-name="新疆衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/新疆卫视.png" group-title="央視頻",新疆衛視
+http://127.0.0.1:8081/yspios.php?id=xinjiangws
+#EXTINF:-1 tvg-name="兵團衛視" tvg-logo="https://cdn.jsdelivr.net/gh/sparkssssssssss/epg/logo/兵团卫视.png" group-title="央視頻",兵团衛視
+http://127.0.0.1:8081/yspios.php?id=bingtuanws
+
+
+#EXTINF:-1    tvg-id="cctv1"   tvg-name="cctv1"   tvg-logo="https://epg.v1.mk/logo/cctv1.png"    group-title="央視頻",cctv1
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv1&q=lg 
+#EXTINF:-1    tvg-id="cctv2"   tvg-name="cctv2"   tvg-logo="https://epg.v1.mk/logo/cctv2.png"    group-title="央視頻", cctv2
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv2&q=lg 
+#EXTINF:-1    tvg-id="cctv4亞洲"   tvg-name="cctv4亞洲"   tvg-logo="https://epg.v1.mk/logo/cctv4.png"    group-title="央視頻",cctv4
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv4&q=lg 
+#EXTINF:-1    tvg-id="cctv7"   tvg-name="cctv7"   tvg-logo="https://epg.v1.mk/logo/cctv7.png"    group-title="央視頻",cctv7
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv7&q=lg 
+#EXTINF:-1    tvg-id="cctv9"   tvg-name="cctv9"   tvg-logo="https://epg.v1.mk/logo/cctv9.png"    group-title="央視頻",cctv9
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv9&q=lg 
+#EXTINF:-1    tvg-id="cctv10"   tvg-name="cctv10"   tvg-logo="https://epg.v1.mk/logo/cctv10.png"    group-title="央視頻", cctv10
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv10&q=lg 
+#EXTINF:-1    tvg-id="cctv12"   tvg-name="cctv12"   tvg-logo="https://epg.v1.mk/logo/cctv12.png"    group-title="央視頻",cctv12
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv12&q=lg 
+#EXTINF:-1    tvg-id="cctv13"   tvg-name="cctv13"   tvg-logo="https://epg.v1.mk/logo/cctv13.png"    group-title="央視頻",cctv13
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv13&q=lg 
+#EXTINF:-1    tvg-id="cctv17"   tvg-name="cctv17"   tvg-logo="https://epg.v1.mk/logo/cctv17.png"    group-title="央視頻",cctv17
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv17&q=lg 
+#EXTINF:-1    tvg-id="cctv4k"   tvg-name="cctv4k"   tvg-logo="https://epg.v1.mk/logo/cctv4k.png"    group-title="央視頻",cctv4k
+http://127.0.0.1:8081/cctvnewsweb.php?id=cctv4k&q=lg 
 
 
 
@@ -2684,6 +2837,2368 @@ https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch
 https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch2-2.m3u8
 
 
+
+
+#EXTINF:-1 tvg-id="鏡電視新聞台" tvg-name="鏡電視新聞台" group-title="bb寬頻",鏡電視新聞台
+http://127.0.0.1:8081/bbkuanpin.php?id=90
+#EXTINF:-1 tvg-id="寰宇新聞台灣台" tvg-name="寰宇新聞台灣台" group-title="bb寬頻",寰宇新聞台灣台
+http://127.0.0.1:8081/bbkuanpin.php?id=201
+#EXTINF:-1 tvg-id="三立新聞iNEWS" tvg-name="三立新聞iNEWS" group-title="bb寬頻",三立新聞iNEWS
+http://127.0.0.1:8081/bbkuanpin.php?id=263
+#EXTINF:-1 tvg-id="博斯運動一台" tvg-name="博斯運動一台" group-title="bb寬頻",博斯運動一台
+http://127.0.0.1:8081/bbkuanpin.php?id=202
+
+#EXTINF:-1 tvg-id="智林體育台" tvg-name="智林體育台" group-title="bb寬頻",智林體育台
+http://127.0.0.1:8081/bbkuanpin.php?id=94
+
+#EXTINF:-1 tvg-id="運通財經綜合台" tvg-name="運通財經綜合台" group-title="bb寬頻",運通財經綜合台
+http://127.0.0.1:8081/bbkuanpin.php?id=91
+#EXTINF:-1 tvg-id="My Cinema Europe HD我的歐洲電影" tvg-name="My Cinema Europe HD我的歐洲電影" group-title="bb寬頻",My Cinema Europe HD我的歐洲電影
+http://127.0.0.1:8081/bbkuanpin.php?id=92
+#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" group-title="bb寬頻",滾動力 rollor
+http://127.0.0.1:8081/bbkuanpin.php?id=93
+
+
+#EXTINF:-1 tvg-id="包青天" tvg-name="包青天" group-title="bb寬頻",包青天
+http://127.0.0.1:8081/bbkuanpin.php?id=128
+#EXTINF:-1 tvg-id="煙雨濛濛-瓊瑤經典" tvg-name="煙雨濛濛-瓊瑤經典" group-title="bb寬頻",煙雨濛濛-瓊瑤經典
+http://127.0.0.1:8081/bbkuanpin.php?id=53
+#EXTINF:-1 tvg-id="庭院深深-瓊瑤經典" tvg-name="庭院深深-瓊瑤經典" group-title="bb寬頻",庭院深深-瓊瑤經典
+http://127.0.0.1:8081/bbkuanpin.php?id=54
+#EXTINF:-1 tvg-id="在水一方-瓊瑤經典" tvg-name="在水一方-瓊瑤經典" group-title="bb寬頻",在水一方-瓊瑤經典
+http://127.0.0.1:8081/bbkuanpin.php?id=55
+#EXTINF:-1 tvg-id="六個夢-婉君" tvg-name="六個夢-婉君" group-title="bb寬頻",六個夢-婉君
+http://127.0.0.1:8081/bbkuanpin.php?id=163
+#EXTINF:-1 tvg-id="六個夢-啞妻" tvg-name="六個夢-啞妻" group-title="bb寬頻",六個夢-啞妻
+http://127.0.0.1:8081/bbkuanpin.php?id=164
+#EXTINF:-1 tvg-id="六個夢-三朵花" tvg-name="六個夢-三朵花" group-title="bb寬頻",六個夢-三朵花
+http://127.0.0.1:8081/bbkuanpin.php?id=165
+#EXTINF:-1 tvg-id="台灣靈異事件" tvg-name="台灣靈異事件" group-title="bb寬頻",台灣靈異事件
+http://127.0.0.1:8081/bbkuanpin.php?id=279
+#EXTINF:-1 tvg-id="京城四少" tvg-name="京城四少" group-title="bb寬頻",京城四少
+http://127.0.0.1:8081/bbkuanpin.php?id=280
+#EXTINF:-1 tvg-id="新兵日記" tvg-name="新兵日記" group-title="bb寬頻",新兵日記
+http://127.0.0.1:8081/bbkuanpin.php?id=294
+#EXTINF:-1 tvg-id="薰衣草" tvg-name="薰衣草" group-title="bb寬頻",薰衣草
+http://127.0.0.1:8081/bbkuanpin.php?id=281
+#EXTINF:-1 tvg-id="戲說台灣" tvg-name="戲說台灣" group-title="bb寬頻",戲說台灣
+http://127.0.0.1:8081/bbkuanpin.php?id=282
+#EXTINF:-1 tvg-id="台灣霹靂火" tvg-name="台灣霹靂火" group-title="bb寬頻",台灣霹靂火
+http://127.0.0.1:8081/bbkuanpin.php?id=286
+#EXTINF:-1 tvg-id="飛龍在天" tvg-name="飛龍在天" group-title="bb寬頻",飛龍在天
+http://127.0.0.1:8081/bbkuanpin.php?id=295
+#EXTINF:-1 tvg-id="步步驚心" tvg-name="步步驚心" group-title="bb寬頻",步步驚心
+http://127.0.0.1:8081/bbkuanpin.php?id=56
+#EXTINF:-1 tvg-id="雍正王朝" tvg-name="雍正王朝" group-title="bb寬頻",雍正王朝
+http://127.0.0.1:8081/bbkuanpin.php?id=57
+#EXTINF:-1 tvg-id="女醫明妃傳" tvg-name="女醫明妃傳" group-title="bb寬頻",女醫明妃傳
+http://127.0.0.1:8081/bbkuanpin.php?id=66
+#EXTINF:-1 tvg-id="楚喬傳" tvg-name="楚喬傳" group-title="bb寬頻",楚喬傳
+http://127.0.0.1:8081/bbkuanpin.php?id=166
+#EXTINF:-1 tvg-id="陸貞傳奇" tvg-name="陸貞傳奇" group-title="bb寬頻",陸貞傳奇
+http://127.0.0.1:8081/bbkuanpin.php?id=167
+#EXTINF:-1 tvg-id="乾隆王朝" tvg-name="乾隆王朝" group-title="bb寬頻",乾隆王朝
+http://127.0.0.1:8081/bbkuanpin.php?id=168
+#EXTINF:-1 tvg-id="三國" tvg-name="三國" group-title="bb寬頻",三國
+http://127.0.0.1:8081/bbkuanpin.php?id=169
+#EXTINF:-1 tvg-id="武媚娘傳奇" tvg-name="武媚娘傳奇" group-title="bb寬頻",武媚娘傳奇
+http://127.0.0.1:8081/bbkuanpin.php?id=170
+#EXTINF:-1 tvg-id="扶搖" tvg-name="扶搖" group-title="bb寬頻",扶搖
+http://127.0.0.1:8081/bbkuanpin.php?id=203
+#EXTINF:-1 tvg-id="鳳囚凰" tvg-name="鳳囚凰" group-title="bb寬頻",鳳囚凰
+http://127.0.0.1:8081/bbkuanpin.php?id=204
+#EXTINF:-1 tvg-id="落花時節又逢君" tvg-name="落花時節又逢君" group-title="bb寬頻",落花時節又逢君
+http://127.0.0.1:8081/bbkuanpin.php?id=205
+#EXTINF:-1 tvg-id="時光之城" tvg-name="時光之城" group-title="bb寬頻",時光之城
+http://127.0.0.1:8081/bbkuanpin.php?id=206
+#EXTINF:-1 tvg-id="班淑傳奇" tvg-name="班淑傳奇" group-title="bb寬頻",班淑傳奇
+http://127.0.0.1:8081/bbkuanpin.php?id=207
+#EXTINF:-1 tvg-id="韶華若錦" tvg-name="韶華若錦" group-title="bb寬頻",韶華若錦
+http://127.0.0.1:8081/bbkuanpin.php?id=264
+#EXTINF:-1 tvg-id="新邊城浪子" tvg-name="新邊城浪子" group-title="bb寬頻",新邊城浪子
+http://127.0.0.1:8081/bbkuanpin.php?id=265
+#EXTINF:-1 tvg-id="霸道娘子請指教" tvg-name="霸道娘子請指教" group-title="bb寬頻",霸道娘子請指教
+http://127.0.0.1:8081/bbkuanpin.php?id=196
+#EXTINF:-1 tvg-id="君九齡" tvg-name="君九齡" group-title="bb寬頻",君九齡
+http://127.0.0.1:8081/bbkuanpin.php?id=61
+#EXTINF:-1 tvg-id="天下長河" tvg-name="天下長河" group-title="bb寬頻",天下長河
+http://127.0.0.1:8081/bbkuanpin.php?id=62
+#EXTINF:-1 tvg-id="仙劍奇俠傳" tvg-name="仙劍奇俠傳" group-title="bb寬頻",仙劍奇俠傳
+http://127.0.0.1:8081/bbkuanpin.php?id=63
+#EXTINF:-1 tvg-id="仙劍奇俠傳3" tvg-name="仙劍奇俠傳3" group-title="bb寬頻",仙劍奇俠傳3
+http://127.0.0.1:8081/bbkuanpin.php?id=64
+#EXTINF:-1 tvg-id="忽必烈傳奇" tvg-name="忽必烈傳奇" group-title="bb寬頻",忽必烈傳奇
+http://127.0.0.1:8081/bbkuanpin.php?id=65
+#EXTINF:-1 tvg-id="真命天子" tvg-name="真命天子" group-title="bb寬頻",真命天子
+http://127.0.0.1:8081/bbkuanpin.php?id=67
+#EXTINF:-1 tvg-id="長安十二時辰" tvg-name="長安十二時辰" group-title="bb寬頻",長安十二時辰
+http://127.0.0.1:8081/bbkuanpin.php?id=68
+#EXTINF:-1 tvg-id="大宋少年志2" tvg-name="大宋少年志2" group-title="bb寬頻",大宋少年志2
+http://127.0.0.1:8081/bbkuanpin.php?id=69
+#EXTINF:-1 tvg-id="陪你一起好好吃飯" tvg-name="陪你一起好好吃飯" group-title="bb寬頻",陪你一起好好吃飯
+http://127.0.0.1:8081/bbkuanpin.php?id=70
+#EXTINF:-1 tvg-id="歡樂家長群" tvg-name="歡樂家長群" group-title="bb寬頻",歡樂家長群
+http://127.0.0.1:8081/bbkuanpin.php?id=71
+#EXTINF:-1 tvg-id="去有風的地方" tvg-name="去有風的地方" group-title="bb寬頻",去有風的地方
+http://127.0.0.1:8081/bbkuanpin.php?id=171
+#EXTINF:-1 tvg-id="錦繡安寧" tvg-name="錦繡安寧" group-title="bb寬頻",錦繡安寧
+http://127.0.0.1:8081/bbkuanpin.php?id=172
+#EXTINF:-1 tvg-id="長樂曲" tvg-name="長樂曲" group-title="bb寬頻",長樂曲
+http://127.0.0.1:8081/bbkuanpin.php?id=268
+#EXTINF:-1 tvg-id="與君歌" tvg-name="與君歌" group-title="bb寬頻",與君歌
+http://127.0.0.1:8081/bbkuanpin.php?id=174
+#EXTINF:-1 tvg-id="大秦賦" tvg-name="大秦賦" group-title="bb寬頻",大秦賦
+http://127.0.0.1:8081/bbkuanpin.php?id=175
+#EXTINF:-1 tvg-id="心跳源計畫" tvg-name="心跳源計畫" group-title="bb寬頻",心跳源計畫
+http://127.0.0.1:8081/bbkuanpin.php?id=176
+#EXTINF:-1 tvg-id="幸福二重奏" tvg-name="幸福二重奏" group-title="bb寬頻",幸福二重奏
+http://127.0.0.1:8081/bbkuanpin.php?id=177
+#EXTINF:-1 tvg-id="與君初相識" tvg-name="與君初相識" group-title="bb寬頻",與君初相識
+http://127.0.0.1:8081/bbkuanpin.php?id=178
+#EXTINF:-1 tvg-id="恰似故人歸" tvg-name="恰似故人歸" group-title="bb寬頻",恰似故人歸
+http://127.0.0.1:8081/bbkuanpin.php?id=179
+#EXTINF:-1 tvg-id="九重紫" tvg-name="九重紫" group-title="bb寬頻",九重紫
+http://127.0.0.1:8081/bbkuanpin.php?id=180
+#EXTINF:-1 tvg-id="玉面桃花總相逢" tvg-name="玉面桃花總相逢" group-title="bb寬頻",玉面桃花總相逢
+http://127.0.0.1:8081/bbkuanpin.php?id=208
+#EXTINF:-1 tvg-id="好好說話" tvg-name="好好說話" group-title="bb寬頻",好好說話
+http://127.0.0.1:8081/bbkuanpin.php?id=209
+#EXTINF:-1 tvg-id="一路朝陽" tvg-name="一路朝陽" group-title="bb寬頻",一路朝陽
+http://127.0.0.1:8081/bbkuanpin.php?id=210
+#EXTINF:-1 tvg-id="白髮" tvg-name="白髮" group-title="bb寬頻",白髮
+http://127.0.0.1:8081/bbkuanpin.php?id=211
+#EXTINF:-1 tvg-id="溫暖的，甜蜜的" tvg-name="溫暖的，甜蜜的" group-title="bb寬頻",溫暖的，甜蜜的
+http://127.0.0.1:8081/bbkuanpin.php?id=212
+#EXTINF:-1 tvg-id="妻子的選擇" tvg-name="妻子的選擇" group-title="bb寬頻",妻子的選擇
+http://127.0.0.1:8081/bbkuanpin.php?id=213
+#EXTINF:-1 tvg-id="大唐榮耀" tvg-name="大唐榮耀" group-title="bb寬頻",大唐榮耀
+http://127.0.0.1:8081/bbkuanpin.php?id=214
+#EXTINF:-1 tvg-id="醫聖" tvg-name="醫聖" group-title="bb寬頻",醫聖
+http://127.0.0.1:8081/bbkuanpin.php?id=215
+#EXTINF:-1 tvg-id="半暖時光" tvg-name="半暖時光" group-title="bb寬頻",半暖時光
+http://127.0.0.1:8081/bbkuanpin.php?id=216
+#EXTINF:-1 tvg-id="南城宴" tvg-name="南城宴" group-title="bb寬頻",南城宴
+http://127.0.0.1:8081/bbkuanpin.php?id=217
+#EXTINF:-1 tvg-id="三國機密之潛龍在淵" tvg-name="三國機密之潛龍在淵" group-title="bb寬頻",三國機密之潛龍在淵
+http://127.0.0.1:8081/bbkuanpin.php?id=218
+#EXTINF:-1 tvg-id="風中奇緣" tvg-name="風中奇緣" group-title="bb寬頻",風中奇緣
+http://127.0.0.1:8081/bbkuanpin.php?id=219
+#EXTINF:-1 tvg-id="春家小姐是訟師" tvg-name="春家小姐是訟師" group-title="bb寬頻",春家小姐是訟師
+http://127.0.0.1:8081/bbkuanpin.php?id=257
+#EXTINF:-1 tvg-id="另一種藍" tvg-name="另一種藍" group-title="bb寬頻",另一種藍
+http://127.0.0.1:8081/bbkuanpin.php?id=269
+#EXTINF:-1 tvg-id="聽說你喜歡我" tvg-name="聽說你喜歡我" group-title="bb寬頻",聽說你喜歡我
+http://127.0.0.1:8081/bbkuanpin.php?id=270
+#EXTINF:-1 tvg-id="一見傾心" tvg-name="一見傾心" group-title="bb寬頻",一見傾心
+http://127.0.0.1:8081/bbkuanpin.php?id=283
+#EXTINF:-1 tvg-id="心動不可恥還很可愛" tvg-name="心動不可恥還很可愛" group-title="bb寬頻",心動不可恥還很可愛
+http://127.0.0.1:8081/bbkuanpin.php?id=284
+#EXTINF:-1 tvg-id="謝謝你醫生" tvg-name="謝謝你醫生" group-title="bb寬頻",謝謝你醫生
+http://127.0.0.1:8081/bbkuanpin.php?id=272
+#EXTINF:-1 tvg-id="芥子時光" tvg-name="芥子時光" group-title="bb寬頻",芥子時光
+http://127.0.0.1:8081/bbkuanpin.php?id=273
+#EXTINF:-1 tvg-id="不惑之旅" tvg-name="不惑之旅" group-title="bb寬頻",不惑之旅
+http://127.0.0.1:8081/bbkuanpin.php?id=274
+#EXTINF:-1 tvg-id="月上朝顏" tvg-name="月上朝顏" group-title="bb寬頻",月上朝顏
+http://127.0.0.1:8081/bbkuanpin.php?id=275
+#EXTINF:-1 tvg-id="雲中誰寄錦書來" tvg-name="雲中誰寄錦書來" group-title="bb寬頻",雲中誰寄錦書來
+http://127.0.0.1:8081/bbkuanpin.php?id=276
+#EXTINF:-1 tvg-id="蜀山戰紀之劍俠傳奇" tvg-name="蜀山戰紀之劍俠傳奇" group-title="bb寬頻",蜀山戰紀之劍俠傳奇
+http://127.0.0.1:8081/bbkuanpin.php?id=296
+#EXTINF:-1 tvg-id="那些回不去的年少時光" tvg-name="那些回不去的年少時光" group-title="bb寬頻",那些回不去的年少時光
+http://127.0.0.1:8081/bbkuanpin.php?id=297
+#EXTINF:-1 tvg-id="恐怖映畫館" tvg-name="恐怖映畫館" group-title="bb寬頻",恐怖映畫館
+http://127.0.0.1:8081/bbkuanpin.php?id=85
+#EXTINF:-1 tvg-id="霹靂劍蹤" tvg-name="霹靂劍蹤" group-title="bb寬頻",霹靂劍蹤
+http://127.0.0.1:8081/bbkuanpin.php?id=73
+#EXTINF:-1 tvg-id="霹靂兵燹之刀戟戡魔錄" tvg-name="霹靂兵燹之刀戟戡魔錄" group-title="bb寬頻",霹靂兵燹之刀戟戡魔錄
+http://127.0.0.1:8081/bbkuanpin.php?id=74
+#EXTINF:-1 tvg-id="霹靂神州系列" tvg-name="霹靂神州系列" group-title="bb寬頻",霹靂神州系列
+http://127.0.0.1:8081/bbkuanpin.php?id=277
+#EXTINF:-1 tvg-id="霹靂天啟" tvg-name="霹靂天啟" group-title="bb寬頻",霹靂天啟
+http://127.0.0.1:8081/bbkuanpin.php?id=75
+#EXTINF:-1 tvg-id="霹靂震寰宇之刀龍傳說" tvg-name="霹靂震寰宇之刀龍傳說" group-title="bb寬頻",霹靂震寰宇之刀龍傳說
+http://127.0.0.1:8081/bbkuanpin.php?id=181
+#EXTINF:-1 tvg-id="霹靂震寰宇之龍戰八荒" tvg-name="霹靂震寰宇之龍戰八荒" group-title="bb寬頻",霹靂震寰宇之龍戰八荒
+http://127.0.0.1:8081/bbkuanpin.php?id=182
+#EXTINF:-1 tvg-id="霹靂震寰宇之兵甲龍痕" tvg-name="霹靂震寰宇之兵甲龍痕" group-title="bb寬頻",霹靂震寰宇之兵甲龍痕
+http://127.0.0.1:8081/bbkuanpin.php?id=183
+#EXTINF:-1 tvg-id="天才衝衝衝" tvg-name="天才衝衝衝" group-title="bb寬頻",天才衝衝衝
+http://127.0.0.1:8081/bbkuanpin.php?id=76
+#EXTINF:-1 tvg-id="費玉清時間之小哥愛說笑" tvg-name="費玉清時間之小哥愛說笑" group-title="bb寬頻",費玉清時間之小哥愛說笑
+http://127.0.0.1:8081/bbkuanpin.php?id=77
+#EXTINF:-1 tvg-id="台灣啟示錄" tvg-name="台灣啟示錄" group-title="bb寬頻",台灣啟示錄
+http://127.0.0.1:8081/bbkuanpin.php?id=78
+#EXTINF:-1 tvg-id="全民星攻略" tvg-name="全民星攻略" group-title="bb寬頻",全民星攻略
+http://127.0.0.1:8081/bbkuanpin.php?id=184
+#EXTINF:-1 tvg-id="現代啟示錄" tvg-name="現代啟示錄" group-title="bb寬頻",現代啟示錄
+http://127.0.0.1:8081/bbkuanpin.php?id=185
+#EXTINF:-1 tvg-id="醫師好辣" tvg-name="醫師好辣" group-title="bb寬頻",醫師好辣
+http://127.0.0.1:8081/bbkuanpin.php?id=186
+#EXTINF:-1 tvg-id="台灣1001個故事" tvg-name="台灣1001個故事" group-title="bb寬頻",台灣1001個故事
+http://127.0.0.1:8081/bbkuanpin.php?id=187
+#EXTINF:-1 tvg-id="哈哈台" tvg-name="哈哈台" group-title="bb寬頻",哈哈台
+http://127.0.0.1:8081/bbkuanpin.php?id=188
+#EXTINF:-1 tvg-id="型男大主廚" tvg-name="型男大主廚" group-title="bb寬頻",型男大主廚
+http://127.0.0.1:8081/bbkuanpin.php?id=285
+#EXTINF:-1 tvg-id="愛玩客" tvg-name="愛玩客" group-title="bb寬頻",愛玩客
+http://127.0.0.1:8081/bbkuanpin.php?id=288
+#EXTINF:-1 tvg-id="萌寵日常" tvg-name="萌寵日常" group-title="bb寬頻",萌寵日常
+http://127.0.0.1:8081/bbkuanpin.php?id=79
+#EXTINF:-1 tvg-id="醫夫醫妻" tvg-name="醫夫醫妻" group-title="bb寬頻",醫夫醫妻
+http://127.0.0.1:8081/bbkuanpin.php?id=80
+#EXTINF:-1 tvg-id="靖天生活台" tvg-name="靖天生活台" group-title="bb寬頻",靖天生活台
+http://127.0.0.1:8081/bbkuanpin.php?id=129
+#EXTINF:-1 tvg-id="靖天人文台" tvg-name="靖天人文台" group-title="bb寬頻",靖天人文台
+http://127.0.0.1:8081/bbkuanpin.php?id=130
+#EXTINF:-1 tvg-id="新唐人生活台" tvg-name="新唐人生活台" group-title="bb寬頻",新唐人生活台
+http://127.0.0.1:8081/bbkuanpin.php?id=131
+#EXTINF:-1 tvg-id="廚娘香Q秀" tvg-name="廚娘香Q秀" group-title="bb寬頻",廚娘香Q秀
+http://127.0.0.1:8081/bbkuanpin.php?id=189
+#EXTINF:-1 tvg-id="北台灣生活誌" tvg-name="北台灣生活誌" group-title="bb寬頻",北台灣生活誌
+http://127.0.0.1:8081/bbkuanpin.php?id=199
+#EXTINF:-1 tvg-id="南台灣生活誌" tvg-name="南台灣生活誌" group-title="bb寬頻",南台灣生活誌
+http://127.0.0.1:8081/bbkuanpin.php?id=200
+#EXTINF:-1 tvg-id="亞洲生活台" tvg-name="亞洲生活台" group-title="bb寬頻",亞洲生活台
+http://127.0.0.1:8081/bbkuanpin.php?id=132
+#EXTINF:-1 tvg-id="滾動力 rollor" tvg-name="滾動力 rollor" group-title="bb寬頻",滾動力 rollor
+http://127.0.0.1:8081/bbkuanpin.php?id=93
+#EXTINF:-1 tvg-id="智林體育台" tvg-name="智林體育台" group-title="bb寬頻",智林體育台
+http://127.0.0.1:8081/bbkuanpin.php?id=94
+#EXTINF:-1 tvg-id="台灣舊時光" tvg-name="台灣舊時光" group-title="bb寬頻",台灣舊時光
+http://127.0.0.1:8081/bbkuanpin.php?id=86
+#EXTINF:-1 tvg-id="鏡新聞-大師系列" tvg-name="鏡新聞-大師系列" group-title="bb寬頻",鏡新聞-大師系列
+http://127.0.0.1:8081/bbkuanpin.php?id=190
+#EXTINF:-1 tvg-id="哆啦A夢" tvg-name="哆啦A夢" group-title="bb寬頻",哆啦A夢
+http://127.0.0.1:8081/bbkuanpin.php?id=191
+#EXTINF:-1 tvg-id="我們這一家" tvg-name="我們這一家" group-title="bb寬頻",我們這一家
+http://127.0.0.1:8081/bbkuanpin.php?id=192
+#EXTINF:-1 tvg-id="蠟筆小新" tvg-name="蠟筆小新" group-title="bb寬頻",蠟筆小新
+http://127.0.0.1:8081/bbkuanpin.php?id=193
+#EXTINF:-1 tvg-id="中華一番" tvg-name="中華一番" group-title="bb寬頻",中華一番
+http://127.0.0.1:8081/bbkuanpin.php?id=194
+#EXTINF:-1 tvg-id="城市獵人S1" tvg-name="城市獵人S1" group-title="bb寬頻",城市獵人S1
+http://127.0.0.1:8081/bbkuanpin.php?id=220
+#EXTINF:-1 tvg-id="城市獵人S2" tvg-name="城市獵人S2" group-title="bb寬頻",城市獵人S2
+http://127.0.0.1:8081/bbkuanpin.php?id=258
+#EXTINF:-1 tvg-id="城市獵人S3" tvg-name="城市獵人S3" group-title="bb寬頻",城市獵人S3
+http://127.0.0.1:8081/bbkuanpin.php?id=260
+#EXTINF:-1 tvg-id="城市獵人 '91" tvg-name="城市獵人 '91" group-title="bb寬頻",城市獵人 '91
+http://127.0.0.1:8081/bbkuanpin.php?id=261
+#EXTINF:-1 tvg-id="怪醫黑傑克" tvg-name="怪醫黑傑克" group-title="bb寬頻",怪醫黑傑克
+http://127.0.0.1:8081/bbkuanpin.php?id=221
+#EXTINF:-1 tvg-id="怪醫黑傑克 21" tvg-name="怪醫黑傑克 21" group-title="bb寬頻",怪醫黑傑克 21
+http://127.0.0.1:8081/bbkuanpin.php?id=259
+#EXTINF:-1 tvg-id="怪醫黑傑克 特別版" tvg-name="怪醫黑傑克 特別版" group-title="bb寬頻",怪醫黑傑克 特別版
+http://127.0.0.1:8081/bbkuanpin.php?id=262
+#EXTINF:-1 tvg-id="元氣媽媽" tvg-name="元氣媽媽" group-title="bb寬頻",元氣媽媽
+http://127.0.0.1:8081/bbkuanpin.php?id=293
+#EXTINF:-1 tvg-id="科學小飛俠" tvg-name="科學小飛俠" group-title="bb寬頻",科學小飛俠
+http://127.0.0.1:8081/bbkuanpin.php?id=198
+#EXTINF:-1 tvg-id="科學小飛俠II" tvg-name="科學小飛俠II" group-title="bb寬頻",科學小飛俠II
+http://127.0.0.1:8081/bbkuanpin.php?id=223
+#EXTINF:-1 tvg-id="科學小飛俠F" tvg-name="科學小飛俠F" group-title="bb寬頻",科學小飛俠F
+http://127.0.0.1:8081/bbkuanpin.php?id=292
+#EXTINF:-1 tvg-id="轉生成貓咪的大叔" tvg-name="轉生成貓咪的大叔" group-title="bb寬頻",轉生成貓咪的大叔
+http://127.0.0.1:8081/bbkuanpin.php?id=197
+#EXTINF:-1 tvg-id="南瓜入侵" tvg-name="南瓜入侵" group-title="bb寬頻",南瓜入侵
+http://127.0.0.1:8081/bbkuanpin.php?id=222
+#EXTINF:-1 tvg-id="海鸚出任務" tvg-name="海鸚出任務" group-title="bb寬頻",海鸚出任務
+http://127.0.0.1:8081/bbkuanpin.php?id=256
+#EXTINF:-1 tvg-id="豆小鴨" tvg-name="豆小鴨" group-title="bb寬頻",豆小鴨
+http://127.0.0.1:8081/bbkuanpin.php?id=278
+#EXTINF:-1 tvg-id="有聲書-名人說書/講座" tvg-name="有聲書-名人說書/講座" group-title="bb寬頻",有聲書-名人說書/講座
+http://127.0.0.1:8081/bbkuanpin.php?id=195
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS 55 新聞台" tvg-name="TVBS 55 新聞台" group-title="catchplay直播", TVBS 55 新聞台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=2430f4da-2dfd-4901-b051-0393d1a7372a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=2430f4da-2dfd-4901-b051-0393d1a7372a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS 56" tvg-name="TVBS 56" group-title="catchplay直播", TVBS 56
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=1ef75edc-dd2a-4415-baab-d397a4a51a02
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=1ef75edc-dd2a-4415-baab-d397a4a51a02
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS NEWS-互動直播" tvg-name="TVBS NEWS-互動直播" group-title="catchplay直播", TVBS NEWS-互動直播
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=6647942c-544e-4406-9e3d-d7723ceea9ac
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=6647942c-544e-4406-9e3d-d7723ceea9ac
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" group-title="catchplay直播", 台視新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=07f5f988-bb9d-47b7-9f4d-571f6da6b908
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=07f5f988-bb9d-47b7-9f4d-571f6da6b908
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="東森新聞" tvg-name="東森新聞" group-title="catchplay直播", 東森新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=b1ebae5d-1ae6-4627-b2ec-35e07874358a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=b1ebae5d-1ae6-4627-b2ec-35e07874358a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" group-title="catchplay直播", 民視新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=a85c7d0e-f38e-404e-ad5a-36f517fd6a93
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=a85c7d0e-f38e-404e-ad5a-36f517fd6a93
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="非凡新聞" tvg-name="非凡新聞" group-title="catchplay直播", 非凡新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=10bc83a1-d723-45d2-a9b5-954cf7eab7d6
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=10bc83a1-d723-45d2-a9b5-954cf7eab7d6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="東森財經" tvg-name="東森財經" group-title="catchplay直播", 東森財經
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=5bb94fd2-0ec9-4d17-abdf-b8866c05b76e
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=5bb94fd2-0ec9-4d17-abdf-b8866c05b76e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="catchplay直播", BBC News
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=3d794793-e143-479d-a430-0c0b9f424a4e
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=3d794793-e143-479d-a430-0c0b9f424a4e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="CNBC Asia" tvg-name="CNBC Asia" group-title="catchplay直播", CNBC Asia
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=f5483454-d298-4f0c-8670-a8263e2028a8
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=f5483454-d298-4f0c-8670-a8263e2028a8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="NHK WORLD-JAPAN" tvg-name="NHK WORLD-JAPAN" group-title="catchplay直播", NHK WORLD-JAPAN
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=fdd1d58b-8499-45bf-adc3-079eb3e2be7a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=fdd1d58b-8499-45bf-adc3-079eb3e2be7a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" group-title="catchplay直播", 民視第一台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=5f9a5de6-7e38-4782-8a8f-475627c698e2
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=5f9a5de6-7e38-4782-8a8f-475627c698e2
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="博斯運動一台" tvg-name="博斯運動一台" group-title="catchplay直播", 博斯運動一台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=ad76811f-a5de-4d40-bed6-bb07959983ac
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=ad76811f-a5de-4d40-bed6-bb07959983ac
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="MOMO TV" tvg-name="MOMO TV" group-title="catchplay直播", MOMO TV
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=f05ecfdc-49f1-4942-961c-91bc1ec59d62
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=f05ecfdc-49f1-4942-961c-91bc1ec59d62
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="空中英語教室" tvg-name="空中英語教室" group-title="catchplay直播", 空中英語教室
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=df679667-3f25-4681-956a-78284974cd62
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=df679667-3f25-4681-956a-78284974cd62
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="BBC Lifestyle" tvg-name="BBC Lifestyle" group-title="catchplay直播", BBC Lifestyle
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=932b878a-ffaa-4c1a-8bd2-40c530122bb3
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=932b878a-ffaa-4c1a-8bd2-40c530122bb3
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" group-title="catchplay直播", BBC Earth
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=3805f932-d14c-4427-bee6-ee1c5a92258e
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=3805f932-d14c-4427-bee6-ee1c5a92258e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK Global Trekker" tvg-name="ROCK Global Trekker" group-title="catchplay直播", ROCK Global Trekker
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=9147023f-aca9-4187-9df4-2e93e861764a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=9147023f-aca9-4187-9df4-2e93e861764a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS 42 歡樂台" tvg-name="TVBS 42 歡樂台" group-title="catchplay直播", TVBS 42 歡樂台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=75fafbba-e5e0-44c5-8b9e-41674785a1a9
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=75fafbba-e5e0-44c5-8b9e-41674785a1a9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="地球黃金線 - 名車寶庫" tvg-name="地球黃金線 - 名車寶庫" group-title="catchplay直播", 地球黃金線 - 名車寶庫
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=bd084750-4f76-4f18-bb3e-0fe6101afa37
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=bd084750-4f76-4f18-bb3e-0fe6101afa37
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="食尚玩家 - 熱血48小時" tvg-name="食尚玩家 - 熱血48小時" group-title="catchplay直播", 食尚玩家 - 熱血48小時
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=1b4094d5-0f51-43d4-94c8-74d4995b3e5e
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=1b4094d5-0f51-43d4-94c8-74d4995b3e5e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="女人我最大 - 經典永流傳" tvg-name="女人我最大 - 經典永流傳" group-title="catchplay直播", 女人我最大 - 經典永流傳
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=ba5d2a65-d77a-4ed3-85df-2dac224e5320
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=ba5d2a65-d77a-4ed3-85df-2dac224e5320
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="健康2.0 - 養身排毒減脂" tvg-name="健康2.0 - 養身排毒減脂" group-title="catchplay直播", 健康2.0 - 養身排毒減脂
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=4b5d2d13-99d1-401a-bf30-2aaa054882eb
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=4b5d2d13-99d1-401a-bf30-2aaa054882eb
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="11點熱吵店 - 生活與時尚" tvg-name="11點熱吵店 - 生活與時尚" group-title="catchplay直播", 11點熱吵店 - 生活與時尚
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=7f2e7935-cc57-421e-ac2d-887d50d01c84
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=7f2e7935-cc57-421e-ac2d-887d50d01c84
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="哈哈台" tvg-name="哈哈台" group-title="catchplay直播", 哈哈台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=85a8585d-cf7a-4e16-98d6-0bd65afb49d7
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=85a8585d-cf7a-4e16-98d6-0bd65afb49d7
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="博恩夜夜秀" tvg-name="博恩夜夜秀" group-title="catchplay直播", 博恩夜夜秀
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=8050ac31-4eab-4d78-8784-e6220cc4c68c
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=8050ac31-4eab-4d78-8784-e6220cc4c68c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="賀瓏夜夜秀" tvg-name="賀瓏夜夜秀" group-title="catchplay直播", 賀瓏夜夜秀
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=3f684a6c-7e47-4d7a-8699-2e4645b41f3d
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=3f684a6c-7e47-4d7a-8699-2e4645b41f3d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我的明星村長" tvg-name="我的明星村長" group-title="catchplay直播", 我的明星村長
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=623cdb9c-d4ca-4e5d-bb5b-6219da9f09ed
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=623cdb9c-d4ca-4e5d-bb5b-6219da9f09ed
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="全明星出發吧" tvg-name="全明星出發吧" group-title="catchplay直播", 全明星出發吧
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=51d3aa7a-d9ca-4727-aa26-f5c2e010491d
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=51d3aa7a-d9ca-4727-aa26-f5c2e010491d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="全明星觀察中" tvg-name="全明星觀察中" group-title="catchplay直播", 全明星觀察中
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=80c93b74-05fa-43c3-abba-98a728cd918a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=80c93b74-05fa-43c3-abba-98a728cd918a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="最強的身體" tvg-name="最強的身體" group-title="catchplay直播", 最強的身體
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=5c9de4db-17d4-469f-ba21-cbd10aeacb4a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=5c9de4db-17d4-469f-ba21-cbd10aeacb4a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="九條好漢在一班" tvg-name="九條好漢在一班" group-title="catchplay直播", 九條好漢在一班
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=6016e4e5-6f80-435e-8e18-b00899a014f9
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=6016e4e5-6f80-435e-8e18-b00899a014f9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="一步一腳印 - 人生故事" tvg-name="一步一腳印 - 人生故事" group-title="catchplay直播", 一步一腳印 - 人生故事
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=64ba42f4-89a7-47f2-af2d-95a7fc5de02f
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=64ba42f4-89a7-47f2-af2d-95a7fc5de02f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="看板人物" tvg-name="看板人物" group-title="catchplay直播", 看板人物
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=12f14945-ca07-44a4-b309-b90b0d5cad67
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=12f14945-ca07-44a4-b309-b90b0d5cad67
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Action爽片台" tvg-name="Action爽片台" group-title="catchplay直播", Action爽片台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=68212d38-50f1-4d6e-84c1-efbf70419e5b
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=68212d38-50f1-4d6e-84c1-efbf70419e5b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Crime犯罪台" tvg-name="Crime犯罪台" group-title="catchplay直播", Crime犯罪台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d5c7fcb7-ce89-4d06-9371-5ba8280bd902
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d5c7fcb7-ce89-4d06-9371-5ba8280bd902
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Winner金獎台" tvg-name="Winner金獎台" group-title="catchplay直播", Winner金獎台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=c3e625da-7d86-47f8-9b04-8fe6682d92a1
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=c3e625da-7d86-47f8-9b04-8fe6682d92a1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="亞藝華語台" tvg-name="亞藝華語台" group-title="catchplay直播", 亞藝華語台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=c84ae42a-a1e5-4741-ba89-b44f295a2c3e
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=c84ae42a-a1e5-4741-ba89-b44f295a2c3e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Euro歐風電影台" tvg-name="Euro歐風電影台" group-title="catchplay直播", Euro歐風電影台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=db2a2787-32e3-411b-8760-d41664895d7b
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=db2a2787-32e3-411b-8760-d41664895d7b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Family歡樂台" tvg-name="Family歡樂台" group-title="catchplay直播", Family歡樂台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=c454d7c6-1fad-4ee9-bbc6-37f4c5c75d81
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=c454d7c6-1fad-4ee9-bbc6-37f4c5c75d81
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="KJ日韓電影台" tvg-name="KJ日韓電影台" group-title="catchplay直播", KJ日韓電影台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=464032b0-c04b-49b7-bc80-813544193003
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=464032b0-c04b-49b7-bc80-813544193003
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Wahaha喜劇台" tvg-name="Wahaha喜劇台" group-title="catchplay直播", Wahaha喜劇台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=5501fc1f-dc0f-4383-8287-fc0468e912eb
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=5501fc1f-dc0f-4383-8287-fc0468e912eb
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Classic電影台" tvg-name="Classic電影台" group-title="catchplay直播", Classic電影台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=bc3adf92-0eb4-4ff0-8070-38cc0b62d41d
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=bc3adf92-0eb4-4ff0-8070-38cc0b62d41d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="CNEX" tvg-name="CNEX" group-title="catchplay直播", CNEX
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=a05123df-8b9b-4a05-8b8f-88f8d3b5cd0b
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=a05123df-8b9b-4a05-8b8f-88f8d3b5cd0b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK Entertainment 搖滾娛樂頻道" tvg-name="ROCK Entertainment 搖滾娛樂頻道" group-title="catchplay直播", ROCK Entertainment 搖滾娛樂頻道
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=22b41e6c-6e42-476d-bba3-e2d943841e11
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=22b41e6c-6e42-476d-bba3-e2d943841e11
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK Action 電影頻道" tvg-name="ROCK Action 電影頻道" group-title="catchplay直播", ROCK Action 電影頻道
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=3354d9bb-dddf-46af-ad48-bbd05f7212be
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=3354d9bb-dddf-46af-ad48-bbd05f7212be
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK X Stream" tvg-name="ROCK X Stream" group-title="catchplay直播", ROCK X Stream
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=b8af423e-2e67-4143-be7d-f3536dd77a87
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=b8af423e-2e67-4143-be7d-f3536dd77a87
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Good TV" tvg-name="Good TV" group-title="catchplay直播", Good TV
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=6ac311d3-4fdc-484c-9cd3-23bc8566d5f6
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=6ac311d3-4fdc-484c-9cd3-23bc8566d5f6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="真情部落格" tvg-name="真情部落格" group-title="catchplay直播", 真情部落格
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=7549e107-eaad-4979-a27c-a65a76626078
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=7549e107-eaad-4979-a27c-a65a76626078
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" group-title="catchplay直播", 龍華戲劇台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=b3fef1de-03e6-11f0-b32f-02b1d33cd3f9
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=b3fef1de-03e6-11f0-b32f-02b1d33cd3f9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" group-title="catchplay直播", 龍華偶像台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=1fbd03ff-6f87-43ce-ac5d-f60f2ce2ae35
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=1fbd03ff-6f87-43ce-ac5d-f60f2ce2ae35
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我們與惡的距離S1" tvg-name="我們與惡的距離S1" group-title="catchplay直播", 我們與惡的距離S1
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=bda02e0a-9f32-459e-9577-697016b700b8
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=bda02e0a-9f32-459e-9577-697016b700b8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="八尺門的辯護人" tvg-name="八尺門的辯護人" group-title="catchplay直播", 八尺門的辯護人
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=afa836f1-78c2-47a4-8120-8972528afd31
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=afa836f1-78c2-47a4-8120-8972528afd31
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="俗女養成記S1" tvg-name="俗女養成記S1" group-title="catchplay直播", 俗女養成記S1
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=14d5b542-d971-42b0-885a-a0777eb10565
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=14d5b542-d971-42b0-885a-a0777eb10565
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="讓我看見你是誰" tvg-name="讓我看見你是誰" group-title="catchplay直播", 讓我看見你是誰
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=e0e7ba0e-97ab-49bf-947f-b7e4d79f3ac8
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=e0e7ba0e-97ab-49bf-947f-b7e4d79f3ac8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="16個夏天" tvg-name="16個夏天" group-title="catchplay直播", 16個夏天
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=22e6e6e7-9489-4f9e-a341-b9b6782b87fe
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=22e6e6e7-9489-4f9e-a341-b9b6782b87fe
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="加油喜事" tvg-name="加油喜事" group-title="catchplay直播", 加油喜事
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=5250d4c7-497c-40ae-8f5d-dde2d35fc17d
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=5250d4c7-497c-40ae-8f5d-dde2d35fc17d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="機智校園生活-必勝高三生" tvg-name="機智校園生活-必勝高三生" group-title="catchplay直播", 機智校園生活-必勝高三生
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=2e2d4ead-8ab9-428d-a076-caa9398ff856
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=2e2d4ead-8ab9-428d-a076-caa9398ff856
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Ａ咖的路" tvg-name="Ａ咖的路" group-title="catchplay直播", Ａ咖的路
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=1cae373b-01f1-479b-8bae-b6be6c47a859
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=1cae373b-01f1-479b-8bae-b6be6c47a859
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="酸甜之味" tvg-name="酸甜之味" group-title="catchplay直播", 酸甜之味
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d6b39b63-d0e5-4ee3-b5a0-d4d1ce2959d0
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d6b39b63-d0e5-4ee3-b5a0-d4d1ce2959d0
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="翻牆的記憶" tvg-name="翻牆的記憶" group-title="catchplay直播", 翻牆的記憶
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=c7435b63-d234-4bfe-a33b-0a6ae47612ca
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=c7435b63-d234-4bfe-a33b-0a6ae47612ca
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="哇!陳怡君" tvg-name="哇!陳怡君" group-title="catchplay直播", 哇!陳怡君
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=ac616862-93c3-41b0-8850-c492b35a37d4
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=ac616862-93c3-41b0-8850-c492b35a37d4
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="天堂的微笑" tvg-name="天堂的微笑" group-title="catchplay直播", 天堂的微笑
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=aa0adc98-0bda-473f-a61e-efffa1f2118f
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=aa0adc98-0bda-473f-a61e-efffa1f2118f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="遺憾拼圖" tvg-name="遺憾拼圖" group-title="catchplay直播", 遺憾拼圖
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=caa39a2b-e02b-4746-b1cc-159932e1740a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=caa39a2b-e02b-4746-b1cc-159932e1740a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="在一起，就好" tvg-name="在一起，就好" group-title="catchplay直播", 在一起，就好
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=876e916a-88c6-4bf5-974c-e30596075cbc
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=876e916a-88c6-4bf5-974c-e30596075cbc
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="唯一繼承者" tvg-name="唯一繼承者" group-title="catchplay直播", 唯一繼承者
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=b8bf4636-5540-4e0b-9fee-79ed5b82e3d1
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=b8bf4636-5540-4e0b-9fee-79ed5b82e3d1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="俏摩女搶頭婚" tvg-name="俏摩女搶頭婚" group-title="catchplay直播", 俏摩女搶頭婚
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d62728bc-dd56-4a42-b4de-4118c5eb3564
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d62728bc-dd56-4a42-b4de-4118c5eb3564
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="經典杯子蛋糕" tvg-name="經典杯子蛋糕" group-title="catchplay直播", 經典杯子蛋糕
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=e8a85dcb-31cd-4b2f-8591-514bbad96d3f
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=e8a85dcb-31cd-4b2f-8591-514bbad96d3f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="步步驚心" tvg-name="步步驚心" group-title="catchplay直播", 步步驚心
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d0e55cde-6ca7-49bf-b76e-5e55eb6e3db6
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d0e55cde-6ca7-49bf-b76e-5e55eb6e3db6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="女醫明妃傳" tvg-name="女醫明妃傳" group-title="catchplay直播", 女醫明妃傳
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=c113cc02-f140-4cec-bf1f-5350cd54b152
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=c113cc02-f140-4cec-bf1f-5350cd54b152
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="雍正王朝" tvg-name="雍正王朝" group-title="catchplay直播", 雍正王朝
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=6f44357b-fab5-485c-bba3-35ee3b1c71c5
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=6f44357b-fab5-485c-bba3-35ee3b1c71c5
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="極速悖論" tvg-name="極速悖論" group-title="catchplay直播", 極速悖論
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d0061d69-4de2-4baf-ad5c-a23717a73c1c
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d0061d69-4de2-4baf-ad5c-a23717a73c1c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="乾隆王朝" tvg-name="乾隆王朝" group-title="catchplay直播", 乾隆王朝
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=dae365b0-6a91-4b17-bf37-e9efa8cd0d99
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=dae365b0-6a91-4b17-bf37-e9efa8cd0d99
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="韶華若錦" tvg-name="韶華若錦" group-title="catchplay直播", 韶華若錦
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=4bb9d10f-b6c1-40c6-a355-2782cf0a6333
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=4bb9d10f-b6c1-40c6-a355-2782cf0a6333
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="朱元璋" tvg-name="朱元璋" group-title="catchplay直播", 朱元璋
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=2ecf42c7-15dd-404d-afa6-3838a3d903fd
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=2ecf42c7-15dd-404d-afa6-3838a3d903fd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="大將軍韓信" tvg-name="大將軍韓信" group-title="catchplay直播", 大將軍韓信
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=4740c5f7-ade2-46e9-9d06-846cb52d91b8
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=4740c5f7-ade2-46e9-9d06-846cb52d91b8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="六扇門" tvg-name="六扇門" group-title="catchplay直播", 六扇門
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=1c2b1edc-36bb-431e-84d3-4eb98a50de4b
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=1c2b1edc-36bb-431e-84d3-4eb98a50de4b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="錦衣之下" tvg-name="錦衣之下" group-title="catchplay直播", 錦衣之下
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=103b5510-c44c-4370-aef4-fe2a783cc88a
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=103b5510-c44c-4370-aef4-fe2a783cc88a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="楚喬傳" tvg-name="楚喬傳" group-title="catchplay直播", 楚喬傳
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=824b67ca-2176-4eae-84a6-0bea9069c359
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=824b67ca-2176-4eae-84a6-0bea9069c359
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="武媚娘傳奇" tvg-name="武媚娘傳奇" group-title="catchplay直播", 武媚娘傳奇
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=6b03c102-de32-48ad-9b15-b3cd52f7414b
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=6b03c102-de32-48ad-9b15-b3cd52f7414b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="三國" tvg-name="三國" group-title="catchplay直播", 三國
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=7537c6ac-0c70-41a6-9870-b5086a3cd60c
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=7537c6ac-0c70-41a6-9870-b5086a3cd60c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="九州縹緲錄" tvg-name="九州縹緲錄" group-title="catchplay直播", 九州縹緲錄
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=95f522c9-002e-4556-a670-63fcc2e5d937
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=95f522c9-002e-4556-a670-63fcc2e5d937
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="陸貞傳奇" tvg-name="陸貞傳奇" group-title="catchplay直播", 陸貞傳奇
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=fe1189d3-a7af-48bf-9e6d-e38f0a0090ed
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=fe1189d3-a7af-48bf-9e6d-e38f0a0090ed
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="大盛魁" tvg-name="大盛魁" group-title="catchplay直播", 大盛魁
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=1b434062-2115-4944-863e-e55b1f31d4ef
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=1b434062-2115-4944-863e-e55b1f31d4ef
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="山河月明" tvg-name="山河月明" group-title="catchplay直播", 山河月明
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=44a95609-9a92-4e5d-b21b-546c72d63a6e
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=44a95609-9a92-4e5d-b21b-546c72d63a6e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="蒼穹之昴" tvg-name="蒼穹之昴" group-title="catchplay直播", 蒼穹之昴
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=18b69311-5596-4cb3-8c44-7bbf3a323109
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=18b69311-5596-4cb3-8c44-7bbf3a323109
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="錦衣夜行" tvg-name="錦衣夜行" group-title="catchplay直播", 錦衣夜行
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d804af72-34e8-4fae-8e96-860c5fc01f94
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d804af72-34e8-4fae-8e96-860c5fc01f94
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="向風而行" tvg-name="向風而行" group-title="catchplay直播", 向風而行
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=3dd86941-77f1-4687-9502-7eb6729b31fe
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=3dd86941-77f1-4687-9502-7eb6729b31fe
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="風起西州" tvg-name="風起西州" group-title="catchplay直播", 風起西州
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=649967d0-d62a-42b1-b1db-29542c1303f6
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=649967d0-d62a-42b1-b1db-29542c1303f6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="時光之城" tvg-name="時光之城" group-title="catchplay直播", 時光之城
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=5fd91ffe-e313-4b03-ac7e-6011f2b58e6b
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=5fd91ffe-e313-4b03-ac7e-6011f2b58e6b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="戀人的謊言" tvg-name="戀人的謊言" group-title="catchplay直播", 戀人的謊言
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d0e11647-15bf-49e1-8728-42633ca45c08
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d0e11647-15bf-49e1-8728-42633ca45c08
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="母儀天下" tvg-name="母儀天下" group-title="catchplay直播", 母儀天下
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=3c2628d7-f3bb-40cf-927f-fbdf990b90c4
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=3c2628d7-f3bb-40cf-927f-fbdf990b90c4
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="家宴" tvg-name="家宴" group-title="catchplay直播", 家宴
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=8fe973ef-7e03-47d0-a891-984032da741c
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=8fe973ef-7e03-47d0-a891-984032da741c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="班淑傳奇" tvg-name="班淑傳奇" group-title="catchplay直播", 班淑傳奇
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=d64c35f5-ef8d-4889-9642-5393beee5057
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=d64c35f5-ef8d-4889-9642-5393beee5057
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="末代廚娘" tvg-name="末代廚娘" group-title="catchplay直播", 末代廚娘
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=79304fd2-6930-4d87-a555-4251387059ec
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=79304fd2-6930-4d87-a555-4251387059ec
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="新哆啦A夢" tvg-name="新哆啦A夢" group-title="catchplay直播", 新哆啦A夢
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=fc8fd5ab-b9e6-4a28-a89f-4551f49d400f
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=fc8fd5ab-b9e6-4a28-a89f-4551f49d400f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="間諜家家酒" tvg-name="間諜家家酒" group-title="catchplay直播", 間諜家家酒
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=f4589dec-e61d-47a3-af26-8a5375ab1541
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=f4589dec-e61d-47a3-af26-8a5375ab1541
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我們這一家" tvg-name="我們這一家" group-title="catchplay直播", 我們這一家
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=a5ae1ec2-1bba-4828-877b-96fca6569508
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=a5ae1ec2-1bba-4828-877b-96fca6569508
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="關於我轉生變成史萊姆這檔事" tvg-name="關於我轉生變成史萊姆這檔事" group-title="catchplay直播", 關於我轉生變成史萊姆這檔事
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=35a61610-bcb8-4e17-b984-d8ed188d6d78
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=35a61610-bcb8-4e17-b984-d8ed188d6d78
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="擁有超常技能的異世界流浪美食家" tvg-name="擁有超常技能的異世界流浪美食家" group-title="catchplay直播", 擁有超常技能的異世界流浪美食家
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=2d071f07-4de0-42cf-a0c3-226f03eee345
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=2d071f07-4de0-42cf-a0c3-226f03eee345
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="香格里拉・開拓異境~糞作獵手挑戰神作~" tvg-name="香格里拉・開拓異境~糞作獵手挑戰神作~" group-title="catchplay直播", 香格里拉・開拓異境~糞作獵手挑戰神作~
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=db35724c-43a5-42d7-a06c-6ab2877f1fb6
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=db35724c-43a5-42d7-a06c-6ab2877f1fb6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="刀劍神域" tvg-name="刀劍神域" group-title="catchplay直播", 刀劍神域
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=bd20ad21-7f58-48da-9ae9-541178c9e561
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=bd20ad21-7f58-48da-9ae9-541178c9e561
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="暗殺教室" tvg-name="暗殺教室" group-title="catchplay直播", 暗殺教室
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=3b1f235a-e891-403a-b48f-21212a57d842
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=3b1f235a-e891-403a-b48f-21212a57d842
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="隊長小翼" tvg-name="隊長小翼" group-title="catchplay直播", 隊長小翼
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=dcbf66fa-e301-4172-9bca-786eb7d4fef1
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=dcbf66fa-e301-4172-9bca-786eb7d4fef1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="凡爾賽玫瑰" tvg-name="凡爾賽玫瑰" group-title="catchplay直播", 凡爾賽玫瑰
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=61f8c370-474f-4cf1-9f5a-edd1158667a9
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=61f8c370-474f-4cf1-9f5a-edd1158667a9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我要【招架】一切～反誤解的世界最強想成為冒險家～" tvg-name="我要【招架】一切～反誤解的世界最強想成為冒險家～" group-title="catchplay直播", 我要【招架】一切～反誤解的世界最強想成為冒險家～
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=a3db5dd8-9816-485d-98f1-b8870489b1b0
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=a3db5dd8-9816-485d-98f1-b8870489b1b0
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="re: 從零開始的異世界生活" tvg-name="re: 從零開始的異世界生活" group-title="catchplay直播", re: 從零開始的異世界生活
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=4adb1889-57b0-4b99-b40b-17c0568a6d14
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=4adb1889-57b0-4b99-b40b-17c0568a6d14
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="86 -不存在的戰區-" tvg-name="86 -不存在的戰區-" group-title="catchplay直播", 86 -不存在的戰區-
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=bdd3f210-afdd-41e4-9901-07c3f682e0d5
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=bdd3f210-afdd-41e4-9901-07c3f682e0d5
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="櫻蘭高校男公關部" tvg-name="櫻蘭高校男公關部" group-title="catchplay直播", 櫻蘭高校男公關部
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=f791eabf-f0b9-4c3e-be1a-bd95eec97681
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=f791eabf-f0b9-4c3e-be1a-bd95eec97681
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="靠廢柴技能【狀態異常】成為最強的我將蹂躪一切" tvg-name="靠廢柴技能【狀態異常】成為最強的我將蹂躪一切" group-title="catchplay直播", 靠廢柴技能【狀態異常】成為最強的我將蹂躪一切
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=8e7f189c-c1f0-4aa7-8bf7-a657d0fc4706
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=8e7f189c-c1f0-4aa7-8bf7-a657d0fc4706
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="歡迎來到實力至上主義的教室" tvg-name="歡迎來到實力至上主義的教室" group-title="catchplay直播", 歡迎來到實力至上主義的教室
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=7c35aa4e-1762-4857-9e5b-86c843750f92
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=7c35aa4e-1762-4857-9e5b-86c843750f92
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="哥布林殺手" tvg-name="哥布林殺手" group-title="catchplay直播", 哥布林殺手
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=9b0b62ea-db98-46be-a7de-a008ee9a7b33
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=9b0b62ea-db98-46be-a7de-a008ee9a7b33
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="城市獵人" tvg-name="城市獵人" group-title="catchplay直播", 城市獵人
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=a476da55-dd1c-4691-a97a-e93dfb269f9f
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=a476da55-dd1c-4691-a97a-e93dfb269f9f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="七大罪" tvg-name="七大罪" group-title="catchplay直播", 七大罪
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=68fd3348-533b-460f-b7ad-5489c0b1fe81
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=68fd3348-533b-460f-b7ad-5489c0b1fe81
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="聖者無雙～上班族的異世界生存之道～" tvg-name="聖者無雙～上班族的異世界生存之道～" group-title="catchplay直播", 聖者無雙～上班族的異世界生存之道～
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=a035cd57-353f-40f3-9dba-b60ea36979a1
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=a035cd57-353f-40f3-9dba-b60ea36979a1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="聖女魔力無所不能" tvg-name="聖女魔力無所不能" group-title="catchplay直播", 聖女魔力無所不能
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/catchplaytv/catchplaytvkey.php?v=464cd4f0-2ab2-49e7-a7c5-eb7e31b6395b
+http://127.0.0.1:8081/catchplaytv/catchplaytvmpd.php?v=464cd4f0-2ab2-49e7-a7c5-eb7e31b6395b
+
+
+
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS 55 新聞台" tvg-name="TVBS 55 新聞台" group-title="catchplay", TVBS 55 新聞台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=2430f4da-2dfd-4901-b051-0393d1a7372a
+http://127.0.0.1:8081/t/mpd.php?id=2430f4da-2dfd-4901-b051-0393d1a7372a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS 56" tvg-name="TVBS 56" group-title="catchplay", TVBS 56
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=1ef75edc-dd2a-4415-baab-d397a4a51a02
+http://127.0.0.1:8081/t/mpd.php?id=1ef75edc-dd2a-4415-baab-d397a4a51a02
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS NEWS-互動直播" tvg-name="TVBS NEWS-互動直播" group-title="catchplay", TVBS NEWS-互動直播
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=6647942c-544e-4406-9e3d-d7723ceea9ac
+http://127.0.0.1:8081/t/mpd.php?id=6647942c-544e-4406-9e3d-d7723ceea9ac
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="台視新聞" tvg-name="台視新聞" group-title="catchplay", 台視新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=07f5f988-bb9d-47b7-9f4d-571f6da6b908
+http://127.0.0.1:8081/t/mpd.php?id=07f5f988-bb9d-47b7-9f4d-571f6da6b908
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="東森新聞" tvg-name="東森新聞" group-title="catchplay", 東森新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=b1ebae5d-1ae6-4627-b2ec-35e07874358a
+http://127.0.0.1:8081/t/mpd.php?id=b1ebae5d-1ae6-4627-b2ec-35e07874358a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" group-title="catchplay", 民視新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=a85c7d0e-f38e-404e-ad5a-36f517fd6a93
+http://127.0.0.1:8081/t/mpd.php?id=a85c7d0e-f38e-404e-ad5a-36f517fd6a93
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="非凡新聞" tvg-name="非凡新聞" group-title="catchplay", 非凡新聞
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=10bc83a1-d723-45d2-a9b5-954cf7eab7d6
+http://127.0.0.1:8081/t/mpd.php?id=10bc83a1-d723-45d2-a9b5-954cf7eab7d6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="東森財經" tvg-name="東森財經" group-title="catchplay", 東森財經
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=5bb94fd2-0ec9-4d17-abdf-b8866c05b76e
+http://127.0.0.1:8081/t/mpd.php?id=5bb94fd2-0ec9-4d17-abdf-b8866c05b76e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" group-title="catchplay", BBC News
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=3d794793-e143-479d-a430-0c0b9f424a4e
+http://127.0.0.1:8081/t/mpd.php?id=3d794793-e143-479d-a430-0c0b9f424a4e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="CNBC Asia" tvg-name="CNBC Asia" group-title="catchplay", CNBC Asia
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=f5483454-d298-4f0c-8670-a8263e2028a8
+http://127.0.0.1:8081/t/mpd.php?id=f5483454-d298-4f0c-8670-a8263e2028a8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="NHK WORLD-JAPAN" tvg-name="NHK WORLD-JAPAN" group-title="catchplay", NHK WORLD-JAPAN
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=fdd1d58b-8499-45bf-adc3-079eb3e2be7a
+http://127.0.0.1:8081/t/mpd.php?id=fdd1d58b-8499-45bf-adc3-079eb3e2be7a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" group-title="catchplay", 民視第一台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=5f9a5de6-7e38-4782-8a8f-475627c698e2
+http://127.0.0.1:8081/t/mpd.php?id=5f9a5de6-7e38-4782-8a8f-475627c698e2
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="博斯運動一台" tvg-name="博斯運動一台" group-title="catchplay", 博斯運動一台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=ad76811f-a5de-4d40-bed6-bb07959983ac
+http://127.0.0.1:8081/t/mpd.php?id=ad76811f-a5de-4d40-bed6-bb07959983ac
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="MOMO TV" tvg-name="MOMO TV" group-title="catchplay", MOMO TV
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=f05ecfdc-49f1-4942-961c-91bc1ec59d62
+http://127.0.0.1:8081/t/mpd.php?id=f05ecfdc-49f1-4942-961c-91bc1ec59d62
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="空中英語教室" tvg-name="空中英語教室" group-title="catchplay", 空中英語教室
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=df679667-3f25-4681-956a-78284974cd62
+http://127.0.0.1:8081/t/mpd.php?id=df679667-3f25-4681-956a-78284974cd62
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="BBC Lifestyle" tvg-name="BBC Lifestyle" group-title="catchplay", BBC Lifestyle
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=932b878a-ffaa-4c1a-8bd2-40c530122bb3
+http://127.0.0.1:8081/t/mpd.php?id=932b878a-ffaa-4c1a-8bd2-40c530122bb3
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" group-title="catchplay", BBC Earth
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=3805f932-d14c-4427-bee6-ee1c5a92258e
+http://127.0.0.1:8081/t/mpd.php?id=3805f932-d14c-4427-bee6-ee1c5a92258e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK Global Trekker" tvg-name="ROCK Global Trekker" group-title="catchplay", ROCK Global Trekker
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=9147023f-aca9-4187-9df4-2e93e861764a
+http://127.0.0.1:8081/t/mpd.php?id=9147023f-aca9-4187-9df4-2e93e861764a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="TVBS 42 歡樂台" tvg-name="TVBS 42 歡樂台" group-title="catchplay", TVBS 42 歡樂台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=75fafbba-e5e0-44c5-8b9e-41674785a1a9
+http://127.0.0.1:8081/t/mpd.php?id=75fafbba-e5e0-44c5-8b9e-41674785a1a9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="地球黃金線 - 名車寶庫" tvg-name="地球黃金線 - 名車寶庫" group-title="catchplay", 地球黃金線 - 名車寶庫
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=bd084750-4f76-4f18-bb3e-0fe6101afa37
+http://127.0.0.1:8081/t/mpd.php?id=bd084750-4f76-4f18-bb3e-0fe6101afa37
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="食尚玩家 - 熱血48小時" tvg-name="食尚玩家 - 熱血48小時" group-title="catchplay", 食尚玩家 - 熱血48小時
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=1b4094d5-0f51-43d4-94c8-74d4995b3e5e
+http://127.0.0.1:8081/t/mpd.php?id=1b4094d5-0f51-43d4-94c8-74d4995b3e5e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="女人我最大 - 經典永流傳" tvg-name="女人我最大 - 經典永流傳" group-title="catchplay", 女人我最大 - 經典永流傳
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=ba5d2a65-d77a-4ed3-85df-2dac224e5320
+http://127.0.0.1:8081/t/mpd.php?id=ba5d2a65-d77a-4ed3-85df-2dac224e5320
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="健康2.0 - 養身排毒減脂" tvg-name="健康2.0 - 養身排毒減脂" group-title="catchplay", 健康2.0 - 養身排毒減脂
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=4b5d2d13-99d1-401a-bf30-2aaa054882eb
+http://127.0.0.1:8081/t/mpd.php?id=4b5d2d13-99d1-401a-bf30-2aaa054882eb
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="11點熱吵店 - 生活與時尚" tvg-name="11點熱吵店 - 生活與時尚" group-title="catchplay", 11點熱吵店 - 生活與時尚
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=7f2e7935-cc57-421e-ac2d-887d50d01c84
+http://127.0.0.1:8081/t/mpd.php?id=7f2e7935-cc57-421e-ac2d-887d50d01c84
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="哈哈台" tvg-name="哈哈台" group-title="catchplay", 哈哈台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=85a8585d-cf7a-4e16-98d6-0bd65afb49d7
+http://127.0.0.1:8081/t/mpd.php?id=85a8585d-cf7a-4e16-98d6-0bd65afb49d7
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="博恩夜夜秀" tvg-name="博恩夜夜秀" group-title="catchplay", 博恩夜夜秀
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=8050ac31-4eab-4d78-8784-e6220cc4c68c
+http://127.0.0.1:8081/t/mpd.php?id=8050ac31-4eab-4d78-8784-e6220cc4c68c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="賀瓏夜夜秀" tvg-name="賀瓏夜夜秀" group-title="catchplay", 賀瓏夜夜秀
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=3f684a6c-7e47-4d7a-8699-2e4645b41f3d
+http://127.0.0.1:8081/t/mpd.php?id=3f684a6c-7e47-4d7a-8699-2e4645b41f3d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我的明星村長" tvg-name="我的明星村長" group-title="catchplay", 我的明星村長
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=623cdb9c-d4ca-4e5d-bb5b-6219da9f09ed
+http://127.0.0.1:8081/t/mpd.php?id=623cdb9c-d4ca-4e5d-bb5b-6219da9f09ed
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="全明星出發吧" tvg-name="全明星出發吧" group-title="catchplay", 全明星出發吧
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=51d3aa7a-d9ca-4727-aa26-f5c2e010491d
+http://127.0.0.1:8081/t/mpd.php?id=51d3aa7a-d9ca-4727-aa26-f5c2e010491d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="全明星觀察中" tvg-name="全明星觀察中" group-title="catchplay", 全明星觀察中
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=80c93b74-05fa-43c3-abba-98a728cd918a
+http://127.0.0.1:8081/t/mpd.php?id=80c93b74-05fa-43c3-abba-98a728cd918a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="最強的身體" tvg-name="最強的身體" group-title="catchplay", 最強的身體
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=5c9de4db-17d4-469f-ba21-cbd10aeacb4a
+http://127.0.0.1:8081/t/mpd.php?id=5c9de4db-17d4-469f-ba21-cbd10aeacb4a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="九條好漢在一班" tvg-name="九條好漢在一班" group-title="catchplay", 九條好漢在一班
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=6016e4e5-6f80-435e-8e18-b00899a014f9
+http://127.0.0.1:8081/t/mpd.php?id=6016e4e5-6f80-435e-8e18-b00899a014f9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="一步一腳印 - 人生故事" tvg-name="一步一腳印 - 人生故事" group-title="catchplay", 一步一腳印 - 人生故事
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=64ba42f4-89a7-47f2-af2d-95a7fc5de02f
+http://127.0.0.1:8081/t/mpd.php?id=64ba42f4-89a7-47f2-af2d-95a7fc5de02f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="看板人物" tvg-name="看板人物" group-title="catchplay", 看板人物
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=12f14945-ca07-44a4-b309-b90b0d5cad67
+http://127.0.0.1:8081/t/mpd.php?id=12f14945-ca07-44a4-b309-b90b0d5cad67
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Action爽片台" tvg-name="Action爽片台" group-title="catchplay", Action爽片台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=68212d38-50f1-4d6e-84c1-efbf70419e5b
+http://127.0.0.1:8081/t/mpd.php?id=68212d38-50f1-4d6e-84c1-efbf70419e5b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Crime犯罪台" tvg-name="Crime犯罪台" group-title="catchplay", Crime犯罪台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d5c7fcb7-ce89-4d06-9371-5ba8280bd902
+http://127.0.0.1:8081/t/mpd.php?id=d5c7fcb7-ce89-4d06-9371-5ba8280bd902
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Winner金獎台" tvg-name="Winner金獎台" group-title="catchplay", Winner金獎台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=c3e625da-7d86-47f8-9b04-8fe6682d92a1
+http://127.0.0.1:8081/t/mpd.php?id=c3e625da-7d86-47f8-9b04-8fe6682d92a1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="亞藝華語台" tvg-name="亞藝華語台" group-title="catchplay", 亞藝華語台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=c84ae42a-a1e5-4741-ba89-b44f295a2c3e
+http://127.0.0.1:8081/t/mpd.php?id=c84ae42a-a1e5-4741-ba89-b44f295a2c3e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Euro歐風電影台" tvg-name="Euro歐風電影台" group-title="catchplay", Euro歐風電影台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=db2a2787-32e3-411b-8760-d41664895d7b
+http://127.0.0.1:8081/t/mpd.php?id=db2a2787-32e3-411b-8760-d41664895d7b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Family歡樂台" tvg-name="Family歡樂台" group-title="catchplay", Family歡樂台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=c454d7c6-1fad-4ee9-bbc6-37f4c5c75d81
+http://127.0.0.1:8081/t/mpd.php?id=c454d7c6-1fad-4ee9-bbc6-37f4c5c75d81
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="KJ日韓電影台" tvg-name="KJ日韓電影台" group-title="catchplay", KJ日韓電影台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=464032b0-c04b-49b7-bc80-813544193003
+http://127.0.0.1:8081/t/mpd.php?id=464032b0-c04b-49b7-bc80-813544193003
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Wahaha喜劇台" tvg-name="Wahaha喜劇台" group-title="catchplay", Wahaha喜劇台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=5501fc1f-dc0f-4383-8287-fc0468e912eb
+http://127.0.0.1:8081/t/mpd.php?id=5501fc1f-dc0f-4383-8287-fc0468e912eb
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Classic電影台" tvg-name="Classic電影台" group-title="catchplay", Classic電影台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=bc3adf92-0eb4-4ff0-8070-38cc0b62d41d
+http://127.0.0.1:8081/t/mpd.php?id=bc3adf92-0eb4-4ff0-8070-38cc0b62d41d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="CNEX" tvg-name="CNEX" group-title="catchplay", CNEX
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=a05123df-8b9b-4a05-8b8f-88f8d3b5cd0b
+http://127.0.0.1:8081/t/mpd.php?id=a05123df-8b9b-4a05-8b8f-88f8d3b5cd0b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK Entertainment 搖滾娛樂頻道" tvg-name="ROCK Entertainment 搖滾娛樂頻道" group-title="catchplay", ROCK Entertainment 搖滾娛樂頻道
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=22b41e6c-6e42-476d-bba3-e2d943841e11
+http://127.0.0.1:8081/t/mpd.php?id=22b41e6c-6e42-476d-bba3-e2d943841e11
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK Action 電影頻道" tvg-name="ROCK Action 電影頻道" group-title="catchplay", ROCK Action 電影頻道
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=3354d9bb-dddf-46af-ad48-bbd05f7212be
+http://127.0.0.1:8081/t/mpd.php?id=3354d9bb-dddf-46af-ad48-bbd05f7212be
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="ROCK X Stream" tvg-name="ROCK X Stream" group-title="catchplay", ROCK X Stream
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=b8af423e-2e67-4143-be7d-f3536dd77a87
+http://127.0.0.1:8081/t/mpd.php?id=b8af423e-2e67-4143-be7d-f3536dd77a87
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Good TV" tvg-name="Good TV" group-title="catchplay", Good TV
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=6ac311d3-4fdc-484c-9cd3-23bc8566d5f6
+http://127.0.0.1:8081/t/mpd.php?id=6ac311d3-4fdc-484c-9cd3-23bc8566d5f6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="真情部落格" tvg-name="真情部落格" group-title="catchplay", 真情部落格
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=7549e107-eaad-4979-a27c-a65a76626078
+http://127.0.0.1:8081/t/mpd.php?id=7549e107-eaad-4979-a27c-a65a76626078
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="龍華戲劇台" tvg-name="龍華戲劇台" group-title="catchplay", 龍華戲劇台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=b3fef1de-03e6-11f0-b32f-02b1d33cd3f9
+http://127.0.0.1:8081/t/mpd.php?id=b3fef1de-03e6-11f0-b32f-02b1d33cd3f9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" group-title="catchplay", 龍華偶像台
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=1fbd03ff-6f87-43ce-ac5d-f60f2ce2ae35
+http://127.0.0.1:8081/t/mpd.php?id=1fbd03ff-6f87-43ce-ac5d-f60f2ce2ae35
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我們與惡的距離S1" tvg-name="我們與惡的距離S1" group-title="catchplay", 我們與惡的距離S1
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=bda02e0a-9f32-459e-9577-697016b700b8
+http://127.0.0.1:8081/t/mpd.php?id=bda02e0a-9f32-459e-9577-697016b700b8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="八尺門的辯護人" tvg-name="八尺門的辯護人" group-title="catchplay", 八尺門的辯護人
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=afa836f1-78c2-47a4-8120-8972528afd31
+http://127.0.0.1:8081/t/mpd.php?id=afa836f1-78c2-47a4-8120-8972528afd31
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="俗女養成記S1" tvg-name="俗女養成記S1" group-title="catchplay", 俗女養成記S1
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=14d5b542-d971-42b0-885a-a0777eb10565
+http://127.0.0.1:8081/t/mpd.php?id=14d5b542-d971-42b0-885a-a0777eb10565
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="讓我看見你是誰" tvg-name="讓我看見你是誰" group-title="catchplay", 讓我看見你是誰
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=e0e7ba0e-97ab-49bf-947f-b7e4d79f3ac8
+http://127.0.0.1:8081/t/mpd.php?id=e0e7ba0e-97ab-49bf-947f-b7e4d79f3ac8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="16個夏天" tvg-name="16個夏天" group-title="catchplay", 16個夏天
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=22e6e6e7-9489-4f9e-a341-b9b6782b87fe
+http://127.0.0.1:8081/t/mpd.php?id=22e6e6e7-9489-4f9e-a341-b9b6782b87fe
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="加油喜事" tvg-name="加油喜事" group-title="catchplay", 加油喜事
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=5250d4c7-497c-40ae-8f5d-dde2d35fc17d
+http://127.0.0.1:8081/t/mpd.php?id=5250d4c7-497c-40ae-8f5d-dde2d35fc17d
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="機智校園生活-必勝高三生" tvg-name="機智校園生活-必勝高三生" group-title="catchplay", 機智校園生活-必勝高三生
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=2e2d4ead-8ab9-428d-a076-caa9398ff856
+http://127.0.0.1:8081/t/mpd.php?id=2e2d4ead-8ab9-428d-a076-caa9398ff856
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="Ａ咖的路" tvg-name="Ａ咖的路" group-title="catchplay", Ａ咖的路
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=1cae373b-01f1-479b-8bae-b6be6c47a859
+http://127.0.0.1:8081/t/mpd.php?id=1cae373b-01f1-479b-8bae-b6be6c47a859
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="酸甜之味" tvg-name="酸甜之味" group-title="catchplay", 酸甜之味
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d6b39b63-d0e5-4ee3-b5a0-d4d1ce2959d0
+http://127.0.0.1:8081/t/mpd.php?id=d6b39b63-d0e5-4ee3-b5a0-d4d1ce2959d0
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="翻牆的記憶" tvg-name="翻牆的記憶" group-title="catchplay", 翻牆的記憶
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=c7435b63-d234-4bfe-a33b-0a6ae47612ca
+http://127.0.0.1:8081/t/mpd.php?id=c7435b63-d234-4bfe-a33b-0a6ae47612ca
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="哇!陳怡君" tvg-name="哇!陳怡君" group-title="catchplay", 哇!陳怡君
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=ac616862-93c3-41b0-8850-c492b35a37d4
+http://127.0.0.1:8081/t/mpd.php?id=ac616862-93c3-41b0-8850-c492b35a37d4
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="天堂的微笑" tvg-name="天堂的微笑" group-title="catchplay", 天堂的微笑
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=aa0adc98-0bda-473f-a61e-efffa1f2118f
+http://127.0.0.1:8081/t/mpd.php?id=aa0adc98-0bda-473f-a61e-efffa1f2118f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="遺憾拼圖" tvg-name="遺憾拼圖" group-title="catchplay", 遺憾拼圖
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=caa39a2b-e02b-4746-b1cc-159932e1740a
+http://127.0.0.1:8081/t/mpd.php?id=caa39a2b-e02b-4746-b1cc-159932e1740a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="在一起，就好" tvg-name="在一起，就好" group-title="catchplay", 在一起，就好
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=876e916a-88c6-4bf5-974c-e30596075cbc
+http://127.0.0.1:8081/t/mpd.php?id=876e916a-88c6-4bf5-974c-e30596075cbc
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="唯一繼承者" tvg-name="唯一繼承者" group-title="catchplay", 唯一繼承者
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=b8bf4636-5540-4e0b-9fee-79ed5b82e3d1
+http://127.0.0.1:8081/t/mpd.php?id=b8bf4636-5540-4e0b-9fee-79ed5b82e3d1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="俏摩女搶頭婚" tvg-name="俏摩女搶頭婚" group-title="catchplay", 俏摩女搶頭婚
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d62728bc-dd56-4a42-b4de-4118c5eb3564
+http://127.0.0.1:8081/t/mpd.php?id=d62728bc-dd56-4a42-b4de-4118c5eb3564
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="經典杯子蛋糕" tvg-name="經典杯子蛋糕" group-title="catchplay", 經典杯子蛋糕
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=e8a85dcb-31cd-4b2f-8591-514bbad96d3f
+http://127.0.0.1:8081/t/mpd.php?id=e8a85dcb-31cd-4b2f-8591-514bbad96d3f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="步步驚心" tvg-name="步步驚心" group-title="catchplay", 步步驚心
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d0e55cde-6ca7-49bf-b76e-5e55eb6e3db6
+http://127.0.0.1:8081/t/mpd.php?id=d0e55cde-6ca7-49bf-b76e-5e55eb6e3db6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="女醫明妃傳" tvg-name="女醫明妃傳" group-title="catchplay", 女醫明妃傳
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=c113cc02-f140-4cec-bf1f-5350cd54b152
+http://127.0.0.1:8081/t/mpd.php?id=c113cc02-f140-4cec-bf1f-5350cd54b152
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="雍正王朝" tvg-name="雍正王朝" group-title="catchplay", 雍正王朝
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=6f44357b-fab5-485c-bba3-35ee3b1c71c5
+http://127.0.0.1:8081/t/mpd.php?id=6f44357b-fab5-485c-bba3-35ee3b1c71c5
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="極速悖論" tvg-name="極速悖論" group-title="catchplay", 極速悖論
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d0061d69-4de2-4baf-ad5c-a23717a73c1c
+http://127.0.0.1:8081/t/mpd.php?id=d0061d69-4de2-4baf-ad5c-a23717a73c1c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="乾隆王朝" tvg-name="乾隆王朝" group-title="catchplay", 乾隆王朝
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=dae365b0-6a91-4b17-bf37-e9efa8cd0d99
+http://127.0.0.1:8081/t/mpd.php?id=dae365b0-6a91-4b17-bf37-e9efa8cd0d99
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="韶華若錦" tvg-name="韶華若錦" group-title="catchplay", 韶華若錦
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=4bb9d10f-b6c1-40c6-a355-2782cf0a6333
+http://127.0.0.1:8081/t/mpd.php?id=4bb9d10f-b6c1-40c6-a355-2782cf0a6333
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="朱元璋" tvg-name="朱元璋" group-title="catchplay", 朱元璋
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=2ecf42c7-15dd-404d-afa6-3838a3d903fd
+http://127.0.0.1:8081/t/mpd.php?id=2ecf42c7-15dd-404d-afa6-3838a3d903fd
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="大將軍韓信" tvg-name="大將軍韓信" group-title="catchplay", 大將軍韓信
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=4740c5f7-ade2-46e9-9d06-846cb52d91b8
+http://127.0.0.1:8081/t/mpd.php?id=4740c5f7-ade2-46e9-9d06-846cb52d91b8
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="六扇門" tvg-name="六扇門" group-title="catchplay", 六扇門
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=1c2b1edc-36bb-431e-84d3-4eb98a50de4b
+http://127.0.0.1:8081/t/mpd.php?id=1c2b1edc-36bb-431e-84d3-4eb98a50de4b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="錦衣之下" tvg-name="錦衣之下" group-title="catchplay", 錦衣之下
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=103b5510-c44c-4370-aef4-fe2a783cc88a
+http://127.0.0.1:8081/t/mpd.php?id=103b5510-c44c-4370-aef4-fe2a783cc88a
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="楚喬傳" tvg-name="楚喬傳" group-title="catchplay", 楚喬傳
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=824b67ca-2176-4eae-84a6-0bea9069c359
+http://127.0.0.1:8081/t/mpd.php?id=824b67ca-2176-4eae-84a6-0bea9069c359
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="武媚娘傳奇" tvg-name="武媚娘傳奇" group-title="catchplay", 武媚娘傳奇
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=6b03c102-de32-48ad-9b15-b3cd52f7414b
+http://127.0.0.1:8081/t/mpd.php?id=6b03c102-de32-48ad-9b15-b3cd52f7414b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="三國" tvg-name="三國" group-title="catchplay", 三國
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=7537c6ac-0c70-41a6-9870-b5086a3cd60c
+http://127.0.0.1:8081/t/mpd.php?id=7537c6ac-0c70-41a6-9870-b5086a3cd60c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="九州縹緲錄" tvg-name="九州縹緲錄" group-title="catchplay", 九州縹緲錄
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=95f522c9-002e-4556-a670-63fcc2e5d937
+http://127.0.0.1:8081/t/mpd.php?id=95f522c9-002e-4556-a670-63fcc2e5d937
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="陸貞傳奇" tvg-name="陸貞傳奇" group-title="catchplay", 陸貞傳奇
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=fe1189d3-a7af-48bf-9e6d-e38f0a0090ed
+http://127.0.0.1:8081/t/mpd.php?id=fe1189d3-a7af-48bf-9e6d-e38f0a0090ed
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="大盛魁" tvg-name="大盛魁" group-title="catchplay", 大盛魁
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=1b434062-2115-4944-863e-e55b1f31d4ef
+http://127.0.0.1:8081/t/mpd.php?id=1b434062-2115-4944-863e-e55b1f31d4ef
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="山河月明" tvg-name="山河月明" group-title="catchplay", 山河月明
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=44a95609-9a92-4e5d-b21b-546c72d63a6e
+http://127.0.0.1:8081/t/mpd.php?id=44a95609-9a92-4e5d-b21b-546c72d63a6e
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="蒼穹之昴" tvg-name="蒼穹之昴" group-title="catchplay", 蒼穹之昴
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=18b69311-5596-4cb3-8c44-7bbf3a323109
+http://127.0.0.1:8081/t/mpd.php?id=18b69311-5596-4cb3-8c44-7bbf3a323109
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="錦衣夜行" tvg-name="錦衣夜行" group-title="catchplay", 錦衣夜行
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d804af72-34e8-4fae-8e96-860c5fc01f94
+http://127.0.0.1:8081/t/mpd.php?id=d804af72-34e8-4fae-8e96-860c5fc01f94
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="向風而行" tvg-name="向風而行" group-title="catchplay", 向風而行
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=3dd86941-77f1-4687-9502-7eb6729b31fe
+http://127.0.0.1:8081/t/mpd.php?id=3dd86941-77f1-4687-9502-7eb6729b31fe
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="風起西州" tvg-name="風起西州" group-title="catchplay", 風起西州
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=649967d0-d62a-42b1-b1db-29542c1303f6
+http://127.0.0.1:8081/t/mpd.php?id=649967d0-d62a-42b1-b1db-29542c1303f6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="時光之城" tvg-name="時光之城" group-title="catchplay", 時光之城
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=5fd91ffe-e313-4b03-ac7e-6011f2b58e6b
+http://127.0.0.1:8081/t/mpd.php?id=5fd91ffe-e313-4b03-ac7e-6011f2b58e6b
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="戀人的謊言" tvg-name="戀人的謊言" group-title="catchplay", 戀人的謊言
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d0e11647-15bf-49e1-8728-42633ca45c08
+http://127.0.0.1:8081/t/mpd.php?id=d0e11647-15bf-49e1-8728-42633ca45c08
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="母儀天下" tvg-name="母儀天下" group-title="catchplay", 母儀天下
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=3c2628d7-f3bb-40cf-927f-fbdf990b90c4
+http://127.0.0.1:8081/t/mpd.php?id=3c2628d7-f3bb-40cf-927f-fbdf990b90c4
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="家宴" tvg-name="家宴" group-title="catchplay", 家宴
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=8fe973ef-7e03-47d0-a891-984032da741c
+http://127.0.0.1:8081/t/mpd.php?id=8fe973ef-7e03-47d0-a891-984032da741c
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="班淑傳奇" tvg-name="班淑傳奇" group-title="catchplay", 班淑傳奇
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=d64c35f5-ef8d-4889-9642-5393beee5057
+http://127.0.0.1:8081/t/mpd.php?id=d64c35f5-ef8d-4889-9642-5393beee5057
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="末代廚娘" tvg-name="末代廚娘" group-title="catchplay", 末代廚娘
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=79304fd2-6930-4d87-a555-4251387059ec
+http://127.0.0.1:8081/t/mpd.php?id=79304fd2-6930-4d87-a555-4251387059ec
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="新哆啦A夢" tvg-name="新哆啦A夢" group-title="catchplay", 新哆啦A夢
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=fc8fd5ab-b9e6-4a28-a89f-4551f49d400f
+http://127.0.0.1:8081/t/mpd.php?id=fc8fd5ab-b9e6-4a28-a89f-4551f49d400f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="間諜家家酒" tvg-name="間諜家家酒" group-title="catchplay", 間諜家家酒
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=f4589dec-e61d-47a3-af26-8a5375ab1541
+http://127.0.0.1:8081/t/mpd.php?id=f4589dec-e61d-47a3-af26-8a5375ab1541
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我們這一家" tvg-name="我們這一家" group-title="catchplay", 我們這一家
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=a5ae1ec2-1bba-4828-877b-96fca6569508
+http://127.0.0.1:8081/t/mpd.php?id=a5ae1ec2-1bba-4828-877b-96fca6569508
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="關於我轉生變成史萊姆這檔事" tvg-name="關於我轉生變成史萊姆這檔事" group-title="catchplay", 關於我轉生變成史萊姆這檔事
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=35a61610-bcb8-4e17-b984-d8ed188d6d78
+http://127.0.0.1:8081/t/mpd.php?id=35a61610-bcb8-4e17-b984-d8ed188d6d78
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="擁有超常技能的異世界流浪美食家" tvg-name="擁有超常技能的異世界流浪美食家" group-title="catchplay", 擁有超常技能的異世界流浪美食家
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=2d071f07-4de0-42cf-a0c3-226f03eee345
+http://127.0.0.1:8081/t/mpd.php?id=2d071f07-4de0-42cf-a0c3-226f03eee345
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="香格里拉・開拓異境~糞作獵手挑戰神作~" tvg-name="香格里拉・開拓異境~糞作獵手挑戰神作~" group-title="catchplay", 香格里拉・開拓異境~糞作獵手挑戰神作~
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=db35724c-43a5-42d7-a06c-6ab2877f1fb6
+http://127.0.0.1:8081/t/mpd.php?id=db35724c-43a5-42d7-a06c-6ab2877f1fb6
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="刀劍神域" tvg-name="刀劍神域" group-title="catchplay", 刀劍神域
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=bd20ad21-7f58-48da-9ae9-541178c9e561
+http://127.0.0.1:8081/t/mpd.php?id=bd20ad21-7f58-48da-9ae9-541178c9e561
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="暗殺教室" tvg-name="暗殺教室" group-title="catchplay", 暗殺教室
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=3b1f235a-e891-403a-b48f-21212a57d842
+http://127.0.0.1:8081/t/mpd.php?id=3b1f235a-e891-403a-b48f-21212a57d842
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="隊長小翼" tvg-name="隊長小翼" group-title="catchplay", 隊長小翼
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=dcbf66fa-e301-4172-9bca-786eb7d4fef1
+http://127.0.0.1:8081/t/mpd.php?id=dcbf66fa-e301-4172-9bca-786eb7d4fef1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="凡爾賽玫瑰" tvg-name="凡爾賽玫瑰" group-title="catchplay", 凡爾賽玫瑰
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=61f8c370-474f-4cf1-9f5a-edd1158667a9
+http://127.0.0.1:8081/t/mpd.php?id=61f8c370-474f-4cf1-9f5a-edd1158667a9
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="我要【招架】一切～反誤解的世界最強想成為冒險家～" tvg-name="我要【招架】一切～反誤解的世界最強想成為冒險家～" group-title="catchplay", 我要【招架】一切～反誤解的世界最強想成為冒險家～
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=a3db5dd8-9816-485d-98f1-b8870489b1b0
+http://127.0.0.1:8081/t/mpd.php?id=a3db5dd8-9816-485d-98f1-b8870489b1b0
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="re: 從零開始的異世界生活" tvg-name="re: 從零開始的異世界生活" group-title="catchplay", re: 從零開始的異世界生活
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=4adb1889-57b0-4b99-b40b-17c0568a6d14
+http://127.0.0.1:8081/t/mpd.php?id=4adb1889-57b0-4b99-b40b-17c0568a6d14
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="86 -不存在的戰區-" tvg-name="86 -不存在的戰區-" group-title="catchplay", 86 -不存在的戰區-
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=bdd3f210-afdd-41e4-9901-07c3f682e0d5
+http://127.0.0.1:8081/t/mpd.php?id=bdd3f210-afdd-41e4-9901-07c3f682e0d5
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="櫻蘭高校男公關部" tvg-name="櫻蘭高校男公關部" group-title="catchplay", 櫻蘭高校男公關部
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=f791eabf-f0b9-4c3e-be1a-bd95eec97681
+http://127.0.0.1:8081/t/mpd.php?id=f791eabf-f0b9-4c3e-be1a-bd95eec97681
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="靠廢柴技能【狀態異常】成為最強的我將蹂躪一切" tvg-name="靠廢柴技能【狀態異常】成為最強的我將蹂躪一切" group-title="catchplay", 靠廢柴技能【狀態異常】成為最強的我將蹂躪一切
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=8e7f189c-c1f0-4aa7-8bf7-a657d0fc4706
+http://127.0.0.1:8081/t/mpd.php?id=8e7f189c-c1f0-4aa7-8bf7-a657d0fc4706
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="歡迎來到實力至上主義的教室" tvg-name="歡迎來到實力至上主義的教室" group-title="catchplay", 歡迎來到實力至上主義的教室
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=7c35aa4e-1762-4857-9e5b-86c843750f92
+http://127.0.0.1:8081/t/mpd.php?id=7c35aa4e-1762-4857-9e5b-86c843750f92
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="哥布林殺手" tvg-name="哥布林殺手" group-title="catchplay", 哥布林殺手
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=9b0b62ea-db98-46be-a7de-a008ee9a7b33
+http://127.0.0.1:8081/t/mpd.php?id=9b0b62ea-db98-46be-a7de-a008ee9a7b33
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="城市獵人" tvg-name="城市獵人" group-title="catchplay", 城市獵人
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=a476da55-dd1c-4691-a97a-e93dfb269f9f
+http://127.0.0.1:8081/t/mpd.php?id=a476da55-dd1c-4691-a97a-e93dfb269f9f
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="七大罪" tvg-name="七大罪" group-title="catchplay", 七大罪
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=68fd3348-533b-460f-b7ad-5489c0b1fe81
+http://127.0.0.1:8081/t/mpd.php?id=68fd3348-533b-460f-b7ad-5489c0b1fe81
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="聖者無雙～上班族的異世界生存之道～" tvg-name="聖者無雙～上班族的異世界生存之道～" group-title="catchplay", 聖者無雙～上班族的異世界生存之道～
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=a035cd57-353f-40f3-9dba-b60ea36979a1
+http://127.0.0.1:8081/t/mpd.php?id=a035cd57-353f-40f3-9dba-b60ea36979a1
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTINF:-1 tvg-id="聖女魔力無所不能" tvg-name="聖女魔力無所不能" group-title="catchplay", 聖女魔力無所不能
+#KODIPROP:inputstream.adaptive.license_key=http://127.0.0.1:8081/t/key.php?id=464cd4f0-2ab2-49e7-a7c5-eb7e31b6395b
+http://127.0.0.1:8081/t/mpd.php?id=464cd4f0-2ab2-49e7-a7c5-eb7e31b6395b
+
+
+
+
+
+#EXTINF:-1    tvg-id="HBLTV1台(免費)"   tvg-name="HBLTV1台(免費)"     group-title="hami",HBLTV1台(免費)
+#http://127.0.0.1:8081/hami.php?id=2062
+#EXTINF:-1    tvg-id="HBLTV2台(免費)"   tvg-name="HBLTV2台(免費)"     group-title="hami",HBLTV2台(免費)
+#http://127.0.0.1:8081/hami.php?id=2063
+#EXTINF:-1    tvg-id="Hami體育1台(免費)"   tvg-name="Hami體育1台(免費)"     group-title="hami",Hami體育1台(免費)
+http://127.0.0.1:8081/hami.php?id=1816
+#EXTINF:-1    tvg-id="Hami體育3台(免費)"   tvg-name="Hami體育3台(免費)"     group-title="hami",Hami體育3台(免費)
+#http://127.0.0.1:8081/hami.php?id=2117
+#EXTINF:-1    tvg-id="NHK新聞資訊台"   tvg-name="NHK新聞資訊台"     group-title="hami",NHK新聞資訊台(免費)
+http://127.0.0.1:8081/hami.php?id=1974
+#EXTINF:-1    tvg-id="DreamWorks(免費)"   tvg-name="DreamWorks(免費)"     group-title="hami",DreamWorks(免費)
+http://127.0.0.1:8081/hami.php?id=2108
+#EXTINF:-1    tvg-id="CARTOONITO(免費)"   tvg-name="CARTOONITO(免費)"     group-title="hami",CARTOONITO(免費)
+http://127.0.0.1:8081/hami.php?id=2122
+#EXTINF:-1    tvg-id="罪案偵緝頻道(免費)"   tvg-name="罪案偵緝頻道(免費)"     group-title="hami",罪案偵緝頻道(免費)
+http://127.0.0.1:8081/hami.php?id=2123
+
+#EXTINF:-1    tvg-id="八大精彩台"   tvg-name="八大精彩台"     group-title="hami",八大精彩台(免費)
+#http://127.0.0.1:8081/hami.php?id=2120
+#EXTINF:-1    tvg-id="PET CLUB TV"   tvg-name="PET CLUB TV"     group-title="hami",PET CLUB TV(免費)
+#http://127.0.0.1:8081/hami.php?id=1905
+#EXTINF:-1    tvg-id="達文西頻道"   tvg-name="達文西頻道"   tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/FTV2.png"    group-title="hami",達文西頻道(免費)
+#http://127.0.0.1:8081/hami.php?id=1900
+#EXTINF:-1    tvg-id="Mezzo Live"   tvg-name="Mezzo Live"     group-title="hami",Mezzo Live(免費)
+http://127.0.0.1:8081/hami.php?id=2121
+ 
+
+
+
+#EXTINF:-1    tvg-id="民視"   tvg-name="民視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/5.jpg"    group-title="HTV",民視
+http://127.0.0.1:8081/t/htv/htv.php?id=5
+#EXTINF:-1    tvg-id="CNN"   tvg-name="CNN"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/6.jpg"    group-title="HTV",CNN
+http://127.0.0.1:8081/t/htv/htv.php?id=6
+#EXTINF:-1    tvg-id="台視HD"   tvg-name="台視HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/7.jpg"    group-title="HTV",台視
+http://127.0.0.1:8081/t/htv/htv.php?id=7
+#EXTINF:-1    tvg-id="人間衛視"   tvg-name="人間衛視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/8.jpg"    group-title="HTV",人間衛視
+http://127.0.0.1:8081/t/htv/htv.php?id=8
+#EXTINF:-1    tvg-id="中視"   tvg-name="中視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/9.jpg"    group-title="HTV",中視
+http://127.0.0.1:8081/t/htv/htv.php?id=9
+#EXTINF:-1    tvg-id="大愛電視台"   tvg-name="大愛電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/10.jpg"    group-title="HTV",大愛
+http://127.0.0.1:8081/t/htv/htv.php?id=10
+#EXTINF:-1    tvg-id="華視"   tvg-name="華視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/11.jpg"    group-title="HTV",華視
+http://127.0.0.1:8081/t/htv/htv.php?id=11
+#EXTINF:-1    tvg-id="動物星球頻道"   tvg-name="動物星球頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/12.jpg"    group-title="HTV",動物星球
+http://127.0.0.1:8081/t/htv/htv.php?id=12
+#EXTINF:-1    tvg-id="公共電視"   tvg-name="公共電視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/13.jpg"    group-title="HTV",公視
+http://127.0.0.1:8081/t/htv/htv.php?id=13
+#EXTINF:-1    tvg-id="公視台語台"   tvg-name="公視台語台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/160-2.jpg"    group-title="HTV",公視台語台
+http://127.0.0.1:8081/t/htv/htv.php?id=14
+#EXTINF:-1    tvg-id="好消息頻道"   tvg-name="好消息"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/15.jpg"    group-title="HTV",好消息
+http://127.0.0.1:8081/t/htv/htv.php?id=15
+#EXTINF:-1    tvg-id="原住民族頻道"   tvg-name="原住民族頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/16_5.jpg"    group-title="HTV",原住民頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=16
+#EXTINF:-1    tvg-id="客家電視台"   tvg-name="客家電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/17.jpg"    group-title="HTV",客家頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=17
+#EXTINF:-1    tvg-id="BBC EARTH"   tvg-name="BBC EARTH"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/18_0101.jpg"    group-title="HTV",BBC Earth
+http://127.0.0.1:8081/t/htv/htv.php?id=18
+#EXTINF:-1    tvg-id="Discovery"   tvg-name="Discovery"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/19.jpg"    group-title="HTV",Discovery
+http://127.0.0.1:8081/t/htv/htv.php?id=19
+#EXTINF:-1    tvg-id="中台灣生活網頻道"   tvg-name="中台灣生活網頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/20_6.jpg"    group-title="HTV",中台灣生活網
+http://127.0.0.1:8081/t/htv/htv.php?id=20
+#EXTINF:-1    tvg-id="TLC 旅遊生活頻道"   tvg-name="TLC 旅遊生活頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/21_6.jpg"    group-title="HTV",旅遊生活
+http://127.0.0.1:8081/t/htv/htv.php?id=21
+#EXTINF:-1    tvg-id="Cartoon Network"   tvg-name="Cartoon Network"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/22_6.jpg"    group-title="HTV",Cartoon Network
+http://127.0.0.1:8081/t/htv/htv.php?id=22
+#EXTINF:-1    tvg-id="CARTOONITO"   tvg-name="CARTOONITO"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/23_0101.jpg"    group-title="HTV",CARTOONITO
+http://127.0.0.1:8081/t/htv/htv.php?id=23
+#EXTINF:-1    tvg-id="MOMO親子台"   tvg-name="MOMO親子台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/24.jpg"    group-title="HTV",MOMO親子台
+http://127.0.0.1:8081/t/htv/htv.php?id=24
+#EXTINF:-1    tvg-id="東森幼幼台"   tvg-name="東森幼幼台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/25.jpg"    group-title="HTV",東森幼幼台
+http://127.0.0.1:8081/t/htv/htv.php?id=25
+#EXTINF:-1    tvg-id="緯來綜合台"   tvg-name="緯來綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/26.jpg"    group-title="HTV",緯來綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=26
+#EXTINF:-1    tvg-id="八大第一台"   tvg-name="八大第一台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/27.jpg"    group-title="HTV",八大第一台
+http://127.0.0.1:8081/t/htv/htv.php?id=27
+#EXTINF:-1    tvg-id="八大綜合台"   tvg-name="八大綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/28.jpg"    group-title="HTV",八大綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=28
+#EXTINF:-1    tvg-id="三立台灣HD"   tvg-name="三立台灣HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/29_6.jpg"    group-title="HTV",三立台灣台
+http://127.0.0.1:8081/t/htv/htv.php?id=29
+#EXTINF:-1    tvg-id="三立都會HD"   tvg-name="三立都會HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/30_6.jpg"    group-title="HTV",三立都會台
+http://127.0.0.1:8081/t/htv/htv.php?id=30
+#EXTINF:-1    tvg-id="壹電視綜合 HD"   tvg-name="壹電視綜合 HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/31_0101.jpg"    group-title="HTV",壹電視綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=31
+#EXTINF:-1    tvg-id="東森綜合台"   tvg-name="東森綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/32.jpg"    group-title="HTV",東森綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=32
+#EXTINF:-1    tvg-id="超視HD"   tvg-name="超視HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/33_1.jpg"    group-title="HTV",超視
+http://127.0.0.1:8081/t/htv/htv.php?id=33
+#EXTINF:-1    tvg-id="中天綜合台"   tvg-name="中天綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/67.jpg"    group-title="HTV",中天綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=36
+#EXTINF:-1    tvg-id="東風衛視"   tvg-name="東風衛視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/37_6.jpg"    group-title="HTV",東風衛視
+http://127.0.0.1:8081/t/htv/htv.php?id=37
+#EXTINF:-1    tvg-id="年代MUCH TV"   tvg-name="年代MUCH TV"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/38.jpg"    group-title="HTV",Much TV
+http://127.0.0.1:8081/t/htv/htv.php?id=38
+#EXTINF:-1    tvg-id="東森戲劇台"   tvg-name="東森戲劇台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/40.jpg"    group-title="HTV",東森戲劇台
+http://127.0.0.1:8081/t/htv/htv.php?id=40
+#EXTINF:-1    tvg-id="八大戲劇台"   tvg-name="八大戲劇台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/41.jpg"    group-title="HTV",八大戲劇
+http://127.0.0.1:8081/t/htv/htv.php?id=41
+#EXTINF:-1    tvg-id="TVBS歡樂台"   tvg-name="TVBS歡樂台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/42.jpg"    group-title="HTV",TVBS-G
+http://127.0.0.1:8081/t/htv/htv.php?id=42
+#EXTINF:-1    tvg-id="緯來戲劇台"   tvg-name="緯來戲劇台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/43_6.jpg"    group-title="HTV",緯來戲劇台
+http://127.0.0.1:8081/t/htv/htv.php?id=43
+#EXTINF:-1    tvg-id="高點電視台"   tvg-name="高點電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/44_5.jpg"    group-title="HTV",高點
+http://127.0.0.1:8081/t/htv/htv.php?id=44
+#EXTINF:-1    tvg-id="JET綜合台"   tvg-name="JET綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/45_6.jpg"    group-title="HTV",JET TV
+http://127.0.0.1:8081/t/htv/htv.php?id=45
+#EXTINF:-1    tvg-id="壹電視新聞HD"   tvg-name="壹電視新聞HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/49_1tv.png"    group-title="HTV",壹電視新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=49
+#EXTINF:-1    tvg-id="年代新聞"   tvg-name="年代新聞"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/50.jpg"    group-title="HTV",年代新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=50
+#EXTINF:-1    tvg-id="東森新聞台"   tvg-name="東森新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/51.jpg"    group-title="HTV",東森新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=51
+#EXTINF:-1    tvg-id="華視新聞資訊台"   tvg-name="華視新聞資訊台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/52_1.jpg"    group-title="HTV",華視新聞資訊台
+http://127.0.0.1:8081/t/htv/htv.php?id=52
+#EXTINF:-1    tvg-id="民視新聞台"   tvg-name="民視新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/53_6.jpg"    group-title="HTV",民視新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=53
+#EXTINF:-1    tvg-id="三立新聞台"   tvg-name="三立新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/54_6.jpg"    group-title="HTV",三立新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=54
+#EXTINF:-1    tvg-id="TVBS 新聞台"   tvg-name="TVBS 新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/55.jpg"    group-title="HTV",TVBS 新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=55
+#EXTINF:-1    tvg-id="TVBS"   tvg-name="TVBS"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/56.jpg"    group-title="HTV",TVBS
+http://127.0.0.1:8081/t/htv/htv.php?id=56
+#EXTINF:-1    tvg-id="東森財經新聞台"   tvg-name="東森財經新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/57_6.jpg"    group-title="HTV",東森財經新聞
+http://127.0.0.1:8081/t/htv/htv.php?id=57
+#EXTINF:-1    tvg-id="非凡新聞台"   tvg-name="非凡新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/58_6.jpg"    group-title="HTV",非凡新聞
+http://127.0.0.1:8081/t/htv/htv.php?id=58
+#EXTINF:-1    tvg-id=" CATCHPLAY電影台"   tvg-name=" CATCHPLAY電影台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/61_0101.jpg"    group-title="HTV", CATCHPLAY電影台
+http://127.0.0.1:8081/t/htv/htv.php?id=61
+#EXTINF:-1    tvg-id="東森電影台"   tvg-name="東森電影台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/62.jpg"    group-title="HTV",東森電影台
+http://127.0.0.1:8081/t/htv/htv.php?id=62
+#EXTINF:-1    tvg-id="緯來電影台"   tvg-name="緯來電影台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/63_6.jpg"    group-title="HTV",緯來電影台
+http://127.0.0.1:8081/t/htv/htv.php?id=63
+#EXTINF:-1    tvg-id="冠軍電視台"   tvg-name="冠軍電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/64_5.jpg"    group-title="HTV",冠軍電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=64
+#EXTINF:-1    tvg-id="HBO"   tvg-name="HBO"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/65.jpg"    group-title="HTV",HBO
+http://127.0.0.1:8081/t/htv/htv.php?id=65
+#EXTINF:-1    tvg-id="東森洋片台"   tvg-name="東森洋片台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/66.jpg"    group-title="HTV",東森洋片台
+http://127.0.0.1:8081/t/htv/htv.php?id=66
+#EXTINF:-1    tvg-id="中天娛樂台"   tvg-name="中天娛樂台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/67_6.jpg"    group-title="HTV",中天娛樂台
+http://127.0.0.1:8081/t/htv/htv.php?id=67
+#EXTINF:-1    tvg-id="好萊塢電影台"   tvg-name="好萊塢電影台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/68_6.jpg"    group-title="HTV",好萊塢電影台
+http://127.0.0.1:8081/t/htv/htv.php?id=68
+#EXTINF:-1    tvg-id="AMC電影"   tvg-name="AMC電影"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/69_0101.jpg"    group-title="HTV", amc最愛電影
+http://127.0.0.1:8081/t/htv/htv.php?id=69
+#EXTINF:-1    tvg-id="美麗人生購物台"   tvg-name="美麗人生購物台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/70_2.jpg"    group-title="HTV",美麗人生
+http://127.0.0.1:8081/t/htv/htv.php?id=70
+#EXTINF:-1    tvg-id="CINEMAX有線"   tvg-name="CINEMAX有線"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/71.jpg"    group-title="HTV",CINEMAX
+http://127.0.0.1:8081/t/htv/htv.php?id=71
+#EXTINF:-1    tvg-id="緯來體育台"   tvg-name="緯來體育台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/72_6.jpg"    group-title="HTV",緯來體育台
+http://127.0.0.1:8081/t/htv/htv.php?id=72
+#EXTINF:-1    tvg-id="DAZN 1"   tvg-name="DAZN 1"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/073_0312.png"    group-title="HTV",DAZN1
+http://127.0.0.1:8081/t/htv/htv.php?id=73
+#EXTINF:-1    tvg-id="DAZN 2"   tvg-name="DAZN 2"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/074_0312.png"    group-title="HTV",DAZN2
+http://127.0.0.1:8081/t/htv/htv.php?id=74
+#EXTINF:-1    tvg-id="MOMO綜合台"   tvg-name="MOMO綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/75_0101.jpg"    group-title="HTV",momo 綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=75
+#EXTINF:-1    tvg-id="博斯運動一台"   tvg-name="博斯運動一台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/76_0208.jpg"    group-title="HTV",博斯運動一台
+http://127.0.0.1:8081/t/htv/htv.php?id=76
+#EXTINF:-1    tvg-id="海豚綜合台"   tvg-name="海豚綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/77.jpg"    group-title="HTV",海豚綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=77
+#EXTINF:-1    tvg-id="民俗才藝"   tvg-name="民俗才藝"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/78_2.jpg"    group-title="HTV",民俗才藝
+http://127.0.0.1:8081/t/htv/htv.php?id=78
+#EXTINF:-1    tvg-id="MTV"   tvg-name="MTV"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/101.jpg"    group-title="HTV",MTV
+http://127.0.0.1:8081/t/htv/htv.php?id=79
+#EXTINF:-1    tvg-id="國興衛視"   tvg-name="國興衛視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/76_6.jpg"    group-title="HTV",國興衛視
+http://127.0.0.1:8081/t/htv/htv.php?id=80
+#EXTINF:-1    tvg-id="冠軍夢想台"   tvg-name="冠軍夢想台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/111_3.jpg"    group-title="HTV",冠軍夢想台
+http://127.0.0.1:8081/t/htv/htv.php?id=81
+#EXTINF:-1    tvg-id="信吉電視台"   tvg-name="信吉電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/82_1.jpg"    group-title="HTV",信吉
+http://127.0.0.1:8081/t/htv/htv.php?id=82
+#EXTINF:-1    tvg-id="生活資訊"   tvg-name="生活資訊"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/83.jpg"    group-title="HTV",生活資訊
+http://127.0.0.1:8081/t/htv/htv.php?id=83
+#EXTINF:-1    tvg-id="AXN"   tvg-name="AXN"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/84_6.jpg"    group-title="HTV",AXN
+http://127.0.0.1:8081/t/htv/htv.php?id=84
+#EXTINF:-1    tvg-id="寰宇新聞台"   tvg-name="寰宇新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/85_7.jpg"    group-title="HTV",寰宇新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=85
+#EXTINF:-1    tvg-id="信大電視台"   tvg-name="信大電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/86_2.jpg"    group-title="HTV",信大電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=86
+#EXTINF:-1    tvg-id="緯來育樂台"   tvg-name="緯來育樂台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/63.jpg"    group-title="HTV",緯來育樂台
+http://127.0.0.1:8081/t/htv/htv.php?id=87
+#EXTINF:-1    tvg-id="三立財經新聞台"   tvg-name="三立財經新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/88_6.jpg"    group-title="HTV",三立財經新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=88
+#EXTINF:-1    tvg-id="雙子衛視"   tvg-name="雙子衛視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/89_2.jpg"    group-title="HTV",雙子衛視
+http://127.0.0.1:8081/t/htv/htv.php?id=89
+#EXTINF:-1    tvg-id="靖天購物一台有線"   tvg-name="靖天購物一台有線"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/90_0504.png"    group-title="HTV",靖天購物一台
+http://127.0.0.1:8081/t/htv/htv.php?id=90
+#EXTINF:-1    tvg-id="台灣綜合台"   tvg-name="台灣綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/93_2.jpg"    group-title="HTV",台灣綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=91
+#EXTINF:-1    tvg-id="LS TIME電影台"   tvg-name="LS TIME電影台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/92.jpg"    group-title="HTV",LS TIME 電影台
+http://127.0.0.1:8081/t/htv/htv.php?id=92
+#EXTINF:-1    tvg-id="全球財經網頻道"   tvg-name="全球財經網頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/96_3.jpg"    group-title="HTV",全球財經網頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=93
+#EXTINF:-1    tvg-id="誠心電視台"   tvg-name="誠心電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/94_3.jpg"    group-title="HTV",誠心電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=94
+#EXTINF:-1    tvg-id="非凡商業台"   tvg-name="非凡商業台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/95.jpg"    group-title="HTV",非凡商業台
+http://127.0.0.1:8081/t/htv/htv.php?id=95
+#EXTINF:-1    tvg-id="台灣藝術台"   tvg-name="台灣藝術台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/90_1.jpg"    group-title="HTV",台灣藝術台
+http://127.0.0.1:8081/t/htv/htv.php?id=96
+#EXTINF:-1    tvg-id="運通財經綜合台"   tvg-name="運通財經綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/97_1.jpg"    group-title="HTV",運通財經
+http://127.0.0.1:8081/t/htv/htv.php?id=97
+#EXTINF:-1    tvg-id="z頻道"   tvg-name="z頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/85_6.jpg"    group-title="HTV",z頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=98
+#EXTINF:-1    tvg-id="霹靂台灣台"   tvg-name="霹靂台灣台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/99_1.jpg"    group-title="HTV",霹靂台灣台
+http://127.0.0.1:8081/t/htv/htv.php?id=99
+#EXTINF:-1    tvg-id="MTV綜合電視台"   tvg-name="MTV綜合電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/101.jpg"    group-title="HTV",MTV綜合電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=100
+#EXTINF:-1    tvg-id=" BBC Lifestyle"   tvg-name=" BBC Lifestyle"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/101_0101.jpg"    group-title="HTV", BBC Lifestyle
+http://127.0.0.1:8081/t/htv/htv.php?id=101
+#EXTINF:-1    tvg-id="十方法界電視台"   tvg-name="十方法界電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/104.jpg"    group-title="HTV",法界
+http://127.0.0.1:8081/t/htv/htv.php?id=102
+#EXTINF:-1    tvg-id="華藏衛視"   tvg-name="華藏衛視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/102.jpg"    group-title="HTV",華藏
+http://127.0.0.1:8081/t/htv/htv.php?id=103
+#EXTINF:-1    tvg-id="Animax"   tvg-name="Animax"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/112_3.jpg"    group-title="HTV",Animax
+http://127.0.0.1:8081/t/htv/htv.php?id=104
+#EXTINF:-1    tvg-id="世界衛星電視台"   tvg-name="世界衛星電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/106.jpg"    group-title="HTV",佛衛
+http://127.0.0.1:8081/t/htv/htv.php?id=105
+#EXTINF:-1    tvg-id="八大娛樂台"   tvg-name="八大娛樂台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/106-2.jpg"    group-title="HTV",八大娛樂台
+http://127.0.0.1:8081/t/htv/htv.php?id=106
+#EXTINF:-1    tvg-id="全大電視台"   tvg-name="全大電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/107-2.jpg"    group-title="HTV",全大電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=107
+#EXTINF:-1    tvg-id="華藝台灣台"   tvg-name="華藝台灣台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/108_0301.jpg"    group-title="HTV",華藝台灣台
+http://127.0.0.1:8081/t/htv/htv.php?id=108
+#EXTINF:-1    tvg-id="天良綜合台"   tvg-name="天良綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/92_3.jpg"    group-title="HTV",天良
+http://127.0.0.1:8081/t/htv/htv.php?id=110
+#EXTINF:-1    tvg-id="番薯衛星電視台"   tvg-name="番薯衛星電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/91.jpg"    group-title="HTV",台灣番薯
+http://127.0.0.1:8081/t/htv/htv.php?id=111
+#EXTINF:-1    tvg-id="富立電視台"   tvg-name="富立電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/109_2.jpg"    group-title="HTV",富立電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=112
+#EXTINF:-1    tvg-id="樂視台"   tvg-name="樂視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/113_0716.jpg"    group-title="HTV",樂視台
+http://127.0.0.1:8081/t/htv/htv.php?id=113
+#EXTINF:-1    tvg-id=" 三聖電視台"   tvg-name=" 三聖電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/114_0112.jpg"    group-title="HTV", 三聖電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=114
+#EXTINF:-1    tvg-id="新天地民俗台"   tvg-name="新天地民俗台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/115-2.jpg"    group-title="HTV",新天地民俗台
+http://127.0.0.1:8081/t/htv/htv.php?id=115
+#EXTINF:-1    tvg-id="紅豆2台"   tvg-name="紅豆2台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/116_0101.jpg"    group-title="HTV",紅豆2台
+http://127.0.0.1:8081/t/htv/htv.php?id=116
+#EXTINF:-1    tvg-id="威達超舜生活台"   tvg-name="威達超舜生活台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/117_2.jpg"    group-title="HTV",威達超舜生活台
+http://127.0.0.1:8081/t/htv/htv.php?id=117
+#EXTINF:-1    tvg-id="天美麗電視台"   tvg-name="天美麗電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/118_2.jpg"    group-title="HTV",天美麗電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=118
+#EXTINF:-1    tvg-id="大立電視台"   tvg-name="大立電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/ch_c-2.jpg"    group-title="HTV",大立電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=119
+#EXTINF:-1    tvg-id="大愛二台"   tvg-name="大愛二台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/201.jpg"    group-title="HTV",大愛二台
+http://127.0.0.1:8081/t/htv/htv.php?id=121
+#EXTINF:-1    tvg-id="智林體育台"   tvg-name="智林體育台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/122_2.jpg"    group-title="HTV",智林體育台
+http://127.0.0.1:8081/t/htv/htv.php?id=122
+#EXTINF:-1    tvg-id="幸福空間居家台"   tvg-name="幸福空間居家台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/125_2.jpg"    group-title="HTV",幸福空間居家台
+http://127.0.0.1:8081/t/htv/htv.php?id=125
+#EXTINF:-1    tvg-id="高點育樂台"   tvg-name="高點育樂台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/126_6.jpg"    group-title="HTV",高點育樂台
+http://127.0.0.1:8081/t/htv/htv.php?id=126
+#EXTINF:-1    tvg-id="華視教育體育文化台"   tvg-name="華視教育體育文化台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/109.jpg"    group-title="HTV",華視教育體育文化台
+http://127.0.0.1:8081/t/htv/htv.php?id=127
+#EXTINF:-1    tvg-id="希望綜合台"   tvg-name="希望綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/131_2.jpg"    group-title="HTV",希望綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=131
+#EXTINF:-1    tvg-id="寶島文化"   tvg-name="寶島文化"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/132_1204.jpg"    group-title="HTV",寶島文化台
+http://127.0.0.1:8081/t/htv/htv.php?id=132
+#EXTINF:-1    tvg-id="高雄都會台"   tvg-name="高雄都會台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/133_0301.jpg"    group-title="HTV",高雄都會台
+http://127.0.0.1:8081/t/htv/htv.php?id=133
+#EXTINF:-1    tvg-id="NHK"   tvg-name="NHK"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/135_0301.jpg"    group-title="HTV",NHK
+http://127.0.0.1:8081/t/htv/htv.php?id=135
+#EXTINF:-1    tvg-id="唯心電視台"   tvg-name="唯心電視台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/140.jpg"    group-title="HTV",唯心電視台
+http://127.0.0.1:8081/t/htv/htv.php?id=140
+#EXTINF:-1    tvg-id="Global Trekker"   tvg-name="Global Trekker"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/145_0101.jpg"    group-title="HTV",Global Trekker
+http://127.0.0.1:8081/t/htv/htv.php?id=145
+#EXTINF:-1    tvg-id=" ROCK Action"   tvg-name=" ROCK Action"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/146_0101.jpg"    group-title="HTV", ROCK Action
+http://127.0.0.1:8081/t/htv/htv.php?id=146
+#EXTINF:-1    tvg-id=" TRACE Sport Stars"   tvg-name=" TRACE Sport Stars"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/147_0101.jpg"    group-title="HTV", TRACE Sport Stars
+http://127.0.0.1:8081/t/htv/htv.php?id=147
+#EXTINF:-1    tvg-id="美食星球HD"   tvg-name="美食星球HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/148_0101.jpg"    group-title="HTV", 美食星球頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=148
+#EXTINF:-1    tvg-id=" 寰宇財經台"   tvg-name=" 寰宇財經台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/149_0101.jpg"    group-title="HTV", 寰宇財經台
+http://127.0.0.1:8081/t/htv/htv.php?id=149
+#EXTINF:-1    tvg-id="Fun探索娛樂台"   tvg-name="Fun探索娛樂台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/150_0102.jpg"    group-title="HTV",Fun探索娛樂台
+http://127.0.0.1:8081/t/htv/htv.php?id=150
+#EXTINF:-1    tvg-id="民視第一台"   tvg-name="民視第一台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/114_2.jpg"    group-title="HTV",民視第一台
+http://127.0.0.1:8081/t/htv/htv.php?id=151
+#EXTINF:-1    tvg-id="民視台灣台"   tvg-name="民視台灣台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/70_5.jpg"    group-title="HTV",民視台灣台
+http://127.0.0.1:8081/t/htv/htv.php?id=152
+#EXTINF:-1    tvg-id="鏡電視新聞台"   tvg-name="鏡電視新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/153_0719.jpg"    group-title="HTV",鏡新聞
+http://127.0.0.1:8081/t/htv/htv.php?id=153
+#EXTINF:-1    tvg-id="TBC台中生活台"   tvg-name="TBC台中生活台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/154_1204.jpg"    group-title="HTV",TBC台中生活台
+http://127.0.0.1:8081/t/htv/htv.php?id=154
+#EXTINF:-1    tvg-id="台視新聞台"   tvg-name="台視新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/47_6.jpg"    group-title="HTV",台視新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=155
+#EXTINF:-1    tvg-id="台視財經台"   tvg-name="台視財經台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/702.jpg"    group-title="HTV",台視財經台
+http://127.0.0.1:8081/t/htv/htv.php?id=156
+#EXTINF:-1    tvg-id="台視綜合台"   tvg-name="台視綜合台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/191.jpg"    group-title="HTV",台視綜合台
+http://127.0.0.1:8081/t/htv/htv.php?id=157
+#EXTINF:-1    tvg-id="小公視"   tvg-name="小公視"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/118.jpg"    group-title="HTV",公視3台
+http://127.0.0.1:8081/t/htv/htv.php?id=159
+#EXTINF:-1    tvg-id="中視新聞台"   tvg-name="中視新聞台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/161-2.jpg"    group-title="HTV",中視新聞台
+http://127.0.0.1:8081/t/htv/htv.php?id=161
+#EXTINF:-1    tvg-id="TaiwanPlus"   tvg-name="TaiwanPlus"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/163.png"    group-title="HTV",TaiwanPlus
+http://127.0.0.1:8081/t/htv/htv.php?id=163
+#EXTINF:-1    tvg-id="BBC World News"   tvg-name="BBC World News"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/207.jpg"    group-title="HTV",BBC World News
+http://127.0.0.1:8081/t/htv/htv.php?id=164
+#EXTINF:-1    tvg-id="CNA"   tvg-name="CNA"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/165-1.jpg"    group-title="HTV",CNA
+http://127.0.0.1:8081/t/htv/htv.php?id=165
+#EXTINF:-1    tvg-id="France24"   tvg-name="France24"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/801.jpg"    group-title="HTV",France24
+http://127.0.0.1:8081/t/htv/htv.php?id=166
+#EXTINF:-1    tvg-id="A-One 體育台"   tvg-name="A-One 體育台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/167_0208.jpg"    group-title="HTV",A-One 體育台
+http://127.0.0.1:8081/t/htv/htv.php?id=167
+#EXTINF:-1    tvg-id="LOVE NATURE"   tvg-name="LOVE NATURE"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/168_0813.jpg"    group-title="HTV",LOVE NATURE
+http://127.0.0.1:8081/t/htv/htv.php?id=168
+#EXTINF:-1    tvg-id="TV5MONDE"   tvg-name="TV5MONDE"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/153_2.jpg"    group-title="HTV",TV5MONDE
+http://127.0.0.1:8081/t/htv/htv.php?id=170
+#EXTINF:-1    tvg-id="Arirang"   tvg-name="Arirang"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/154_4.jpg"    group-title="HTV",Arirang
+http://127.0.0.1:8081/t/htv/htv.php?id=171
+#EXTINF:-1    tvg-id="亞洲旅遊台"   tvg-name="亞洲旅遊台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/154_5.jpg"    group-title="HTV",亞洲旅遊台
+http://127.0.0.1:8081/t/htv/htv.php?id=172
+#EXTINF:-1    tvg-id="Discovery Asia"   tvg-name="Discovery Asia"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/200_3.jpg"    group-title="HTV",Discovery Asia1
+http://127.0.0.1:8081/t/htv/htv.php?id=200
+#EXTINF:-1    tvg-id="Discovery 科學頻道"   tvg-name="Discovery 科學頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/201_1.jpg"    group-title="HTV",Discovery 科學頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=201
+#EXTINF:-1    tvg-id="DMAX有線"   tvg-name="DMAX有線"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/131-1.jpg"    group-title="HTV",DMAX
+http://127.0.0.1:8081/t/htv/htv.php?id=202
+#EXTINF:-1    tvg-id="DREAMWORKS"   tvg-name="DREAMWORKS"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/207-2.png"    group-title="HTV",DREAMWORKS
+http://127.0.0.1:8081/t/htv/htv.php?id=207
+#EXTINF:-1    tvg-id="CBeebies"   tvg-name="CBeebies"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/210_4.jpg"    group-title="HTV",CBeebies
+http://127.0.0.1:8081/t/htv/htv.php?id=209
+#EXTINF:-1    tvg-id="HGTV居家樂活頻道"   tvg-name="HGTV居家樂活頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/211_2.jpg"    group-title="HTV",HGTV居家樂活頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=211
+#EXTINF:-1    tvg-id="DiscoveryEVE"   tvg-name="DiscoveryEVE"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/132-1.jpg"    group-title="HTV",eve
+http://127.0.0.1:8081/t/htv/htv.php?id=215
+#EXTINF:-1    tvg-id="HBO HD"   tvg-name="HBO HD"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/301.jpg"    group-title="HTV",HBO HD
+http://127.0.0.1:8081/t/htv/htv.php?id=220
+#EXTINF:-1    tvg-id="HBO Signature香港"   tvg-name="HBO Signature香港"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/221_5.jpg"    group-title="HTV",HBO Signature
+http://127.0.0.1:8081/t/htv/htv.php?id=221
+#EXTINF:-1    tvg-id="HBO Family"   tvg-name="HBO Family"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/222_5.jpg"    group-title="HTV",HBO Family
+http://127.0.0.1:8081/t/htv/htv.php?id=222
+#EXTINF:-1    tvg-id="HBO Hits香港"   tvg-name="HBO Hits香港"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/223_5.jpg"    group-title="HTV",HBO Hits
+http://127.0.0.1:8081/t/htv/htv.php?id=223
+#EXTINF:-1    tvg-id="tvN"   tvg-name="tvN"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/225-2.png"    group-title="HTV",tvN
+http://127.0.0.1:8081/t/htv/htv.php?id=225
+#EXTINF:-1    tvg-id="博斯高球一台"   tvg-name="博斯高球一台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/601_2.jpg"    group-title="HTV",博斯高球一台
+http://127.0.0.1:8081/t/htv/htv.php?id=242
+#EXTINF:-1    tvg-id="博斯網球檯有線"   tvg-name="博斯網球檯有線"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/602_2.jpg"    group-title="HTV",博斯網球網
+http://127.0.0.1:8081/t/htv/htv.php?id=243
+#EXTINF:-1    tvg-id="博斯運動二台"   tvg-name="博斯運動二台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/603_1.PNG"    group-title="HTV",博斯運動二台
+http://127.0.0.1:8081/t/htv/htv.php?id=244
+#EXTINF:-1    tvg-id="博斯高球二台"   tvg-name="博斯高球二台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/605_2.jpg"    group-title="HTV",博斯高球二台
+http://127.0.0.1:8081/t/htv/htv.php?id=245
+#EXTINF:-1    tvg-id="博斯無限台"   tvg-name="博斯無限台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/246_0208.jpg"    group-title="HTV",博斯無限台
+http://127.0.0.1:8081/t/htv/htv.php?id=246
+#EXTINF:-1    tvg-id="博斯無限二台"   tvg-name="博斯無限二台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/247_0208.jpg"    group-title="HTV",博斯無限二台
+http://127.0.0.1:8081/t/htv/htv.php?id=247
+#EXTINF:-1    tvg-id="博斯魅力網"   tvg-name="博斯魅力網"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/248_0208.jpg"    group-title="HTV",博斯魅力網
+http://127.0.0.1:8081/t/htv/htv.php?id=248
+#EXTINF:-1    tvg-id="台中地方新聞"   tvg-name="台中地方新聞"   tvg-logo="http://mobile.topmso.com.tw:8080/csr_mobile_client_web/image/ch_b.png"    group-title="HTV",台中地方新聞
+http://127.0.0.1:8081/t/htv/htv.php?id=290
+#EXTINF:-1    tvg-id="雲林地方新聞"   tvg-name="雲林地方新聞"   tvg-logo="http://mobile.topmso.com.tw:8080/csr_mobile_client_web/image/ch_d.png"    group-title="HTV",雲林地方新聞
+http://127.0.0.1:8081/t/htv/htv.php?id=292
+#EXTINF:-1    tvg-id="南投地方新聞"   tvg-name="南投地方新聞"   tvg-logo="http://mobile.topmso.com.tw:8080/csr_mobile_client_web/image/ch_a.png"    group-title="HTV",南投地方新聞
+http://127.0.0.1:8081/t/htv/htv.php?id=294
+#EXTINF:-1    tvg-id="玩家頻道"   tvg-name="玩家頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/401_2.jpg"    group-title="HTV",玩家頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=401
+#EXTINF:-1    tvg-id="HAPPY頻道"   tvg-name="HAPPY頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/402_2.jpg"    group-title="HTV",Happy 頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=402
+#EXTINF:-1    tvg-id="HOT頻道"   tvg-name="HOT頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/403_2.jpg"    group-title="HTV",Hot 頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=403
+#EXTINF:-1    tvg-id="松視4台"   tvg-name="松視4台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/404.jpg"    group-title="HTV",松視4台
+http://127.0.0.1:8081/t/htv/htv.php?id=404
+#EXTINF:-1    tvg-id="松視1台"   tvg-name="松視1台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/405.jpg"    group-title="HTV",松視1台
+http://127.0.0.1:8081/t/htv/htv.php?id=405
+#EXTINF:-1    tvg-id="松視2台"   tvg-name="松視2台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/406.jpg"    group-title="HTV",松視2台
+http://127.0.0.1:8081/t/htv/htv.php?id=406
+#EXTINF:-1    tvg-id="松視3台"   tvg-name="松視3台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/407.jpg"    group-title="HTV",松視3台
+http://127.0.0.1:8081/t/htv/htv.php?id=407
+#EXTINF:-1    tvg-id="彩虹頻道"   tvg-name="彩虹頻道"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/408_2.jpg"    group-title="HTV",彩虹頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=408
+#EXTINF:-1    tvg-id="樂活頻道"   tvg-name="樂活頻道"   tvg-logo=""    group-title="HTV",樂活頻道
+http://127.0.0.1:8081/t/htv/htv.php?id=410
+
+
+
+#EXTINF:-1    tvg-id="Pandora潘朵啦高畫質玩美台"   tvg-name="Pandora潘朵啦高畫質玩美台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/411.jpg"    group-title="HTV",潘朵啦高畫質玩美台
+http://127.0.0.1:8081/t/htv/htv.php?id=411
+#EXTINF:-1    tvg-id="Pandora潘朵啦高畫質粉紅台"   tvg-name="Pandora潘朵啦高畫質粉紅台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/412.jpg"    group-title="HTV",潘朵啦高畫質粉紅台
+http://127.0.0.1:8081/t/htv/htv.php?id=412
+#EXTINF:-1    tvg-id="驚豔成人電影台"   tvg-name="驚豔成人電影台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/412.jpg"    group-title="HTV",驚艷成人電影台
+http://127.0.0.1:8081/t/htv/htv.php?id=413
+#EXTINF:-1    tvg-id="香蕉台"   tvg-name="香蕉台"   tvg-logo="http://stb.topmso.com.tw:8080/rcu/pics/channel/412.jpg"    group-title="HTV",香蕉台
+http://127.0.0.1:8081/t/htv/htv.php?id=414
+
+
+
+#EXTINF:-1 tvg-id="DAZN體育台"     tvg-name="DAZN體育台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107265/logoNobgWeb/202607241401178159.png" group-title="myvideo" ,DAZN體育台
+http://127.0.0.1:8081/myvideoweb.php?id=dazn
+#EXTINF:-1 tvg-id="MyVideo體育台"     tvg-name="MyVideo體育台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107234/logoNobgWeb/202607241404142610.png" group-title="myvideo" ,MyVideo體育台
+http://127.0.0.1:8081/myvideoweb.php?id=MyVideo-sport1
+#EXTINF:-1 tvg-id="富邦悍將"     tvg-name="富邦悍將"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607171558031376/logoNobgWeb/202607241406035859.png" group-title="myvideo" ,富邦悍將
+http://127.0.0.1:8081/myvideoweb.php?id=fubon-guardians
+#EXTINF:-1 tvg-id="博斯運動一台"     tvg-name="博斯運動一台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107171/logoNobgWeb/202607271205316767.png" group-title="myvideo" ,博斯運動一台
+http://127.0.0.1:8081/myvideoweb.php?id=sportcast-sport1
+#EXTINF:-1 tvg-id="博斯網球台"     tvg-name="博斯網球台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107192/logoNobgWeb/202607271207035457.png" group-title="myvideo" ,博斯網球台
+http://127.0.0.1:8081/myvideoweb.php?id=sportcast-tennis
+#EXTINF:-1 tvg-id="博斯高球台"     tvg-name="博斯高球台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107213/logoNobgWeb/202607271208307507.png" group-title="myvideo" ,博斯高球台
+http://127.0.0.1:8081/myvideoweb.php?id=sportcast-golf
+#EXTINF:-1 tvg-id="統一7-ELEVEn獅"     tvg-name="統一7-ELEVEn獅"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607221019208091/logoNobgWeb/202607241419237376.png" group-title="myvideo" ,統一7-ELEVEn獅
+http://127.0.0.1:8081/myvideoweb.php?id=MyVideo-sport2
+#EXTINF:-1 tvg-id="智林體育台"     tvg-name="智林體育台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107129/logoNobgWeb/202607241429401292.png" group-title="myvideo" ,智林體育台
+http://127.0.0.1:8081/myvideoweb.php?id=oursport
+#EXTINF:-1 tvg-id="甘霖體育台"     tvg-name="甘霖體育台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107674/logoNobgWeb/202607241449121691.png" group-title="myvideo" ,甘霖體育台
+http://127.0.0.1:8081/myvideoweb.php?id=getwin-sport
+#EXTINF:-1 tvg-id="東森新聞"     tvg-name="東森新聞"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107286/logoNobgWeb/202607241450301303.png" group-title="myvideo" ,東森新聞
+http://127.0.0.1:8081/myvideoweb.php?id=ebc-news
+#EXTINF:-1 tvg-id="三立iNEWS"     tvg-name="三立iNEWS"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107359/logoNobgWeb/202607271154281582.png" group-title="myvideo" ,三立iNEWS
+http://127.0.0.1:8081/myvideoweb.php?id=inews
+#EXTINF:-1 tvg-id="民視新聞台"     tvg-name="民視新聞台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107317/logoNobgWeb/202607241453164536.png" group-title="myvideo" ,民視新聞台
+http://127.0.0.1:8081/myvideoweb.php?id=ftv-news
+#EXTINF:-1 tvg-id="鏡電視新聞台"     tvg-name="鏡電視新聞台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107370/logoNobgWeb/202607241454513357.png" group-title="myvideo" ,鏡電視新聞台
+http://127.0.0.1:8081/myvideoweb.php?id=mnews
+#EXTINF:-1 tvg-id="東森財經新聞"     tvg-name="東森財經新聞"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107338/logoNobgWeb/202607241457026144.png" group-title="myvideo" ,東森財經新聞
+http://127.0.0.1:8081/myvideoweb.php?id=ebc-finance
+#EXTINF:-1 tvg-id="Bloomberg TV"     tvg-name="Bloomberg TV"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107695/logoNobgWeb/202607241458478394.png" group-title="myvideo" ,Bloomberg TV
+http://127.0.0.1:8081/myvideoweb.php?id=bloomberg
+#EXTINF:-1 tvg-id="CNBC Asia"     tvg-name="CNBC Asia"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607180100042871/logoNobgWeb/202607241500147630.png" group-title="myvideo" ,CNBC Asia
+http://127.0.0.1:8081/myvideoweb.php?id=cnbc-asia
+#EXTINF:-1 tvg-id="FRANCE 24"     tvg-name="FRANCE 24"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107579/logoNobgWeb/202607241501395767.png" group-title="myvideo" ,FRANCE 24
+http://127.0.0.1:8081/myvideoweb.php?id=france24
+#EXTINF:-1 tvg-id="亞洲新聞台"     tvg-name="亞洲新聞台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438642/logoNobgWeb/202607241503087327.png" group-title="myvideo" ,亞洲新聞台
+http://127.0.0.1:8081/myvideoweb.php?id=cna
+#EXTINF:-1 tvg-id="NHK新聞資訊台"     tvg-name="NHK新聞資訊台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438663/logoNobgWeb/202607241504252786.png" group-title="myvideo" ,NHK新聞資訊台
+http://127.0.0.1:8081/myvideoweb.php?id=nhk-world
+#EXTINF:-1 tvg-id="德國之聲電視台"     tvg-name="德國之聲電視台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438551/logoNobgWeb/202607241411198354.png" group-title="myvideo" ,德國之聲電視台
+http://127.0.0.1:8081/myvideoweb.php?id=dw
+#EXTINF:-1 tvg-id="CBeebies"     tvg-name="CBeebies"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107558/logoNobgWeb/202607241223107860.png" group-title="myvideo" ,CBeebies
+http://127.0.0.1:8081/myvideoweb.php?id=bbc-cbeebies
+#EXTINF:-1 tvg-id="MOMO親子台"     tvg-name="MOMO親子台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438684/logoNobgWeb/202607241224446260.png" group-title="myvideo" ,MOMO親子台
+http://127.0.0.1:8081/myvideoweb.php?id=momo-kids
+#EXTINF:-1 tvg-id="BBC Earth"     tvg-name="BBC Earth"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107506/logoNobgWeb/202607241156363918.png" group-title="myvideo" ,BBC Earth
+http://127.0.0.1:8081/myvideoweb.php?id=bbc-earth
+#EXTINF:-1 tvg-id="歷史頻道"     tvg-name="歷史頻道"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438736/logoNobgWeb/202607241158169648.png" group-title="myvideo" ,歷史頻道
+http://127.0.0.1:8081/myvideoweb.php?id=history
+#EXTINF:-1 tvg-id="LOVE NATURE"     tvg-name="LOVE NATURE"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438705/logoNobgWeb/202607241409514593.png" group-title="myvideo" ,LOVE NATURE
+http://127.0.0.1:8081/myvideoweb.php?id=love-nature
+#EXTINF:-1 tvg-id="CI 罪案偵緝頻道"     tvg-name="CI 罪案偵緝頻道"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438778/logoNobgWeb/202607241200107810.png" group-title="myvideo" ,CI 罪案偵緝頻道
+http://127.0.0.1:8081/myvideoweb.php?id=crime-investigation
+#EXTINF:-1 tvg-id="BBC Lifestyle"     tvg-name="BBC Lifestyle"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107537/logoNobgWeb/202607241154519946.png" group-title="myvideo" ,BBC Lifestyle
+http://127.0.0.1:8081/myvideoweb.php?id=bbc-lifestyle
+#EXTINF:-1 tvg-id="Lifetime"     tvg-name="Lifetime"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438809/logoNobgWeb/202607241202207920.png" group-title="myvideo" ,Lifetime
+http://127.0.0.1:8081/myvideoweb.php?id=lifetime
+#EXTINF:-1 tvg-id="ROCK Entertainment"     tvg-name="ROCK Entertainment"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438820/logoNobgWeb/202607241213100570.png" group-title="myvideo" ,ROCK Entertainment
+http://127.0.0.1:8081/myvideoweb.php?id=rock-enertainment
+#EXTINF:-1 tvg-id="ROCK EXTREME"     tvg-name="ROCK EXTREME"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438841/logoNobgWeb/202607241221336960.png" group-title="myvideo" ,ROCK EXTREME
+http://127.0.0.1:8081/myvideoweb.php?id=rock-extreme
+#EXTINF:-1 tvg-id="古典音樂台"     tvg-name="古典音樂台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107077/logoNobgWeb/202607241414042864.png" group-title="myvideo" ,古典音樂台
+http://127.0.0.1:8081/myvideoweb.php?id=classica
+#EXTINF:-1 tvg-id="Cmusic"     tvg-name="Cmusic"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107108/logoNobgWeb/202607241415217446.png" group-title="myvideo" ,Cmusic
+http://127.0.0.1:8081/myvideoweb.php?id=cmusic
+#EXTINF:-1 tvg-id="民視"     tvg-name="民視"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107401/logoNobgWeb/202607241404367268.png" group-title="myvideo" ,民視
+http://127.0.0.1:8081/myvideoweb.php?id=ftv
+#EXTINF:-1 tvg-id="民視第一台"     tvg-name="民視第一台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107443/logoNobgWeb/202607311721574193.png" group-title="myvideo" ,民視第一台
+http://127.0.0.1:8081/myvideoweb.php?id=ftv1
+#EXTINF:-1 tvg-id="民視台灣台"     tvg-name="民視台灣台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032107422/logoNobgWeb/202607311723562263.png" group-title="myvideo" ,民視台灣台
+http://127.0.0.1:8081/myvideoweb.php?id=ftv-tw
+#EXTINF:-1 tvg-id="哈哈台"     tvg-name="哈哈台"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607201652438757/logoNobgWeb/202607241408331893.png" group-title="myvideo" ,哈哈台
+http://127.0.0.1:8081/myvideoweb.php?id=hahatai
+#EXTINF:-1 tvg-id="好消息"     tvg-name="好消息"      tvg-logo="https://img.myvideo.net.tw/images/myvideoTVChannel/202607141032106651/logoNobgWeb/202607241412462624.png" group-title="myvideo" ,好消息
+http://127.0.0.1:8081/myvideoweb.php?id=good-tv
 
 #EXTINF:-1 tvg-id="民視第一台" tvg-name="民視第一台" tvg-logo="https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-4gtv003_mobile.png" group-title="4gtv",民視第一台
 http://127.0.0.1:8081/4gtvapp.php?id=4gtv-4gtv003
