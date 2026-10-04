@@ -18,25 +18,7 @@
       }
       
     },
-{
-      "key": "Wogg",
-      "name": "👽️┆玩偶┆4K",
-      "type": 3,
-      "api": "csp_Wogg",
-	"jar":"https://qiniu.gongxueyun.com/upload/4312160/2026-10-02/report/350167968_3_1790963314413.jar",
-      "searchable": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "site": [
-          "https://wogg.xxooo.cf",
-          "https://woggpan.888484.xyz",
-          "https://www.wogg.live",
-          "http://woggpan.xxooo.cf"
-        ],
-        "filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"
-      }
-    },
+
 		{
             "key": "网盘配置",
             "name": "youtube和网盘配置",
@@ -3024,16 +3006,8 @@
     },
 	
 	
-		{
-            "name": "garyshare",
-            "ua": "okhttp/3.0",
-            "playerType": 2,
-			"url":"https://tgbot-sub.sharewithyou.dpdns.org/sub?token=sub_0c3e1fd7a8328bd83f97cdd3",
-			####"url":"https://garysclub.sharewithyou.dpdns.org/garysclub.m3u",
-			###"url":"https://garyshare.sharewithyou.dpdns.org/garyshare_rules.m3u",
-           ### "url": "https://garyshare.sharewithyou.dpdns.org/garyshare.m3u?token=worldcup2026",
-			"epg": "https://github.com/iwinstar/epg_merge_filter/releases/download/latest/merged_epg.xml.gz"
-		},
+		
+        
 		{
             "name": "F1",
             "ua": "okhttp/3.0",
@@ -3042,39 +3016,6 @@
            ### "url": "https://garyshare.sharewithyou.dpdns.org/garyshare.m3u?token=worldcup2026",
 			"epg": "https://epg.zsdc.eu.org/t.xml"
 		},
-       {
-            "name": "對岸世界杯",
-            "ua": "okhttp/3.0",
-            "playerType": 2,
-			"url":"http://82.156.243.185:33389/fwc.m3u",
-           ### "url": "https://garyshare.sharewithyou.dpdns.org/garyshare.m3u?token=worldcup2026",
-			"epg": "https://epg.zsdc.eu.org/t.xml"
-		},
-		
-
-		{
-            "name": "不知道誰",
-            "ua": "okhttp/3.0",
-            "playerType": 2,
-			"url":"http://198.98.55.60:6666/m3u",
-			"epg": "https://epg.zsdc.eu.org/t.xml"
-		},
-		{
-            "name": "不知道誰4gtv",
-            "ua": "okhttp/3.0",
-            "playerType": 2,
-            "url": "https://ha.msbot.dpdns.org/4gtv_api.php",
-			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-             },
-		{
-			"name": "歌手每週五晚上19:00",
-            "ua": "okhttp/3.0",
-            "playerType": 2,
-            "url": "https://mgtv.ottiptv.cc/mglist.m3u?url=https://mgtv.ottiptv.cc"
-		},
-		 
-	
 	        {
             "name": "jacktv",
             "ua": "okhttp/3.0",
