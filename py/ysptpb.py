@@ -4,7 +4,6 @@
 - 采用 PHP 版成功逻辑：直播短时缓存（80s）
 - playerContent 返回播放 URL，而非 M3U8 内容
 - 完整加密算法，与 PHP 版一致
-- [新增] 在首页“影视”分类下也展示 CCTV 频道列表
 """
 
 import sys
@@ -137,10 +136,6 @@ CHANNEL_GROUPS = {
                 'cctvbqkj','cctvfyzq','cctvgeqwq','cctvnxss','cctvyswhjp',
                 'cctvystq','cctvdszn','cctvwsjk','gxpd']
 }
-
-# “影视”分类在内部映射到的频道组（用于 categoryContent 里把影视当央视处理）
-# 若想“影视”下展示全部频道，可改为 ['央视', '卫视', '数字付费']
-DIANBO_MAP_TO = '央视'
 
 CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cache')
 try:
@@ -634,21 +629,13 @@ class Spider(BaseSpider):
 
     # ========== 点播接口 ==========
     def homeContent(self, filter):
-        """
-        首页分类：新增“影视”分类，其后是“央视”“卫视”“数字付费”。
-        “影视”分类在 categoryContent 中会被映射到某个直播频道组。
-        """
+        """首页分类：只生成 央视 / 卫视 / 数字付费 三个分类。"""
         log("homeContent 被调用")
-        classes = [{'type_id': '影视', 'type_name': '影视'}]
-        for g in CHANNEL_GROUPS.keys():
-            classes.append({'type_id': g, 'type_name': g})
+        classes = [{'type_id': g, 'type_name': g} for g in CHANNEL_GROUPS.keys()]
         return {'class': classes}
 
     def categoryContent(self, tid, pg, filter, extend):
         log(f"categoryContent: tid={tid}, pg={pg}")
-        # “影视”分类 -> 映射到某个频道组（默认“央视”）
-        if tid == '影视':
-            tid = DIANBO_MAP_TO
         pg = int(pg) if pg else 1
         size = 50
         ids = CHANNEL_GROUPS.get(tid, [])
