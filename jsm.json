@@ -2987,7 +2987,11 @@
             ####"url": "https://raw.githubusercontent.com/zzq12345/epgtest/refs/heads/main/youtubeworld.m3u",
 			"url": "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubeworld.m3u"
 		 },
-		
+		 {
+      "name": "央视频直播源",
+      "type": 0,
+      "url": "http://127.0.0.1:8767/all.m3u"
+    },
             
 		{
             "name": "yang_1989",
