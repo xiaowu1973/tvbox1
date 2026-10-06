@@ -7,10 +7,18 @@
 	  "key": "py_ysptp",
       "name": "央视频tp",
       "type": 3,
-      "api": "https://garysclub.sharewithyou.dpdns.org/others/ysp-live.py",
-"url":"http://127.0.0.1:8767/all.m3u"
-},
-	
+      "api": "./ysptpb.py",
+//"url":"http://127.0.0.1:8767/all.m3u"
+
+	"searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "epg": "https://epg.tv.darwinchow.com/epg.xml.gz",
+      "catchup": {
+        "type": "append",
+        "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      }
+      
 	
 	{
    
