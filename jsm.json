@@ -12,7 +12,7 @@
 
 	"searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "epg": "https://epg.tv.darwinchow.com/epg.xml.gz",
       "catchup": {
         "type": "append",
