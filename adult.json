@@ -36,7 +36,7 @@
           "name": "51吃瓜",
 	 
       "type": 3,
-     "api": "./py/51吃瓜fix.py",
+     "api": "./py/黑暗蜜桃.py",
 	  "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
