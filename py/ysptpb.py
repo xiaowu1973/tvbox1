@@ -7,10 +7,10 @@ bkliveinfo.ysp.cctv.cn）解析央视频全部频道的能力。原 app_start / 
 云注册路径仍保留，用于 ysp 频道表外的老路径。
 
 新增 TVBox 点播（VOD）接口，支持渲染类似 TVBox 的网格界面：
-    /vod/home      -> 返回分类列表（央视、卫视、数字付费）
-    /vod/category  -> 返回对应分类下的频道卡片列表
-    /vod/detail    -> 返回频道的详情及播放列表
-    /vod/play      -> 返回真实播放地址（m3u8）
+    /vod?ac=home      -> 返回分类列表（央视、卫视、数字付费）
+    /vod?ac=category  -> 返回对应分类下的频道卡片列表
+    /vod?ac=detail    -> 返回频道的详情及播放列表
+    /vod?ac=play      -> 返回真实播放地址（m3u8）
 
 用法：
     python3 ysptp.py [--host 0.0.0.0] [--port 18766] [options]
@@ -46,7 +46,7 @@ import urllib.parse
 import urllib.request
 import uuid
 
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -3374,21 +3374,35 @@ def handle_vod_request(resolver: Resolver, request: _ProxyRequest, path: str, ur
     """处理 TVBox 点播 API 请求，生成前端网格所需的 JSON 数据"""
     
     def get_param(name, default=None):
+        # 1. 从 URL 查询参数获取
         val = query_param_decoded(url, name)
         if val is not None:
             return val
-        # Try POST body
+        # 2. 从 POST body 获取（支持 JSON 和表单）
         if request.method == "POST" and request.body:
             try:
                 data = json.loads(request.body.decode('utf-8'))
                 if isinstance(data, dict) and name in data:
                     return data[name]
             except:
-                pass
+                try:
+                    for k, v in urllib.parse.parse_qsl(request.body.decode('utf-8')):
+                        if k == name:
+                            return v
+                except:
+                    pass
+        # 3. 从路径映射（兼容 /vod/home 这种 RESTful 风格）
+        if name == "ac":
+            if path == "/vod/home": return "home"
+            if path == "/vod/category": return "category"
+            if path == "/vod/detail": return "detail"
+            if path == "/vod/play": return "play"
         return default
 
+    ac = get_param("ac")
+
     # 1. 首页分类接口
-    if path == "/vod/home" or get_param("ac") == "home":
+    if ac == "home" or path == "/vod/home":
         classes = [{"type_id": k, "type_name": k} for k in YSP_CHANNEL_GROUPS.keys()]
         resp = {"class": classes}
         respond_text(request, 200, json.dumps(resp, ensure_ascii=False), 
@@ -3396,7 +3410,7 @@ def handle_vod_request(resolver: Resolver, request: _ProxyRequest, path: str, ur
         return
 
     # 2. 分类列表接口
-    elif path == "/vod/category" or get_param("ac") in ("videolist", "category"):
+    elif ac in ("videolist", "category") or path == "/vod/category":
         tid = get_param("tid") or get_param("t") or "央视"
         pg = int(get_param("pg") or 1)
         size = 50
@@ -3429,7 +3443,7 @@ def handle_vod_request(resolver: Resolver, request: _ProxyRequest, path: str, ur
         return
 
     # 3. 详情接口
-    elif path == "/vod/detail" or get_param("ac") == "detail":
+    elif ac == "detail" or path == "/vod/detail":
         pid = get_param("ids") or get_param("id")
         if not pid:
             respond_text(request, 400, "missing id", "text/plain; charset=utf-8", [])
@@ -3456,7 +3470,7 @@ def handle_vod_request(resolver: Resolver, request: _ProxyRequest, path: str, ur
         return
 
     # 4. 播放接口
-    elif path == "/vod/play" or get_param("ac") == "play":
+    elif ac == "play" or path == "/vod/play":
         pid = get_param("id")
         if not pid or pid not in YSP_CHANNELS:
             respond_text(request, 404, "channel not found", "text/plain; charset=utf-8", [])
@@ -3566,8 +3580,8 @@ def handle_request(resolver: Resolver, request: _ProxyRequest) -> None:
     url = request.url
     path = url.split("?", 1)[0]
 
-    # 优先处理 TVBox 点播 API
-    if path.startswith("/vod/"):
+    # 优先处理 TVBox 点播 API（兼容 /vod 和 /vod/xxx）
+    if path == "/vod" or path.startswith("/vod/"):
         handle_vod_request(resolver, request, path, url)
         return
 
