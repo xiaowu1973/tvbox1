@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 央视频（点播+直播，稳定版）
-- 采用 PHP 版成功逻辑：直播短时缓存（80s）
-- playerContent 返回播放 URL，而非 M3U8 内容
-- 完整加密算法，与 PHP 版一致
+- 直播短时缓存（80s）
+- playerContent 返回播放 URL
+- homeContent 返回分类 + 推荐列表，让首页直接显示频道卡片
 """
 
-import sys
 import os
 import time
 import json
@@ -18,16 +17,33 @@ import base64
 import ssl
 import urllib.request
 from datetime import datetime
-from urllib.parse import urlparse, urljoin, urlencode
+from urllib.parse import urlencode
 
-# ========== 日志 ==========
-LOG_FILE = '/sdcard/Download/cctv.log'
-def log(msg):
+# ========== 日志（多路径尝试，避免 /sdcard 无权限） ==========
+LOG_FILE = None
+for _p in (
+    '/sdcard/Download/cctv.log',
+    '/storage/emulated/0/Download/cctv.log',
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cctv.log'),
+):
     try:
-        with open(LOG_FILE, 'a', encoding='utf-8') as f:
-            f.write(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} {msg}\n')
-    except:
-        pass
+        _d = os.path.dirname(_p)
+        if _d and not os.path.exists(_d):
+            continue
+        with open(_p, 'a', encoding='utf-8'):
+            pass
+        LOG_FILE = _p
+        break
+    except Exception:
+        continue
+
+def log(msg):
+    if LOG_FILE:
+        try:
+            with open(LOG_FILE, 'a', encoding='utf-8') as f:
+                f.write(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} {msg}\n')
+        except:
+            pass
     print(f'[CCTV] {msg}')
 
 # ========== 导入 BaseSpider ==========
@@ -45,7 +61,7 @@ except Exception as e:
         def localProxy(self, params): return []
         def destroy(self): return ""
 
-# ========== 频道数据（完整） ==========
+# ========== 频道数据 ==========
 CHANNELS = {
     'cctv1':     {'name': 'CCTV1',     'cnlid': '2024078201', 'livepid': '600001859', 'defn': 'fhd'},
     'cctv2':     {'name': 'CCTV2',     'cnlid': '2024075401', 'livepid': '600001800', 'defn': 'fhd'},
@@ -64,16 +80,16 @@ CHANNELS = {
     'cctv14':    {'name': 'CCTV14',    'cnlid': '2027248901', 'livepid': '600001809', 'defn': 'fhd'},
     'cctv15':    {'name': 'CCTV15',    'cnlid': '2027249001', 'livepid': '600001815', 'defn': 'fhd'},
     'cctv16':    {'name': 'CCTV16',    'cnlid': '2027249101', 'livepid': '600098637', 'defn': 'fhd'},
-    'cctv164k':  {'name': 'CCTV16(4K)',    'cnlid': '2027249301', 'livepid': '600099502', 'defn': 'fhd'},
+    'cctv164k':  {'name': 'CCTV16(4K)', 'cnlid': '2027249301', 'livepid': '600099502', 'defn': 'fhd'},
     'cctv17':    {'name': 'CCTV17',    'cnlid': '2027249401', 'livepid': '600001810', 'defn': 'fhd'},
-    'cctv4k':    {'name': 'CCTV4K',        'cnlid': '2029810301', 'livepid': '600002264', 'defn': 'fhd'},
-    'cctv8k':    {'name': 'CCTV8K',        'cnlid': '2026774101', 'livepid': '600156816', 'defn': 'fhd'},
-    'cgtn':      {'name': 'CGTN',           'cnlid': '2024181701', 'livepid': '600014550', 'defn': 'fhd'},
-    'cgtnfy':    {'name': 'CGTN法语频道',   'cnlid': '2024181801', 'livepid': '600084704', 'defn': 'fhd'},
-    'cgtney':    {'name': 'CGTN俄语频道',   'cnlid': '2024181901', 'livepid': '600084758', 'defn': 'fhd'},
-    'cgtnalby':  {'name': 'CGTN阿拉伯语频道','cnlid': '2024182001', 'livepid': '600084782', 'defn': 'fhd'},
-    'cgtnxby':   {'name': 'CGTN西班牙语频道','cnlid': '2024182101', 'livepid': '600084744', 'defn': 'fhd'},
-    'cgtnwyjl':  {'name': 'CGTN外语纪录频道','cnlid': '2024182301', 'livepid': '600084781', 'defn': 'fhd'},
+    'cctv4k':    {'name': 'CCTV4K',    'cnlid': '2029810301', 'livepid': '600002264', 'defn': 'fhd'},
+    'cctv8k':    {'name': 'CCTV8K',    'cnlid': '2026774101', 'livepid': '600156816', 'defn': 'fhd'},
+    'cgtn':      {'name': 'CGTN',      'cnlid': '2024181701', 'livepid': '600014550', 'defn': 'fhd'},
+    'cgtnfy':    {'name': 'CGTN法语',   'cnlid': '2024181801', 'livepid': '600084704', 'defn': 'fhd'},
+    'cgtney':    {'name': 'CGTN俄语',   'cnlid': '2024181901', 'livepid': '600084758', 'defn': 'fhd'},
+    'cgtnalby':  {'name': 'CGTN阿语',   'cnlid': '2024182001', 'livepid': '600084782', 'defn': 'fhd'},
+    'cgtnxby':   {'name': 'CGTN西语',   'cnlid': '2024182101', 'livepid': '600084744', 'defn': 'fhd'},
+    'cgtnwyjl':  {'name': 'CGTN纪录',   'cnlid': '2024182301', 'livepid': '600084781', 'defn': 'fhd'},
     'cctvfyjc':  {'name': '风云剧场',   'cnlid': '2025637103', 'livepid': '600099658', 'defn': 'shd'},
     'cctvdyjc':  {'name': '第一剧场',   'cnlid': '2026874203', 'livepid': '600099655', 'defn': 'shd'},
     'cctvhjjc':  {'name': '怀旧剧场',   'cnlid': '2026874303', 'livepid': '600099620', 'defn': 'shd'},
@@ -81,45 +97,45 @@ CHANNELS = {
     'cctvfyyy':  {'name': '风云音乐',   'cnlid': '2026874503', 'livepid': '600099660', 'defn': 'shd'},
     'cctvbqkj':  {'name': '兵器科技',   'cnlid': '2026874603', 'livepid': '600099649', 'defn': 'shd'},
     'cctvfyzq':  {'name': '风云足球',   'cnlid': '2026966203', 'livepid': '600099636', 'defn': 'shd'},
-    'cctvgeqwq': {'name': '高尔夫·网球','cnlid': '2026874703', 'livepid': '600099659', 'defn': 'shd'},
+    'cctvgeqwq': {'name': '高尔夫网球', 'cnlid': '2026874703', 'livepid': '600099659', 'defn': 'shd'},
     'cctvnxss':  {'name': '女性时尚',   'cnlid': '2026874803', 'livepid': '600099650', 'defn': 'shd'},
     'cctvyswhjp':{'name': '央视文化精品','cnlid': '2026874903', 'livepid': '600099653', 'defn': 'shd'},
     'cctvystq':  {'name': '央视台球',   'cnlid': '2026875003', 'livepid': '600099652', 'defn': 'shd'},
     'cctvdszn':  {'name': '电视指南',   'cnlid': '2026875103', 'livepid': '600099656', 'defn': 'shd'},
     'cctvwsjk':  {'name': '卫生健康',   'cnlid': '2025637003', 'livepid': '600099651', 'defn': 'shd'},
-    'bjws':      {'name': '北京卫视',       'cnlid': '2024052703', 'livepid': '600002309', 'defn': 'fhd'},
-    'jsws':      {'name': '江苏卫视',       'cnlid': '2024171103', 'livepid': '600002521', 'defn': 'fhd'},
-    'dfws':      {'name': '东方卫视',       'cnlid': '2024054503', 'livepid': '600002483', 'defn': 'fhd'},
-    'zjws':      {'name': '浙江卫视',       'cnlid': '2024054703', 'livepid': '600002520', 'defn': 'fhd'},
-    'hnws':      {'name': '湖南卫视',       'cnlid': '2024054803', 'livepid': '600002475', 'defn': 'fhd'},
-    'hbws':      {'name': '湖北卫视',       'cnlid': '2024171203', 'livepid': '600002508', 'defn': 'fhd'},
-    'gdws':      {'name': '广东卫视',       'cnlid': '2024060903', 'livepid': '600002485', 'defn': 'fhd'},
-    'gxws':      {'name': '广西卫视',       'cnlid': '2024060703', 'livepid': '600002509', 'defn': 'fhd'},
-    'hljws':     {'name': '黑龙江卫视',     'cnlid': '2029797003', 'livepid': '600002498', 'defn': 'fhd'},
-    'hnws2':     {'name': '海南卫视',       'cnlid': '2024055603', 'livepid': '600002506', 'defn': 'fhd'},
-    'cqws':      {'name': '重庆卫视',       'cnlid': '2024061103', 'livepid': '600002531', 'defn': 'fhd'},
-    'szws':      {'name': '深圳卫视',       'cnlid': '2024061303', 'livepid': '600002481', 'defn': 'fhd'},
-    'scws':      {'name': '四川卫视',       'cnlid': '2024061403', 'livepid': '600002516', 'defn': 'fhd'},
-    'henanws':   {'name': '河南卫视',       'cnlid': '2029797303', 'livepid': '600002525', 'defn': 'fhd'},
-    'fjdnhz':    {'name': '东南卫视',       'cnlid': '2024061503', 'livepid': '600002484', 'defn': 'fhd'},
-    'gzhws':     {'name': '贵州卫视',       'cnlid': '2024061603', 'livepid': '600002490', 'defn': 'fhd'},
-    'jxws':      {'name': '江西卫视',       'cnlid': '2024061703', 'livepid': '600002503', 'defn': 'fhd'},
-    'lnws':      {'name': '辽宁卫视',       'cnlid': '2024171303', 'livepid': '600002505', 'defn': 'fhd'},
-    'ahws':      {'name': '安徽卫视',       'cnlid': '2024171403', 'livepid': '600002532', 'defn': 'fhd'},
-    'hbws2':     {'name': '河北卫视',       'cnlid': '2024171503', 'livepid': '600002493', 'defn': 'fhd'},
-    'sdws':      {'name': '山东卫视',       'cnlid': '2029787903', 'livepid': '600002513', 'defn': 'fhd'},
-    'tjws':      {'name': '天津卫视',       'cnlid': '2019927003', 'livepid': '600152137', 'defn': 'fhd'},
-    'jlws':      {'name': '吉林卫视',       'cnlid': '2025561503', 'livepid': '600190405', 'defn': 'fhd'},
-    'shanxiws':  {'name': '陕西卫视',       'cnlid': '2029795103', 'livepid': '600190400', 'defn': 'fhd'},
-    'nxws':      {'name': '宁夏卫视',       'cnlid': '2025608503', 'livepid': '600190737', 'defn': 'fhd'},
-    'nmgws':     {'name': '内蒙古卫视',     'cnlid': '2025561203', 'livepid': '600190401', 'defn': 'fhd'},
-    'ynws':      {'name': '云南卫视',       'cnlid': '2025561303', 'livepid': '600190402', 'defn': 'fhd'},
-    'shanxiws2': {'name': '山西卫视',       'cnlid': '2025560803', 'livepid': '600190407', 'defn': 'fhd'},
-    'qhws':      {'name': '青海卫视',       'cnlid': '2025559103', 'livepid': '600190406', 'defn': 'fhd'},
-    'xzws':      {'name': '西藏卫视',       'cnlid': '2025558003', 'livepid': '600190403', 'defn': 'fhd'},
-    'cetv1':     {'name': '中国教育电视台1','cnlid': '2022823801', 'livepid': '600171827', 'defn': 'fhd'},
-    'gxpd':      {'name': '国学频道',       'cnlid': '2029360403', 'livepid': '600213139', 'defn': 'fhd'},
-    'xjws':      {'name': '新疆卫视',       'cnlid': '2019927403', 'livepid': '600152138', 'defn': 'fhd'}
+    'bjws':      {'name': '北京卫视',   'cnlid': '2024052703', 'livepid': '600002309', 'defn': 'fhd'},
+    'jsws':      {'name': '江苏卫视',   'cnlid': '2024171103', 'livepid': '600002521', 'defn': 'fhd'},
+    'dfws':      {'name': '东方卫视',   'cnlid': '2024054503', 'livepid': '600002483', 'defn': 'fhd'},
+    'zjws':      {'name': '浙江卫视',   'cnlid': '2024054703', 'livepid': '600002520', 'defn': 'fhd'},
+    'hnws':      {'name': '湖南卫视',   'cnlid': '2024054803', 'livepid': '600002475', 'defn': 'fhd'},
+    'hbws':      {'name': '湖北卫视',   'cnlid': '2024171203', 'livepid': '600002508', 'defn': 'fhd'},
+    'gdws':      {'name': '广东卫视',   'cnlid': '2024060903', 'livepid': '600002485', 'defn': 'fhd'},
+    'gxws':      {'name': '广西卫视',   'cnlid': '2024060703', 'livepid': '600002509', 'defn': 'fhd'},
+    'hljws':     {'name': '黑龙江卫视', 'cnlid': '2029797003', 'livepid': '600002498', 'defn': 'fhd'},
+    'hnws2':     {'name': '海南卫视',   'cnlid': '2024055603', 'livepid': '600002506', 'defn': 'fhd'},
+    'cqws':      {'name': '重庆卫视',   'cnlid': '2024061103', 'livepid': '600002531', 'defn': 'fhd'},
+    'szws':      {'name': '深圳卫视',   'cnlid': '2024061303', 'livepid': '600002481', 'defn': 'fhd'},
+    'scws':      {'name': '四川卫视',   'cnlid': '2024061403', 'livepid': '600002516', 'defn': 'fhd'},
+    'henanws':   {'name': '河南卫视',   'cnlid': '2029797303', 'livepid': '600002525', 'defn': 'fhd'},
+    'fjdnhz':    {'name': '东南卫视',   'cnlid': '2024061503', 'livepid': '600002484', 'defn': 'fhd'},
+    'gzhws':     {'name': '贵州卫视',   'cnlid': '2024061603', 'livepid': '600002490', 'defn': 'fhd'},
+    'jxws':      {'name': '江西卫视',   'cnlid': '2024061703', 'livepid': '600002503', 'defn': 'fhd'},
+    'lnws':      {'name': '辽宁卫视',   'cnlid': '2024171303', 'livepid': '600002505', 'defn': 'fhd'},
+    'ahws':      {'name': '安徽卫视',   'cnlid': '2024171403', 'livepid': '600002532', 'defn': 'fhd'},
+    'hbws2':     {'name': '河北卫视',   'cnlid': '2024171503', 'livepid': '600002493', 'defn': 'fhd'},
+    'sdws':      {'name': '山东卫视',   'cnlid': '2029787903', 'livepid': '600002513', 'defn': 'fhd'},
+    'tjws':      {'name': '天津卫视',   'cnlid': '2019927003', 'livepid': '600152137', 'defn': 'fhd'},
+    'jlws':      {'name': '吉林卫视',   'cnlid': '2025561503', 'livepid': '600190405', 'defn': 'fhd'},
+    'shanxiws':  {'name': '陕西卫视',   'cnlid': '2029795103', 'livepid': '600190400', 'defn': 'fhd'},
+    'nxws':      {'name': '宁夏卫视',   'cnlid': '2025608503', 'livepid': '600190737', 'defn': 'fhd'},
+    'nmgws':     {'name': '内蒙古卫视', 'cnlid': '2025561203', 'livepid': '600190401', 'defn': 'fhd'},
+    'ynws':      {'name': '云南卫视',   'cnlid': '2025561303', 'livepid': '600190402', 'defn': 'fhd'},
+    'shanxiws2': {'name': '山西卫视',   'cnlid': '2025560803', 'livepid': '600190407', 'defn': 'fhd'},
+    'qhws':      {'name': '青海卫视',   'cnlid': '2025559103', 'livepid': '600190406', 'defn': 'fhd'},
+    'xzws':      {'name': '西藏卫视',   'cnlid': '2025558003', 'livepid': '600190403', 'defn': 'fhd'},
+    'cetv1':     {'name': '中国教育1',  'cnlid': '2022823801', 'livepid': '600171827', 'defn': 'fhd'},
+    'gxpd':      {'name': '国学频道',   'cnlid': '2029360403', 'livepid': '600213139', 'defn': 'fhd'},
+    'xjws':      {'name': '新疆卫视',   'cnlid': '2019927403', 'livepid': '600152138', 'defn': 'fhd'},
 }
 
 CHANNEL_GROUPS = {
@@ -134,17 +150,21 @@ CHANNEL_GROUPS = {
             'cetv1','xjws'],
     '数字付费': ['cctvfyjc','cctvdyjc','cctvhjjc','cctvsjdl','cctvfyyy',
                 'cctvbqkj','cctvfyzq','cctvgeqwq','cctvnxss','cctvyswhjp',
-                'cctvystq','cctvdszn','cctvwsjk','gxpd']
+                'cctvystq','cctvdszn','cctvwsjk','gxpd'],
 }
+
+# 英文 type_id <-> 中文分组名 映射（避免中文 type_id 在部分 TVBox 里渲染异常）
+TID_TO_GROUP = {'ys': '央视', 'ws': '卫视', 'sz': '数字付费'}
+GROUP_TO_TID = {v: k for k, v in TID_TO_GROUP.items()}
 
 CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cache')
 try:
     os.makedirs(CACHE_DIR, 0o755, True)
 except:
     pass
-CACHE_LIVE_TIMEOUT = 80  # 秒
+CACHE_LIVE_TIMEOUT = 80
 
-# ========== 加密类（与 PHP 版完全一致） ==========
+# ========== 加密类 ==========
 class CKeyManager:
     DELTA = 0x9e3779b9
     ROUNDS = 16
@@ -164,13 +184,11 @@ class CKeyManager:
         self.generate_guid()
 
     def generate_guid(self):
-        parts = [
-            format(random.getrandbits(32), '08x'),
-            format(random.getrandbits(16), '04x'),
-            format(random.getrandbits(16), '04x'),
-            format(random.getrandbits(16), '04x'),
-            format(random.getrandbits(48), '012x')
-        ]
+        parts = [format(random.getrandbits(32), '08x'),
+                 format(random.getrandbits(16), '04x'),
+                 format(random.getrandbits(16), '04x'),
+                 format(random.getrandbits(16), '04x'),
+                 format(random.getrandbits(48), '012x')]
         self.guid = ''.join(parts)
         if len(self.guid) != 32:
             self.guid = self.guid.ljust(32, '0')
@@ -181,10 +199,10 @@ class CKeyManager:
 
     @staticmethod
     def calc_signature(buffer_bytes):
-        signature = 0
+        sig = 0
         for b in buffer_bytes:
-            signature = (0x83 * signature + b) & 0x7FFFFFFF
-        return signature
+            sig = (0x83 * sig + b) & 0x7FFFFFFF
+        return sig
 
     def custom_decode(self, text):
         if not text:
@@ -193,14 +211,12 @@ class CKeyManager:
         if len(text) % 4 != 0:
             text += '=' * (4 - len(text) % 4)
         trans = str.maketrans(self.customAlphabet[:64], self.standardAlphabet[:64])
-        translated = text.translate(trans)
-        return base64.b64decode(translated)
+        return base64.b64decode(text.translate(trans))
 
     def custom_encode(self, data):
         encoded = base64.b64encode(data).decode()
         trans = str.maketrans(self.standardAlphabet[:64], self.customAlphabet[:64])
-        translated = encoded.translate(trans)
-        return translated.rstrip('=')
+        return encoded.translate(trans).rstrip('=')
 
     def xor_array(self, byte_array):
         if isinstance(byte_array, bytes):
@@ -237,20 +253,16 @@ class CKeyManager:
         n_pad_len = n_pad_salt_body_zero_len % 8
         if n_pad_len:
             n_pad_len = 8 - n_pad_len
-
         p_out_buf = bytearray()
         src_buf = bytearray(8)
         src_buf[0] = (random.randint(0, 255) & 0xF8) | n_pad_len
         src_i = 1
-
         while n_pad_len:
             src_buf[src_i] = random.randint(0, 255)
             src_i += 1
             n_pad_len -= 1
-
         iv_plain = bytearray(8)
         iv_crypt = bytearray(8)
-
         i = 0
         while i < self.SALT_LEN:
             if src_i < 8:
@@ -268,7 +280,6 @@ class CKeyManager:
                 iv_crypt = bytes(temp_bytes)
                 p_out_buf.extend(temp_bytes)
                 src_i = 0
-
         p_in_buf_index = 0
         while n_in_buf_len:
             if src_i < 8:
@@ -287,7 +298,6 @@ class CKeyManager:
                 iv_crypt = bytes(temp_bytes)
                 p_out_buf.extend(temp_bytes)
                 src_i = 0
-
         i = 0
         while i < self.ZERO_LEN:
             if src_i < 8:
@@ -305,7 +315,6 @@ class CKeyManager:
                 iv_crypt = bytes(temp_bytes)
                 p_out_buf.extend(temp_bytes)
                 src_i = 0
-
         if src_i > 0:
             for j in range(src_i, 8):
                 src_buf[j] = 0
@@ -316,61 +325,7 @@ class CKeyManager:
             for j in range(8):
                 temp_bytes[j] ^= iv_plain[j]
             p_out_buf.extend(temp_bytes)
-
         return bytes(p_out_buf)
-
-    def oi_symmetry_decrypt2(self, p_in_buf, n_in_buf_len, p_key):
-        if n_in_buf_len % 8 != 0 or n_in_buf_len < 16:
-            return None
-        dest_buf = list(self.tea_decrypt_ecb(p_in_buf[:8], p_key))
-        n_pad_len = dest_buf[0] & 0x07
-        i = n_in_buf_len - 1
-        i = i - n_pad_len - self.SALT_LEN - self.ZERO_LEN
-        if i < 0:
-            return None
-        p_out_buf_len = i
-
-        iv_pre_crypt = bytearray(8)
-        iv_cur_crypt = list(p_in_buf[:8])
-        p_in_buf_offset = 8
-        dest_i = 1 + n_pad_len
-
-        salt_count = 1
-        while salt_count <= self.SALT_LEN:
-            if dest_i < 8:
-                dest_i += 1
-                salt_count += 1
-            elif dest_i == 8:
-                iv_pre_crypt = iv_cur_crypt[:]
-                iv_cur_crypt = list(p_in_buf[p_in_buf_offset:p_in_buf_offset+8])
-                for j in range(8):
-                    if p_in_buf_offset + j >= n_in_buf_len:
-                        return None
-                    dest_buf[j] ^= iv_cur_crypt[j]
-                temp_buf = self.tea_decrypt_ecb(bytes(dest_buf), p_key)
-                dest_buf = list(temp_buf)
-                p_in_buf_offset += 8
-                dest_i = 0
-
-        plain_bytes = bytearray()
-        n_plain_len = p_out_buf_len
-        while n_plain_len > 0:
-            if dest_i < 8:
-                plain_bytes.append(dest_buf[dest_i] ^ iv_pre_crypt[dest_i])
-                dest_i += 1
-                n_plain_len -= 1
-            elif dest_i == 8:
-                iv_pre_crypt = iv_cur_crypt[:]
-                iv_cur_crypt = list(p_in_buf[p_in_buf_offset:p_in_buf_offset+8])
-                for j in range(8):
-                    if p_in_buf_offset + j >= n_in_buf_len:
-                        return None
-                    dest_buf[j] ^= iv_cur_crypt[j]
-                temp_buf = self.tea_decrypt_ecb(bytes(dest_buf), p_key)
-                dest_buf = list(temp_buf)
-                p_in_buf_offset += 8
-                dest_i = 0
-        return bytes(plain_bytes)
 
     def generate_ck_guard_time(self, timestamp, guid, guard_data='-1', package_name='null', process_name='null'):
         body = struct.pack('>I', timestamp)
@@ -399,21 +354,6 @@ class CKeyManager:
         xor_encrypted = self.xor_array(encrypted)
         base64_encoded = self.custom_encode(xor_encrypted)
         return "--01" + base64_encoded
-
-    def decrypt_ckey_to_data(self, ckey):
-        ckey_without_prefix = ckey[4:]
-        base64_decoded = self.custom_decode(ckey_without_prefix)
-        if base64_decoded is None:
-            return None
-        xor_decrypted = self.xor_array(base64_decoded)
-        data_len = len(xor_decrypted) - 4
-        encrypted_data = xor_decrypted[:data_len]
-        checksum_bytes = xor_decrypted[data_len:]
-        checksum = struct.unpack('>I', checksum_bytes)[0]
-        decrypted = self.oi_symmetry_decrypt2(encrypted_data, data_len, self.TEA_CKEY)
-        if decrypted is None:
-            return None
-        return {'data': decrypted, 'checksum': checksum}
 
     def build_packet(self, params):
         data = bytearray(binascii.unhexlify('0000004200000004000004d2'))
@@ -444,7 +384,6 @@ class CKeyManager:
         data += struct.pack('>H', len(ex_json_vs)) + ex_json_vs
         ck_guard_time = params['ck_guard_time'].encode('utf-8')
         data += struct.pack('>H', len(ck_guard_time)) + ck_guard_time
-
         body_length = len(data)
         buffer = struct.pack('>H', body_length) + data
         signature = self.calc_signature(buffer)
@@ -455,7 +394,10 @@ class CKeyManager:
         if timestamp is None:
             timestamp = int(time.time())
         randFlag = base64.b64encode(os.urandom(18)).decode()
-        uuid4 = f"{random.getrandbits(16):04x}{random.getrandbits(16):04x}-{random.getrandbits(16):04x}-{random.getrandbits(16):04x}-{random.getrandbits(16):04x}-{random.getrandbits(16):04x}{random.getrandbits(16):04x}{random.getrandbits(16):04x}"
+        uuid4 = (f"{random.getrandbits(16):04x}{random.getrandbits(16):04x}-"
+                 f"{random.getrandbits(16):04x}-{random.getrandbits(16):04x}-"
+                 f"{random.getrandbits(16):04x}-{random.getrandbits(16):04x}"
+                 f"{random.getrandbits(16):04x}{random.getrandbits(16):04x}")
         ck_guard_time = self.generate_ck_guard_time(timestamp, self.guid)
         params = {
             'Platform': 4330403,
@@ -466,7 +408,7 @@ class CKeyManager:
             'appVer': 'V8.22.1035.3031',
             'randFlag': randFlag,
             'uuid4': uuid4,
-            'ck_guard_time': ck_guard_time
+            'ck_guard_time': ck_guard_time,
         }
         buffer = self.build_packet(params)
         ckey = self.encrypt_data_to_ckey(buffer)
@@ -477,51 +419,26 @@ class CKeyManager:
         ckey_result = self.generate_ckey(cnlid)
         ckey = ckey_result['ckey']
         params = ckey_result['params']
-
-        flowid = f"{random.getrandbits(16):04X}{random.getrandbits(16):04X}-{random.getrandbits(16):04X}-{random.getrandbits(16):04X}-{random.getrandbits(16):04X}-{random.getrandbits(16):04X}{random.getrandbits(16):04X}{random.getrandbits(16):04X}_4330403"
+        flowid = (f"{random.getrandbits(16):04X}{random.getrandbits(16):04X}-"
+                  f"{random.getrandbits(16):04X}-{random.getrandbits(16):04X}-"
+                  f"{random.getrandbits(16):04X}{random.getrandbits(16):04X}"
+                  f"{random.getrandbits(16):04X}_4330403")
         spvcode = "MSgzMDoyMTYwLDYwOjIxNjB8MzA6MjE2MCw2MDoyMTYwKTsyKDMwOjIxNjAsNjA6MjE2MHwzMDoyMTYwLDYwOjIxNjAp"
-
         return {
-            "atime": "120",
-            "livepid": livepid,
-            "cnlid": cnlid,
-            "appVer": "V8.22.1035.3031",
-            "app_version": "300090",
-            "caplv": "1",
-            "cmd": "2",
-            "defn": defn,
-            "device": "iPhone",
-            "encryptVer": "4.2",
-            "getpreviewinfo": "0",
-            "hevclv": "33",
-            "lang": "zh-Hans_JP",
-            "livequeue": "0",
-            "logintype": "1",
-            "nettype": "1",
-            "newnettype": "1",
-            "newplatform": "4330403",
-            "platform": "4330403",
-            "sdtfrom": "v3021",
-            "spacode": "23",
-            "spaudio": "1",
-            "spdemuxer": "6",
-            "spdrm": "2",
-            "spdynamicrange": "7",
-            "spflv": "1",
-            "spflvaudio": "1",
-            "sphdrfps": "60",
-            "sphttps": "0",
-            "spvcode": spvcode,
-            "spvideo": "4",
-            "stream": "1",
-            "system": "1",
-            "sysver": "ios18.2.1",
-            "uhd_flag": "4",
-            "cKey": ckey,
-            "guid": self.guid,
-            "fntick": str(params['Timestamp']),
-            "flowid": flowid,
-            "playbacktime": "0"
+            "atime": "120", "livepid": livepid, "cnlid": cnlid,
+            "appVer": "V8.22.1035.3031", "app_version": "300090",
+            "caplv": "1", "cmd": "2", "defn": defn, "device": "iPhone",
+            "encryptVer": "4.2", "getpreviewinfo": "0", "hevclv": "33",
+            "lang": "zh-Hans_JP", "livequeue": "0", "logintype": "1",
+            "nettype": "1", "newnettype": "1", "newplatform": "4330403",
+            "platform": "4330403", "sdtfrom": "v3021", "spacode": "23",
+            "spaudio": "1", "spdemuxer": "6", "spdrm": "2",
+            "spdynamicrange": "7", "spflv": "1", "spflvaudio": "1",
+            "sphdrfps": "60", "sphttps": "0", "spvcode": spvcode,
+            "spvideo": "4", "stream": "1", "system": "1",
+            "sysver": "ios18.2.1", "uhd_flag": "4", "cKey": ckey,
+            "guid": self.guid, "fntick": str(params['Timestamp']),
+            "flowid": flowid, "playbacktime": "0",
         }
 
     def build_playback_params(self, cnlid, livepid, defn, playback_timestamp):
@@ -540,7 +457,6 @@ class Spider(BaseSpider):
     def init(self, extend):
         log(f"init 被调用，extend={extend}")
 
-    # ---------- 网络请求（优先 self.fetch） ----------
     def _http_get(self, url, headers=None, timeout=15):
         if headers is None:
             headers = {}
@@ -564,15 +480,10 @@ class Spider(BaseSpider):
             log(f"urllib 请求失败: {e}")
             return None
 
-    # ---------- 获取播放地址 ----------
     def _get_play_url(self, ch, playseek=None):
-        """
-        获取播放地址，直播时缓存（80秒），回看不缓存
-        返回播放 URL（M3U8 地址），供 TVBox 播放器直接请求
-        """
         is_live = (playseek is None or playseek == '')
-        cache_file = os.path.join(CACHE_DIR, hashlib.md5(ch['cnlid'].encode()).hexdigest() + '.cache')
-
+        cache_file = os.path.join(
+            CACHE_DIR, hashlib.md5(ch['cnlid'].encode()).hexdigest() + '.cache')
         if is_live:
             if os.path.exists(cache_file):
                 try:
@@ -584,26 +495,24 @@ class Spider(BaseSpider):
                 except:
                     pass
             log(f"缓存未命中或过期: {ch['name']}")
-
         manager = CKeyManager()
         if is_live:
             params = manager.build_live_params(ch['cnlid'], ch['livepid'], ch['defn'])
         else:
             try:
                 parts = playseek.split('-')
-                if len(parts) < 1:
-                    log(f"回看参数错误: {playseek}")
-                    return None
                 start_dt = datetime.strptime(parts[0], '%Y%m%d%H%M%S')
                 timestamp = int(start_dt.timestamp())
-                params = manager.build_playback_params(ch['cnlid'], ch['livepid'], ch['defn'], timestamp)
+                params = manager.build_playback_params(
+                    ch['cnlid'], ch['livepid'], ch['defn'], timestamp)
             except Exception as e:
                 log(f"回看时间解析失败: {e}")
                 return None
-
         url = "https://bkliveinfo.ysp.cctv.cn?" + urlencode(params)
-        headers = {'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15',
-                   'Accept': 'application/json'}
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15',
+            'Accept': 'application/json',
+        }
         text = self._http_get(url, headers, timeout=15)
         if not text:
             log("获取接口返回空")
@@ -627,37 +536,60 @@ class Spider(BaseSpider):
             log(f"解析响应失败: {e}")
         return None
 
+    # ---------- 卡片生成工具 ----------
+    @staticmethod
+    def _make_card(pid):
+        ch = CHANNELS.get(pid)
+        if not ch:
+            return None
+        return {
+            'vod_id': pid,
+            'vod_name': ch['name'],
+            'vod_pic': '',
+            'vod_remarks': '直播',
+        }
+
     # ========== 点播接口 ==========
     def homeContent(self, filter):
-        """首页分类：只生成 央视 / 卫视 / 数字付费 三个分类。"""
+        """
+        返回：
+          - class: 央视 / 卫视 / 数字付费 三个分类
+          - list : 央视全部频道（让首页直接铺满卡片网格）
+        """
         log("homeContent 被调用")
-        classes = [{'type_id': g, 'type_name': g} for g in CHANNEL_GROUPS.keys()]
-        return {'class': classes}
+        classes = [
+            {'type_id': 'ys', 'type_name': '央视'},
+            {'type_id': 'ws', 'type_name': '卫视'},
+            {'type_id': 'sz', 'type_name': '数字付费'},
+        ]
+        # 首页推荐：央视全部频道（27 个），点播首页会直接铺满卡片
+        videos = []
+        for pid in CHANNEL_GROUPS.get('央视', []):
+            card = self._make_card(pid)
+            if card:
+                videos.append(card)
+        return {'class': classes, 'list': videos}
 
     def categoryContent(self, tid, pg, filter, extend):
         log(f"categoryContent: tid={tid}, pg={pg}")
+        group_name = TID_TO_GROUP.get(tid, tid)
         pg = int(pg) if pg else 1
         size = 50
-        ids = CHANNEL_GROUPS.get(tid, [])
+        ids = CHANNEL_GROUPS.get(group_name, [])
         total = len(ids)
         start = (pg - 1) * size
         end = min(start + size, total)
         videos = []
         for pid in ids[start:end]:
-            ch = CHANNELS.get(pid)
-            if ch:
-                videos.append({
-                    'vod_id': pid,
-                    'vod_name': ch['name'],
-                    'vod_pic': '',
-                    'vod_remarks': '直播'
-                })
+            card = self._make_card(pid)
+            if card:
+                videos.append(card)
         return {
             'list': videos,
             'page': pg,
             'pagecount': (total + size - 1) // size,
             'limit': size,
-            'total': total
+            'total': total,
         }
 
     def detailContent(self, ids):
@@ -672,7 +604,7 @@ class Spider(BaseSpider):
                     'vod_remarks': '直播',
                     'vod_content': '央视频直播',
                     'vod_play_from': '央视频',
-                    'vod_play_url': '播放$' + pid
+                    'vod_play_url': '播放$' + pid,
                 }]
             }
         return {'list': []}
@@ -683,7 +615,6 @@ class Spider(BaseSpider):
         if not ch:
             log(f"频道不存在: {id}")
             return {'url': '', 'parse': 0, 'jx': 0}
-
         play_url = self._get_play_url(ch, playseek=None)
         if play_url:
             log(f"返回播放 URL: {play_url[:80]}...")
@@ -693,14 +624,13 @@ class Spider(BaseSpider):
                 'url': play_url,
                 'header': {
                     'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15',
-                    'Referer': 'https://ysp.cctv.cn/'
-                }
+                    'Referer': 'https://ysp.cctv.cn/',
+                },
             }
         else:
             log("获取播放 URL 失败")
             return {'url': '', 'parse': 0, 'jx': 0}
 
-    # ========== 直播模式（备用） ==========
     def liveContent(self, url):
         log("liveContent 被调用（备用）")
         try:
@@ -713,7 +643,10 @@ class Spider(BaseSpider):
                 for pid in ids:
                     if pid in CHANNELS:
                         ch = CHANNELS[pid]
-                        lines.append(f'#EXTINF:-1 tvg-id="{ch["name"]}" tvg-name="{ch["name"]}" group-title="{group_name}",{ch["name"]}')
+                        lines.append(
+                            f'#EXTINF:-1 tvg-id="{ch["name"]}" '
+                            f'tvg-name="{ch["name"]}" '
+                            f'group-title="{group_name}",{ch["name"]}')
                         lines.append(base_proxy + f'fun=cctv&id={pid}')
             return '\n'.join(lines)
         except Exception as e:
@@ -729,7 +662,7 @@ class Spider(BaseSpider):
 
 # ========== 测试 ==========
 if __name__ == '__main__':
-    print("测试央视频稳定版（返回 URL）")
+    print("测试央视频稳定版")
     spider = Spider()
     print("分类:", spider.homeContent(False))
     spider.destroy()
