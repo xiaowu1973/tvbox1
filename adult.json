@@ -33,10 +33,10 @@
  {
    
 	  "key": "py_51cg",
-          "name": "51吃瓜",
+          "name": "暗黑蜜桃",
 	 
       "type": 3,
-     "api": "./py/黑暗蜜桃.py",
+     "api": "./py/暗黑蜜桃.py",
 	  "searchable": 1,
       "quickSearch": 1,
       "filterable": 0
