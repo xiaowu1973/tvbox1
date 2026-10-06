@@ -2,8 +2,10 @@
   "urls": [
 
   
-    
-   
+    {
+      "name":"艾文",
+      "url":"./aiwen.json"
+    },
    {
     "name": "摸魚",
     "url":"http://我不是.小不点.com"
