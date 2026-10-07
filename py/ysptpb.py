@@ -1,14 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""TVBox / 影視倉 Native PySpider 模組 - 央視頻版 (動態解析修正版)
+"""TVBox / 影視倉 Native PySpider 模組 - 央視頻版 (SSL 驗證豁免 & Header 修正版)
 
 文件路徑：./py/ysptpb.py
 """
 
-import json
-import urllib.request
 from datetime import datetime, timedelta
+import json
+import ssl
+import urllib.request
+
+# -------------------------------------------------------------------
+# 1. 禁用 Android Python 的 SSL 強制驗證 (解決 CERTIFICATE_VERIFY_FAILED)
+# -------------------------------------------------------------------
+try:
+    ssl._create_default_https_context = ssl._create_unverified_context
+except Exception:
+    pass
 
 try:
     from base.spider import Spider
@@ -185,10 +194,8 @@ class Spider(Spider):
         ch = CHANNELS[tid]
         play_urls = []
 
-        # 傳遞頻道 Code 給 playerContent 解析
         play_urls.append(f"🔴 實時直播${tid}")
 
-        # 7 天回看選集
         now = datetime.now()
         for i in range(7):
             day_date = now - timedelta(days=i)
@@ -225,13 +232,13 @@ class Spider(Spider):
         return {"list": vod_list}
 
     def playerContent(self, flag, id, vipFlags):
-        """動態請求央視官方 API 獲取真實的 m3u8 地址"""
         cid = id.split("__shift__")[0]
         shift_date = id.split("__shift__")[1] if "__shift__" in id else ""
 
         real_url = ""
+
+        # 1. 請求央視 VDN API 獲取真實直播流
         try:
-            # 請求央視官方 VDN API
             api_url = f"https://vdn.live.cntv.cn/api/getLiveUrl1.do?channel={cid}&client=channel_cctv"
             req = urllib.request.Request(
                 api_url,
@@ -250,7 +257,9 @@ class Spider(Spider):
                 real_url = (
                     hls_dict.get("hls1")
                     or hls_dict.get("hls2")
-                    or next(iter(hls_dict.values()), "")
+                    or hls_dict.get("hls3")
+                    or hls_dict.get("hls4")
+                    or ""
                 )
 
             if shift_date and real_url:
@@ -260,16 +269,21 @@ class Spider(Spider):
                     else f"?timeshift={shift_date}"
                 )
         except Exception:
-            # 若官方 API 失敗，降級請求本地 Flask 服務（端口 8767）
+            pass
+
+        # 2. 如果 API 解析失敗，自動降級調用本地 v9.0 服務 (8767 端口)
+        if not real_url:
             real_url = f"http://127.0.0.1:8767/live/{cid}"
 
+        # 3. 補齊播放器必備標頭 (ExoPlayer 必備)
         return {
             "parse": 0,
             "url": real_url,
             "header": {
                 "User-Agent": (
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-                    " AppleWebKit/537.36"
+                    " AppleWebKit/537.36 (KHTML, like Gecko)"
+                    " Chrome/120.0.0.0 Safari/537.36"
                 ),
                 "Referer": "https://tv.cctv.com/",
             },
