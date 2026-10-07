@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""TVBox / 影視倉 Native PySpider 模組 - 央視頻版
+"""TVBox / 影視倉 Native PySpider 模組 - 央視頻版 (動態解析修正版)
 
 文件路徑：./py/ysptpb.py
-接口類型：type: 3
 """
 
-from datetime import datetime, timedelta
 import json
-import sys
+import urllib.request
+from datetime import datetime, timedelta
 
-# 嘗試導入 TVBox 爬蟲基類，若不存在則建立兼容基類
 try:
     from base.spider import Spider
 except ImportError:
@@ -22,9 +20,6 @@ except ImportError:
             pass
 
 
-# -------------------------------------------------------------------
-# 頻道數據庫（僅保留央視頻道）
-# -------------------------------------------------------------------
 CHANNELS = {
     "cctv1": {
         "name": "CCTV1",
@@ -144,55 +139,45 @@ class Spider(Spider):
         pass
 
     def homeContent(self, filter):
-        """TVBox 首頁分類與推薦列表"""
-        result = {}
-        # 僅保留「央視」分類
-        result["class"] = [{"type_id": "1", "type_name": "央視"}]
-
-        vod_list = []
-        for cid, ch in CHANNELS.items():
-            vod_list.append(
+        return {
+            "class": [{"type_id": "1", "type_name": "央視"}],
+            "list": [
                 {
                     "vod_id": cid,
                     "vod_name": ch["name"],
                     "vod_pic": ch["pic"],
                     "vod_remarks": "直播",
                 }
-            )
-        result["list"] = vod_list
-        return result
+                for cid, ch in CHANNELS.items()
+            ],
+        }
 
     def homeVideoContent(self):
         return self.homeContent(False)
 
     def categoryContent(self, tid, pg, filter, extend):
-        """分類頁面數據獲取"""
-        result = {}
         vod_list = []
-
         if str(tid) == "1":
-            for cid, ch in CHANNELS.items():
-                vod_list.append(
-                    {
-                        "vod_id": cid,
-                        "vod_name": ch["name"],
-                        "vod_pic": ch["pic"],
-                        "vod_remarks": "直播",
-                    }
-                )
-
-        result["page"] = 1
-        result["pagecount"] = 1
-        result["limit"] = len(vod_list)
-        result["total"] = len(vod_list)
-        result["list"] = vod_list
-        return result
+            vod_list = [
+                {
+                    "vod_id": cid,
+                    "vod_name": ch["name"],
+                    "vod_pic": ch["pic"],
+                    "vod_remarks": "直播",
+                }
+                for cid, ch in CHANNELS.items()
+            ]
+        return {
+            "page": 1,
+            "pagecount": 1,
+            "limit": len(vod_list),
+            "total": len(vod_list),
+            "list": vod_list,
+        }
 
     def detailContent(self, array):
-        """詳情頁：點擊頻道卡片後展開選集（直播 + 近7天回看）"""
         if not array:
             return {"list": []}
-
         tid = array[0]
         if tid not in CHANNELS:
             return {"list": []}
@@ -200,18 +185,18 @@ class Spider(Spider):
         ch = CHANNELS[tid]
         play_urls = []
 
-        # 1. 🔴 實時直播流
-        live_stream = f"http://live.cctv.com/hls/{tid}/index.m3u8"
-        play_urls.append(f"🔴 實時直播${live_stream}")
+        # 傳遞頻道 Code 給 playerContent 解析
+        play_urls.append(f"🔴 實時直播${tid}")
 
-        # 2. 📅 近 7 天歷史回看
+        # 7 天回看選集
         now = datetime.now()
         for i in range(7):
             day_date = now - timedelta(days=i)
             date_str = day_date.strftime("%Y%m%d")
             display_date = day_date.strftime("%m月%d日")
-            timeshift_stream = f"http://live.cctv.com/hls/{tid}/index.m3u8?timeshift={date_str}"
-            play_urls.append(f"📅 {display_date} 全天回看${timeshift_stream}")
+            play_urls.append(
+                f"📅 {display_date} 全天回看${tid}__shift__{date_str}"
+            )
 
         vod_detail = {
             "vod_id": tid,
@@ -219,39 +204,74 @@ class Spider(Spider):
             "type_name": "央視",
             "vod_pic": ch["pic"],
             "vod_remarks": "直播",
-            "vod_content": f"央視頻原生點播 - {ch['title']}，支持 7 天時移回看。",
+            "vod_content": f"央視頻原生點播 - {ch['title']}",
             "vod_play_from": "央視頻",
             "vod_play_url": "#".join(play_urls),
         }
-
         return {"list": [vod_detail]}
 
     def searchContent(self, key, quick, pg=1):
-        """搜尋功能"""
-        vod_list = []
-        for cid, ch in CHANNELS.items():
-            if (
-                key.lower() in ch["name"].lower()
-                or key.lower() in ch["title"].lower()
-            ):
-                vod_list.append(
-                    {
-                        "vod_id": cid,
-                        "vod_name": ch["name"],
-                        "vod_pic": ch["pic"],
-                        "vod_remarks": "直播",
-                    }
-                )
+        vod_list = [
+            {
+                "vod_id": cid,
+                "vod_name": ch["name"],
+                "vod_pic": ch["pic"],
+                "vod_remarks": "直播",
+            }
+            for cid, ch in CHANNELS.items()
+            if key.lower() in ch["name"].lower()
+            or key.lower() in ch["title"].lower()
+        ]
         return {"list": vod_list}
 
     def playerContent(self, flag, id, vipFlags):
-        """播放器解析，直接回傳直鏈"""
+        """動態請求央視官方 API 獲取真實的 m3u8 地址"""
+        cid = id.split("__shift__")[0]
+        shift_date = id.split("__shift__")[1] if "__shift__" in id else ""
+
+        real_url = ""
+        try:
+            # 請求央視官方 VDN API
+            api_url = f"https://vdn.live.cntv.cn/api/getLiveUrl1.do?channel={cid}&client=channel_cctv"
+            req = urllib.request.Request(
+                api_url,
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                        " AppleWebKit/537.36 (KHTML, like Gecko)"
+                        " Chrome/120.0.0.0 Safari/537.36"
+                    ),
+                    "Referer": "https://tv.cctv.com/",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                hls_dict = data.get("hls_url", {})
+                real_url = (
+                    hls_dict.get("hls1")
+                    or hls_dict.get("hls2")
+                    or next(iter(hls_dict.values()), "")
+                )
+
+            if shift_date and real_url:
+                real_url += (
+                    f"&timeshift={shift_date}"
+                    if "?" in real_url
+                    else f"?timeshift={shift_date}"
+                )
+        except Exception:
+            # 若官方 API 失敗，降級請求本地 Flask 服務（端口 8767）
+            real_url = f"http://127.0.0.1:8767/live/{cid}"
+
         return {
             "parse": 0,
-            "url": id,
+            "url": real_url,
             "header": {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-                "Referer": "https://www.cctv.com/",
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                    " AppleWebKit/537.36"
+                ),
+                "Referer": "https://tv.cctv.com/",
             },
         }
 
