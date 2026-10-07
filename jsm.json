@@ -13,7 +13,7 @@
 	"searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "epg": "https://epg.tv.darwinchow.com/epg.xml.gz",
+      "epg": "https://github.com/zzq1234567890/epg/raw/refs/heads/main/swepg.xml.gz",
       "catchup": {
         "type": "append",
         "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
@@ -31,7 +31,7 @@
 	  "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "epg": "https://epg.tv.darwinchow.com/epg.xml.gz",
+      "epg": "https://github.com/zzq1234567890/epg/raw/refs/heads/main/swepg.xml.gz",
       "catchup": {
         "type": "append",
         "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
