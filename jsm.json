@@ -19,7 +19,21 @@
         "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
       }
 },
-      
+
+{
+"key": "yangshipin_vod",
+	"name": "央视频测试", 
+"type": 3,
+"api": "./py/yangshipin.py",
+	"epg": "https://github.com/zzq1234567890/epg/raw/refs/heads/main/swepg.xml.gz",
+      "catchup": {
+        "type": "append",
+        "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      },
+	"ext": {
+		
+	}
+},
 	
 	{
    
