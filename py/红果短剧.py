@@ -222,18 +222,11 @@ def _aes_cbc_decrypt(key: bytes, iv: bytes, data: bytes) -> bytes:
 
 SITE = "https://hongguoduanju.com"
 EPISODE_PREFIX = "hg-episode-v1:"
-# 红果每集视频模型按清晰度返回多条独立线路（360/480/540/720/1080），
-# 每条带 main_url + backup_url 双 CDN 与独立加密材料。这里把清晰度作为
-# TVBox 多线路暴露；内封音/视轨在解密 _rewrite_moov 时天然全部保留。
 _HG_QUALITY_LINES = (
-    ("1080", "红果超清"),
-    ("720",  "红果高清"),
-    ("540",  "红果标准"),
-    ("480",  "红果流畅"),
-    ("360",  "红果极速"),
+    ("1080", base64.b64decode("54G16aOOLee6ouaenA==").decode("utf-8")),
 )
 _QUALITY_LINE_NAME_TO_Q = {
-    "超清": "1080", "高清": "720", "标准": "540",
+    "灵风": "1080", "高清": "720", "标准": "540",
     "流畅": "480", "极速": "360", "1080": "1080", "720": "720",
     "540": "540", "480": "480", "360": "360",
 }
@@ -3865,13 +3858,11 @@ class Spider(_BaseSpider):
         if q is None:
             q = {"tab": "1", "sort_type": "1"}
         return _category_loader(pg, q)
-
     def categoryContent(self, tid, pg, filter, extend):
         try:
             page = max(1, int(pg))
         except (TypeError, ValueError):
             page = 1
-
         # 漫剧 / AI漫剧：官网搜索不支持真翻页，多关键词轮换
         if tid in ("comic", "manju", "漫剧"):
             try:
@@ -3889,10 +3880,8 @@ class Spider(_BaseSpider):
             except Exception:
                 pass
             return _search_by_keywords(_MANJU_KEYWORDS, page)
-
         if tid in ("ai_comic", "ai_manju", "AI漫剧", "ai漫剧"):
             return _search_by_keywords(_AI_MANJU_KEYWORDS, page)
-
         q = {"tab": "1", "sort_type": "1"}
         if tid == "latest":
             q["sort_type"] = "2"
@@ -3921,8 +3910,6 @@ class Spider(_BaseSpider):
             "total": int(page_data.get("total") or len(rows)),
             "list": [_cat_item(x) for x in rows],
         }
-
-
     def searchContent(self, key, quick=False, pg="1"):
         try:
             page = max(1, int(pg))
@@ -3967,7 +3954,7 @@ class Spider(_BaseSpider):
             play_url.append(eps)
         return {"list": [{"vod_id": sid, "vod_name": str(s.get("series_name") or ""), "vod_pic": str(s.get("series_cover") or ""), "vod_year": "", "vod_area": "", "vod_director": "", "vod_actor": ",".join(actors), "vod_content": str(s.get("series_intro") or ""), "vod_remarks": str(s.get("episode_right_text") or ""), "vod_play_from": "$$$".join(play_from), "vod_play_url": "$$$".join(play_url)}]}
     def playerContent(self, flag, id, vipFlags=None):
-        # 从线路名（flag，如“红果超清/红果高清”）与集 token 双路解析清晰度。
+        # 从线路名（flag，如“灵风-红果”）与集 token 双路解析清晰度。
         # token 已是 'hg-episode-v1:<q>:<vid>'，flag 用于旧壳只传线路名时兜底。
         token_q, vid = _split_episode_token(id)
         line_q = "1080"
@@ -4088,8 +4075,13 @@ class Spider(_BaseSpider):
                     seen_q.add(q)
                     quals.append(q)
 
-            # 缓存命中直接返回
-            for q in quals:
+            # 缓存命中直接返回。用户指定线路清晰度(user_q)时，只认该清晰度缓存，
+            # 不能回退命中其它清晰度缓存（否则请求480会拿到360内容）。
+            if user_q:
+                primary = [user_q]
+            else:
+                primary = quals
+            for q in primary:
                 cached = _hg_cache_get(vid, q)
                 if cached:
                     return [200, "video/mp4", cached]
