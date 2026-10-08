@@ -36,6 +36,7 @@
         "type": "append",
         "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
       }
+	},
       {
       "key": "py_hg",
       "name": "红果短剧py",
