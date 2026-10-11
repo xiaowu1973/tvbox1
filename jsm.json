@@ -2993,7 +2993,7 @@
             ####"url": "https://raw.githubusercontent.com/zzq12345/epgtest/refs/heads/main/youtubeworld.m3u",
 			"url": "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubeworld.m3u"
 		 },
-		 {
+		 
     
 {
 "api": "./yangshipin.py",
@@ -3003,10 +3003,8 @@
       "catchup": {
         "type": "append",
         "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-      },
-	"ext": {
-		
-	}
+      }
+	
 },
 		{
             "name": "yang_1989",
