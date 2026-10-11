@@ -2994,11 +2994,20 @@
 			"url": "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubeworld.m3u"
 		 },
 		 {
-      "name": "央视频直播源",
-      "type": 0,
-      "url": "http://127.0.0.1:8767/all.m3u"
-    },
-            
+    
+{
+"api": "./yangshipin.py",
+"ext": {},
+"name": "央视频",
+	"epg": "https://github.com/zzq1234567890/epg/raw/refs/heads/main/swepg.xml.gz",
+      "catchup": {
+        "type": "append",
+        "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      },
+	"ext": {
+		
+	}
+},
 		{
             "name": "yang_1989",
             "type": 3,
