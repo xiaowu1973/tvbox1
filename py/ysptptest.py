@@ -2102,6 +2102,8 @@ class _TsCache(object):
 TS_CACHE = _TsCache(0)
 
 # ================================================================ Spider 主类
+
+    # ================================================================ Spider 主类
 class Spider(SpiderBase):
 
     def __init__(self):
@@ -2112,17 +2114,15 @@ class Spider(SpiderBase):
         self.epg_xml = EPG_XML_URL
         self.epg_ids = {}
         self.logo_mode = "direct"
-        self.wait = 12.0
-        self.cast_wait = 20.0
+        self.wait = 6.0          # ★ 改：12 → 6（防 TVBox NanoHTTPD 超时）
+        self.cast_wait = 6.0     # ★ 改：20 → 6
         self.holdback = 1
         self.cast_entries = False
         self.live_mode = "proxy"
         self.zap_debounce = 10.0
-        self._zap_state = {}
 
     # ---------------- 生命周期 ----------------
     def getName(self): return "央视频"
-
     def getDependence(self): return []
 
     def init(self, extend=""):
@@ -2139,10 +2139,11 @@ class Spider(SpiderBase):
         self.live_mode = str(opts.get("live_mode") or "proxy").lower()
         self.cast_entries = bool(opts.get("cast_entries", True))
         DIRECT = bool(opts.get("direct", False))
-        try: self.wait = max(3.0, float(opts.get("wait") or 12))
-        except (TypeError, ValueError): self.wait = 12.0
-        try: self.cast_wait = max(3.0, float(opts.get("cast_wait") or 20))
-        except (TypeError, ValueError): self.cast_wait = 20.0
+        # ★ 改：默认值 12 → 6，20 → 6
+        try: self.wait = max(3.0, float(opts.get("wait") or 6))
+        except (TypeError, ValueError): self.wait = 6.0
+        try: self.cast_wait = max(3.0, float(opts.get("cast_wait") or 6))
+        except (TypeError, ValueError): self.cast_wait = 6.0
         try: self.holdback = max(0, int(opts.get("holdback") or 1))
         except (TypeError, ValueError): self.holdback = 1
         try: self.zap_debounce = max(0.0, float(opts.get("zap_debounce") or 10))
@@ -2229,9 +2230,7 @@ class Spider(SpiderBase):
         header = {"User-Agent": UA, "Referer": "https://live.cctv.cn/"}
         if ch.mode == "cast":
             header = dict(ch.headers or header)
-        return {"parse": 0, "playUrl": "",
-                "url": self._purl(slug=slug),
-                "header": header}
+        return {"parse": 0, "playUrl": "", "url": self._purl(slug=slug), "header": header}
 
     # ---------------- 直播源 M3U ----------------
     def liveContent(self, url=""):
@@ -2259,8 +2258,34 @@ class Spider(SpiderBase):
             tvg, tvg, self._logo(base, name),
             _safe(group or _group_name(base)), _safe(name))
 
-    # ---------------- 本地代理 ----------------
+    # ---------------- ★ 新增：统一返回值规范化 ----------------
+    def _proxy_response(self, status, mime, body):
+        """★ 新增：统一成 3 元素 [status, mime, body]，避免 TVBox 4 元素解析失败导致 Status null 崩溃。"""
+        try:
+            if not isinstance(status, int): status = int(status)
+        except Exception: status = 500
+        if status < 100 or status > 599: status = 500
+        if not mime: mime = "text/plain; charset=utf-8"
+        if body is None: body = b""
+        if isinstance(body, bytearray): body = bytes(body)
+        if not isinstance(body, (str, bytes)): body = str(body)
+        return [status, mime, body]
+
+    # ---------------- 本地代理（★ 修改：拆 inner / outer 双保险）----------------
     def localProxy(self, param):
+        # ★ 外层兜底：任何异常都要返回合法 3 元素，绝不能抛给 NanoHTTPD
+        try:
+            result = self._localProxyInner(param)
+            if not isinstance(result, (list, tuple)) or len(result) < 3:
+                return [500, "text/plain; charset=utf-8", b"ysp: bad response"]
+            return self._proxy_response(result[0], result[1], result[2])
+        except Exception as error:
+            try: _log("localProxy crash: %s: %s" % (type(error).__name__, error))
+            except Exception: pass
+            return [500, "text/plain; charset=utf-8",
+                    ("ysp: %s: %s" % (type(error).__name__, error)).encode("utf-8")]
+
+    def _localProxyInner(self, param):
         try:
             query = {}
             for key, value in (param or {}).items():
@@ -2283,13 +2308,28 @@ class Spider(SpiderBase):
             if want_redirect:
                 direct = _upstream_url(ch)
                 if direct:
-                    return [302, "text/plain", "",
-                            {"Location": direct, "Cache-Control": "no-store"}]
+                    # ★ 改：不用 302（需要 Location header，4 元素易被拒），改为 200 转发
+                    try:
+                        st, body, _h = _http("GET", direct, {"User-Agent": UA}, None, HTTP_TIMEOUT)
+                        if 200 <= st < 300 and body:
+                            text = body.decode("utf-8", "replace")
+                            lines = []
+                            for ln in text.splitlines():
+                                s = ln.strip()
+                                if s and not s.startswith("#"):
+                                    lines.append(urllib.parse.urljoin(direct, s))
+                                else:
+                                    lines.append(ln)
+                            return [200, "application/vnd.apple.mpegurl",
+                                    "\n".join(lines) + "\n"]
+                    except Exception as e:
+                        _log("redirect fetch failed: %s, fallback proxy" % e)
             return self._playlist(ch)
         except Exception as error:
-            return [502, "text/plain; charset=utf-8",
+            return [500, "text/plain; charset=utf-8",
                     "央视频: %s: %s" % (type(error).__name__, error)]
 
+    # ★ 改：首帧没到时返回空窗 m3u8，避免 503 导致播放器直接报错
     def _playlist(self, ch):
         ch.last_access = time.time()
         with ch.lock: ready = bool(ch.order)
@@ -2297,22 +2337,30 @@ class Spider(SpiderBase):
         timeout = self.cast_wait if ch.mode == "cast" else self.wait
         owner = self._first_ready([ch], timeout)
         if owner is None:
-            return [503, "text/plain; charset=utf-8",
-                    "央视频: 暂无数据 %s:%s" % (ch.slug, ch.last_error or "超时")]
+            stub = ("#EXTM3U\n"
+                    "#EXT-X-VERSION:3\n"
+                    "#EXT-X-TARGETDURATION:6\n"
+                    "#EXT-X-MEDIA-SEQUENCE:0\n"
+                    "#EXTINF:6.000,\n"
+                    "%s\n" % self._purl(slug=ch.slug, seq="warmup"))
+            return self._proxy_response(200, "application/vnd.apple.mpegurl", stub)
         return self._render(owner)
 
+    # ★ 改：强制上限 8 秒，防 TVBox 请求超时
     def _first_ready(self, channels, timeout):
+        timeout = min(float(timeout), 8.0)
         deadline = time.time() + timeout
         while time.time() < deadline:
             for ch in channels:
                 with ch.lock:
                     if ch.order: return ch
-            time.sleep(0.15)
+            time.sleep(0.1)
         for ch in channels:
             with ch.lock:
                 if ch.order: return ch
         return None
 
+    # ★ 改：返回值去掉第 4 个 headers，统一 3 元素
     def _render(self, ch):
         holdback = max(0, int(getattr(self, "holdback", 1)))
         with ch.lock:
@@ -2323,8 +2371,8 @@ class Spider(SpiderBase):
             else:
                 window = segs[-PLAYLIST_WINDOW:] if segs else []
         if not window:
-            return [503, "text/plain; charset=utf-8",
-                    "央视频: 暂无数据 %s" % (ch.last_error or "抓取中")]
+            return self._proxy_response(200, "application/vnd.apple.mpegurl",
+                                        "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-TARGETDURATION:6\n#EXT-X-MEDIA-SEQUENCE:0\n")
         ch.last_access = time.time()
         target = max(6, int(max(seg[1] for seg in window) + 0.5))
         out = ["#EXTM3U", "#EXT-X-VERSION:3",
@@ -2336,13 +2384,15 @@ class Spider(SpiderBase):
             if pdt: out.append("#EXT-X-PROGRAM-DATE-TIME:" + pdt)
             out.append("#EXTINF:%.3f," % dur)
             out.append(self._purl(slug=ch.slug, seq=seq))
-        return [200, "application/vnd.apple.mpegurl", "\n".join(out) + "\n",
-                {"Cache-Control": "no-cache, no-store"}]
+        return self._proxy_response(200, "application/vnd.apple.mpegurl", "\n".join(out) + "\n")
 
+    # ★ 改：加 warmup 兼容 + 统一 3 元素返回
     def _chunk(self, ch, raw_seq):
+        if raw_seq == "warmup":
+            return self._proxy_response(503, "text/plain; charset=utf-8", b"warming up")
         try: seq = int(raw_seq)
         except (TypeError, ValueError):
-            return [400, "text/plain; charset=utf-8", "央视频: bad seq"]
+            return self._proxy_response(400, "text/plain; charset=utf-8", b"bad seq")
         ch.last_access = time.time()
         with ch.lock:
             url = None
@@ -2351,10 +2401,10 @@ class Spider(SpiderBase):
                 if seg and seg[0] == seq:
                     url = seg[3]; break
         if not url:
-            return [404, "text/plain; charset=utf-8", "央视频: 切片已过期"]
+            return self._proxy_response(404, "text/plain; charset=utf-8", b"slice expired")
         cached = TS_CACHE.get(url)
         if cached is not None:
-            return [200, "video/mp2t", cached, {"Cache-Control": "no-cache, no-store"}]
+            return self._proxy_response(200, "video/mp2t", cached)
         headers = ch.headers or {"User-Agent": UA}
         try:
             if ch.mode == "cast":
@@ -2362,20 +2412,22 @@ class Spider(SpiderBase):
             else:
                 status, body, _ = _http("GET", url, headers, None, 20)
         except Exception as error:
-            return [502, "text/plain; charset=utf-8",
-                    "央视频: 切片错误 %s" % type(error).__name__]
+            return self._proxy_response(502, "text/plain; charset=utf-8",
+                                        ("slice error %s" % type(error).__name__).encode("utf-8"))
         if status < 200 or status >= 300 or not body:
-            return [502, "text/plain; charset=utf-8", "央视频: 切片 HTTP %d" % status]
+            return self._proxy_response(502, "text/plain; charset=utf-8",
+                                        ("slice HTTP %d" % status).encode("utf-8"))
         TS_CACHE.put(url, body)
-        return [200, "video/mp2t", body, {"Cache-Control": "no-cache, no-store"}]
+        return self._proxy_response(200, "video/mp2t", body)
 
+    # ★ 改：统一 3 元素返回
     def _logo_bytes(self, slug):
         info = CHANNEL_MAP.get(slug) or {}
         with _LOGO_CACHE_LOCK: data = _LOGO_CACHE.get(slug)
         if data is None:
             data = _fetch_logo_bytes(slug, info.get("name", ""))
             with _LOGO_CACHE_LOCK: _LOGO_CACHE[slug] = data
-        return [200, "image/png", data, {"Cache-Control": "public, max-age=86400"}]
+        return self._proxy_response(200, "image/png", data)
 
     def _diag(self, slug="", mode=""):
         if slug:
@@ -2460,59 +2512,56 @@ class Spider(SpiderBase):
 # ================================================================ 使用说明
 __doc__ = __doc__ + """
 
-========== ext 完整参数说明 ==========
+========== ext 完整参数说明（推荐值）==========
 {
-  "live_mode": "proxy",         // proxy=滚动缓冲; redirect=302 直连官方 m3u8
-  "wait": 12,                   // 打开频道等待首帧秒数
-  "cast_wait": 20,              // 打开投屏线路等待握手秒数
-  "holdback": 1,                // 尾部保留几片不播，防刚抓到的切片没落地
-  "ts_cache_mb": 100,           // 切片内存缓存 MB，0=关闭
-  "cast_entries": true,         // 直播 M3U 是否导出投屏条目
-  "logo_mode": "direct",        // direct=CDN 直连; proxy=本地代理兜底
+  "live_mode": "proxy",         // proxy=滚动缓冲; redirect=200 转发官方 m3u8
+  "wait": 6,                    // ★ 建议 ≤ 8，别超 TVBox 请求超时
+  "cast_wait": 6,               // ★ 同上
+  "holdback": 1,
+  "ts_cache_mb": 60,            // ★ 内存小的盒子建议 50~100
+  "cast_entries": true,
+  "logo_mode": "direct",
   "epg_xml": "https://epg.112114.xyz/pp.xml",
-  "epg_ids": {},                // 覆盖 tvg-id 映射
-  "direct": false,              // true=全走 urllib，不借容器的 fetch
+  "epg_ids": {},
+  "direct": false,
   "cast_timeout": 12,
   "cast_cache_ttl": 1500,
   "cast_interval": 0.7,
   "cast_jitter": 0.25,
   "cast_session_ttl": 3600,
   "cast_heartbeat": 300,
-  "cast_links": 6,              // 单设备高码率链接上限
-  "zap_debounce": 10,
-  "persist": false,             // 是否启用状态持久化
-  "device_json": "",            // 设备身份持久化文件（留空=不持久化）
-  "meta_json": ""               // 状态文件
+  "cast_links": 6
 }
 
-========== TVBox 配置示例 ==========
-直播源 (live.json 或主配置的 lives 数组):
+========== TVBox 配置 ==========
+直播源:
 [
-  {
-    "name": "ysp-live",
-    "type": 3,
-    "api": "/storage/emulated/0/TVBox/ysp-live-spider.py",
-    "ext": {}
-  }
+  {"name": "ysp-live", "type": 3,
+   "api": "/storage/emulated/0/TVBox/ysp-live-spider.py",
+   "ext": {"wait": 6, "cast_wait": 6, "ts_cache_mb": 60}}
 ]
 
-点播站 (site.json 或主配置的 sites 数组):
+点播站:
 [
-  {
-    "key": "ysp_live",
-    "name": "央视频",
-    "type": 3,
-    "api": "/storage/emulated/0/TVBox/ysp-live-spider.py",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": {}
-  }
+  {"key": "ysp_live", "name": "央视频", "type": 3,
+   "api": "/storage/emulated/0/TVBox/ysp-live-spider.py",
+   "searchable": 1, "quickSearch": 1, "filterable": 1,
+   "ext": {"wait": 6, "cast_wait": 6}}
 ]
 
 ========== 排错 ==========
-打开频道打不开时：
-  <代理地址>?type=diag                # 总览
-  <代理地址>?type=diag&slug=cctv1     # 当场拉一次 cctv1
-  <代理地址>?type=diag&slug=cctv4k&mode=redirect   # 测直连取址
+<代理地址>?type=diag
+<代理地址>?type=diag&slug=cctv4k
+<代理地址>?type=diag&slug=cctv4k&mode=redirect
+
+========== 本次修改点（防 Status null 崩溃）==========
+1. __init__：wait/cast_wait 默认 12/20 → 6/6
+2. init：同样改默认值
+3. _first_ready：硬上限 8 秒
+4. 新增 _proxy_response：统一 3 元素返回
+5. _render/_chunk/_logo_bytes：全部走 _proxy_response（去掉第 4 个 headers）
+6. localProxy：拆 inner/outer 双保险，任何异常都返回合法响应
+7. 302 分支：改成 200 转发（不用 Location header）
+8. _playlist：首帧没到时返回空窗 m3u8（避免 503）
+9. _chunk：加 warmup 兼容
 """
