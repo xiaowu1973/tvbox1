@@ -2996,7 +2996,7 @@
 		 
     
 {
-"api": "./ysptptest.py",
+"api": "./py/ysptptest.py",
    
       "name": "央视+卫视",
       "type": 0,
